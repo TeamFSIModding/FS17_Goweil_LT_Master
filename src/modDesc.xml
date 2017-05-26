@@ -7,6 +7,7 @@
         <en>Goweil LT Master</en>
         <fr>Goweil LT Master</fr>
         <it>Goweil LT Master</it>
+        <nl>Goweil LT Master</nl>
     </title>
     <description>
         <de>
@@ -60,6 +61,19 @@ Manutenzione: 350 € / giorno
 Potenza consigliata: 190 cv
 ]]>
         </it>
+        <nl>
+            <![CDATA[Goweil LT Master is DE Baler-Wikkelaar Combinatie. 
+Kaf, gras, hooi, stro, houtsnippers en mest kunnen volledig in balen worden verwerkt en gewikkeld, Handig voor opslag en betere opbrengsten
+Alle soorten balen kunnen worden verkocht bij de standaard verkooppunten.
+Deze mod voegt globale functies toe om balen te openen en deze te kunnen vermalen.
+
+Netten voor balen en wikkelfolie op pallet zijn verkrijgbaar in de winkel, ook tanks op pallet met silageadditief kunnen worden gekocht voor een betere silage kwaliteit.
+
+Prijs: 280000 €
+Onderhoud: 350 € / day
+Aanbevolen vermogen: 190 hp
+            
+           
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true" />
