@@ -4,6 +4,7 @@
         <name>
             <en>Silage Additive Tank</en>
             <pl>Zbiornik z dodatkami</pl>
+            <es>Depósito de aditivo para ensilaje</es>
         </name>
         <functions>
             <function>$l10n_function_silageAdditiveTank</function>
