@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
-    <translationContributors></translationContributors>
+    <translationContributors>Vanquish081</translationContributors>
     <texts>
-<text name="shop_overwrite_messageLeasingReady"     text="A complete user manual available in game help. 
+        <text name="shop_overwrite_messageLeasingReady"     text="Hay un manual de usuario completo en la ayuda del juego.
  
-You can pick up your leased vehicle from the store." />
+Puede recoger su vehículo alquilado en la tienda." />
  
-        <text name="shop_overwrite_messagePurchaseReady"    text="A complete user manual available in game help. 
+        <text name="shop_overwrite_messagePurchaseReady"    text="Hay un manual de usuario completo en la ayuda del juego.
  
-You can fetch your purchase at the store." />
+Puede recoger su vehículo en la tienda." />
 
         <text name="configuration_valueWheelPremium"        text="Premium" />
-        <text name="configuration_silageAdditiveSystem"     text="Additive injection system" />
-        <text name="configuration_dynamicChamber"           text="Dynamic density chamber" />
-        <text name="configuration_conveyorFlow"             text="Variable conveyor flow" />
-        <text name="configuration_monitorSystem"            text="Monitor system" />
-        <text name="configuration_remoteMonitorSystem"      text="Remote hud" />
-        <text name="configuration_starterKit"               text="Starter Kit" />
-        <text name="gltm_config_conveyor_200"               text="200 liter/s." />
-        <text name="gltm_config_conveyor_300"               text="300 liter/s." />
-        <text name="gltm_config_conveyor_400"               text="400 liter/s." />
-        <text name="gltm_config_conveyor_500"               text="500 liter/s." />
-        <text name="input_EVIBALE"                          text="Open and fade bale" />
+        <text name="configuration_silageAdditiveSystem"     text="Sistema de inyección de aditivo." />
+        <text name="configuration_dynamicChamber"           text="Cámara de densidad dinámica" />
+        <text name="configuration_conveyorFlow"             text="Flujo variable de la cinta." />
+        <text name="configuration_monitorSystem"            text="Monitor de Sistema" />
+        <text name="configuration_remoteMonitorSystem"      text="HUD Remoto" />
+        <text name="configuration_starterKit"               text="Kit de Inicio" />
+        <text name="gltm_config_conveyor_200"               text="200 Litros/s." />
+        <text name="gltm_config_conveyor_300"               text="300 Litros/s." />
+        <text name="gltm_config_conveyor_400"               text="400 Litros/s." />
+        <text name="gltm_config_conveyor_500"               text="500 Litros/s." />
+        <text name="input_EVIBALE"                          text="Abrir y soltar bala." />
         <text name="typeDesc_ltmaster"                      text="LT-Master" />
-        <text name="function_ltmasterbalerwrapper"          text="Goweil LT Master - baler wrapper combination " />
-        <text name="function_silageAdditiveTank"            text="Silage Additives is used to get higher resolution." />
-        <text name="function_foilPallet"                    text="High quality foil wrap pallet." />
-        <text name="function_netPallet"                     text="Bale net pallet." />
-        <text name="fillType_silageAdditive"                text="Silage Additives" />
-        <text name="fillType_balesNet"                      text="Bales Net" />
-        <text name="fillType_balesFoil"                     text="Wrap foil" />
-        <text name="GLTM_TEMP_INFO"                         text="A complete user manual available in game help." />
-        <text name="GLTM_OPEN_HOOD"                         text="Open hood" />
-        <text name="GLTM_CLOSE_HOOD"                        text="Close hood" />
-        <text name="GLTM_LOWER_SUPPORTS"                    text="Lower standing support" />
-        <text name="GLTM_RAISE_SUPPORTS"                    text="Raise standing support" />
-        <text name="GLTM_LOWER_LADDER"                      text="Lower ladder" />
-        <text name="GLTM_RAISE_LADDER"                      text="Raise ladder" />
-        <text name="GLTM_LOWER_BALE_SLIDE"                  text="Lower bale slide" />
-        <text name="GLTM_RAISE_BALE_SLIDE"                  text="Raise bale slide" />
-        <text name="GLTM_UNLOAD_SIDE"                       text="Unload and clean sides" />
-        <text name="GLTM_TURNON_CONVEYOR"                   text="Turn on conveyor belt" />
-        <text name="GLTM_TURNOFF_CONVEYOR"                  text="Turn off conveyor belt" />
-        <text name="GLTM_CHANGE_BALE_VOLUME"                text="Change bale density - from %s to %s" />
-        <text name="GLTM_TURNON_VEHICLE"                    text="Turn on vehicle for work" />
-        <text name="GLTM_TURNON_NOT_ALLOWED_UNFOLD"         text="Set machinery in work position first!" />
-        <text name="GLTM_TURNON_NOT_ALLOWED_BALESLIDE"      text="Set bale slide lower first!" />
-        <text name="GLTM_WRAPPER_SET_ON"                    text="Turn on wrapper" />
-        <text name="GLTM_WRAPPER_SET_OFF"                   text="Turn off wrapper" />
-        <text name="GLTM_UNLOAD_THEN_TIP"                   text="Before unload %s, clear from the %s " />
-        <text name="GLTM_WASH_THEN_TIP"                     text="After work with %s, you need to wash machine before unload %s " />
+        <text name="function_ltmasterbalerwrapper"          text="Goweil LT Master - Empacadora combinada con encintadora " />
+        <text name="function_silageAdditiveTank"            text="Los aditivos de ensilaje se usan para una mayor producción." />
+        <text name="function_foilPallet"                    text="Papel de encintado de alta calidad." />
+        <text name="function_netPallet"                     text="Palet de Balas." />
+        <text name="fillType_silageAdditive"                text="Aditivos de ensilaje" />
+        <text name="fillType_balesNet"                      text="Red de Balas" />
+        <text name="fillType_balesFoil"                     text="Papel encintadora." />
+        <text name="GLTM_TEMP_INFO"                         text="Un completo manual de usuario esta disponible en la ayuda del juego." />
+        <text name="GLTM_OPEN_HOOD"                         text="Abrir cubierta" />
+        <text name="GLTM_CLOSE_HOOD"                        text="Cerrar cubierta" />
+        <text name="GLTM_LOWER_SUPPORTS"                    text="Bajar soporte de pie" />
+        <text name="GLTM_RAISE_SUPPORTS"                    text="Subir soporte de pie" />
+        <text name="GLTM_LOWER_LADDER"                      text="Bajar escaleras" />
+        <text name="GLTM_RAISE_LADDER"                      text="Subir escaleras" />
+        <text name="GLTM_LOWER_BALE_SLIDE"                  text="Bajar rampa para balas" />
+        <text name="GLTM_RAISE_BALE_SLIDE"                  text="Subir rampa para balas" />
+        <text name="GLTM_UNLOAD_SIDE"                       text="Descargar y despejar los lados" />
+        <text name="GLTM_TURNON_CONVEYOR"                   text="Encender cintra transportadora" />
+        <text name="GLTM_TURNOFF_CONVEYOR"                  text="Apagar cintra transportadora" />
+        <text name="GLTM_CHANGE_BALE_VOLUME"                text="Cambiar densidad de bala - de %s a %s" />
+        <text name="GLTM_TURNON_VEHICLE"                    text="Arrancar vehiculo para trabajar" />
+        <text name="GLTM_TURNON_NOT_ALLOWED_UNFOLD"         text="Primero fije la maquinaria en posición de trabajo!" />
+        <text name="GLTM_TURNON_NOT_ALLOWED_BALESLIDE"      text="Primero baje la rampa para balas!" />
+        <text name="GLTM_WRAPPER_SET_ON"                    text="Encender encintadora" />
+        <text name="GLTM_WRAPPER_SET_OFF"                   text="Apagar encintadora" />
+        <text name="GLTM_UNLOAD_THEN_TIP"                   text="Después de descargar %s, limpiar desde el %s " />
+        <text name="GLTM_WASH_THEN_TIP"                     text="Antes de trabajar con %s, necesita lavar la maquina después de descargar %s " />
         <!-- HelpLine texts -->
         <text name="GLTM_HL_CATEGORY"                       text="Goweil LT Master" />
-        <text name="GLTM_HL_TITLE_00"                       text="General description" />
-        <text name="GLTM_HL_TEXT_00_00"                     text="The LT Master is a baler-wrapper combination wich can be process a great kind of material, not only mais chaff or grass; in the perspective of the game FS17, this machine can work on fields or in farm, and can process a wide variety of material greatly faster than a conventional baler and wrapper:" />
-        <text name="GLTM_HL_TEXT_00_01"                     text="Chaff and grass can be pressed and wrapped for silage fermentation" />
+        <text name="GLTM_HL_TITLE_00"                       text="Descripción General" />
+        <text name="GLTM_HL_TEXT_00_00"                     text="La LT Master es una combinación de empacadora-encintadora la cual puede procesar un gran número de productos, no solo maíz, paja picada o hierba; en la perspectiva de FS17, esta máquina puede trabajar sobre los campos o en la granja, además puede procesar una gran cantidad de materiales mucho más rápido que las empacadoras y encintadoras convencionales:" />
+        <text name="GLTM_HL_TEXT_00_01"                     text="La hierba y la paja picada puese ser prensada y encintada para fermentación de ensilaje." />
         <text name="GLTM_HL_TEXT_00_02"                     text="Hay and straw can be pressed, and optional wrapped for weather protection" />
-        <text name="GLTM_HL_TEXT_00_03"                     text="Woodchips can be pressed and wrapped for weather protection and for a better storage and handling, since LT Master can reduce the volume of tipical air dried woodchips" />
-        <text name="GLTM_HL_TEXT_00_04"                     text="Manure can also be pressed and wrapped for convenient storage and later use as fertilizer" />
-        <text name="GLTM_HL_TEXT_00_05"                     text="All wrapped bales have a greater value on the sell point" />
-        <text name="GLTM_HL_TITLE_01"                       text="Technical details and dimensions" />
+        <text name="GLTM_HL_TEXT_00_03"                     text="La viruta puede ser prensada y encintada para protegerla del tiempo, además de un mejor almacenaje y manejo, ya que la LT Master puede reducir el volumen de las típicas virutas amontonadas al aire libre." />
+        <text name="GLTM_HL_TEXT_00_04"                     text="El estiércol también puede ser prensado y encintado para un mejor almacenaje y posteriormente usarlo como fertilizante." />
+        <text name="GLTM_HL_TEXT_00_05"                     text="Todas las balas encintadas tienen un gran valor en los puntos de venta." />
+        <text name="GLTM_HL_TITLE_01"                       text="Detalles técnicos y dimensiones" />
         <text name="GLTM_HL_TEXT_01_00"                     text=" " />
-        <text name="GLTM_HL_TEXT_01_01"                     text="Folded: mm 11550 x 2550 x 4000  -  Work position: mm 13940 x 5200 x 4010" />
-        <text name="GLTM_HL_TEXT_01_02"                     text="Empty weight: 15200 kg " />
-        <text name="GLTM_HL_TEXT_01_03"                     text="Suggested power: 190 hp " />
-        <text name="GLTM_HL_TITLE_02"                       text="Operations" />
-        <text name="GLTM_HL_TEXT_02_00"                     text="Position tractor and machine on plain terrain and turn little bit to the left, then you can put machine in work position with $input_IMPLEMENT_EXTRA2; " />
-        <text name="GLTM_HL_TEXT_02_01"                     text="Go down to machine, open right door with $input_TOGGLE_COVER; to access control panel, put down support with $input_IMPLEMENT_EXTRA4; and set machine in work position with $input_IMPLEMENT_EXTRA; finally set down bales chute with $input_IMPLEMENT_EXTRA2; " />
-        <text name="GLTM_HL_TEXT_02_03"                     text="Now you can go on tractor and turn on machine with $input_IMPLEMENT_EXTRA; , now with $input_IMPLEMENT_EXTRA4; it's possible to turn off/on wrapper and with $input_IMPLEMENT_EXTRA3; it's possible to set desidered bale density. " />
-        <text name="GLTM_HL_TEXT_02_04"                     text="Icons on hud from left: " />
-        <text name="GLTM_HL_TEXT_02_05"                     text="  1) wrapper on/off  -  2) Net status  -  3) Foil Status  -  4) Bale chamber fill" />
-        <text name="GLTM_HL_TITLE_03"                       text="Net, wrap foil, Additive" />
-        <text name="GLTM_HL_TEXT_03_00"                     text="You needs to refill the baler station with net, wrap foil and optional additive which can be purchased in the shop." />
-        <text name="GLTM_HL_TEXT_03_01"                     text="Net and wrap foil always needful, additive is not mandatory, will useful for a better yeld with chaff and grass; necessary equipment can be purchased separately." />
-        <text name="GLTM_HL_TEXT_03_02"                     text="Pallet of consumable can be used one by one to refill machine with $input_ACTIVATE_OBJECT; " />
-        <text name="GLTM_HL_TITLE_04"                       text="Other function" />
-        <text name="GLTM_HL_TEXT_04_00"                     text="This mod add two useful things: " />
-        <text name="GLTM_HL_TEXT_04_01"                     text="On the foot you can see information about any bales around, and with $input_ACTIVATE_OBJECT; you can unpack the bale and tip material to ground." />
+        <text name="GLTM_HL_TEXT_01_01"                     text="Plegada: mm 11550 x 2550 x 4000  -  Posición Trabajo: mm 13940 x 5200 x 4010" />
+        <text name="GLTM_HL_TEXT_01_02"                     text="Peso en vacío: 15200 kg " />
+        <text name="GLTM_HL_TEXT_01_03"                     text="Potencia sugerida: 195 CV " />
+        <text name="GLTM_HL_TITLE_02"                       text="Operaciones" />
+        <text name="GLTM_HL_TEXT_02_00"                     text="Coloque el tractor y la máquina en terreno llano y gire un poco a la izquierda, entonces podrá poner la máquina en posición de trabajo con $input_IMPLEMENT_EXTRA2; " />
+        <text name="GLTM_HL_TEXT_02_01"                     text="Vaya a la máquina, abra la puerta derecha con $input_TOGGLE_COVER; acceda al panel de control, baje el soporte con $input_IMPLEMENT_EXTRA4; y fije la máquina en posición de trabajo con $input_IMPLEMENT_EXTRA; finalmente baje la rampa para balas con $input_IMPLEMENT_EXTRA2; " />
+        <text name="GLTM_HL_TEXT_02_03"                     text="Ahora puede montar en el tractor y encender la máquina con $input_IMPLEMENT_EXTRA; , ahora con $input_IMPLEMENT_EXTRA4; es posible encender apagar la encintadora y con $input_IMPLEMENT_EXTRA3; es posible ajustar la densidad de las balas. " />
+        <text name="GLTM_HL_TEXT_02_04"                     text="Iconos sobre el HUD desde la izquierda: " />
+        <text name="GLTM_HL_TEXT_02_05"                     text="  1) Encintar ON/OFF  -  2) Estado Red  -  3) Estado Papel  -  4) Cámara de balas llena" />
+        <text name="GLTM_HL_TITLE_03"                       text="Red, Papel Encintar, Aditivo" />
+        <text name="GLTM_HL_TEXT_03_00"                     text="Necesita recargar la estación de balas con red, papel de encintar y opcionalmente aditivo, los cuales pueden ser comprados enla tienda." />
+        <text name="GLTM_HL_TEXT_03_01"                     text="Red y papel encintado siempre debe estar lleno, el aditivo no es obligatorio, será útil para un mejor rendimiento con la paja y la hierba; el equipo necesario se puede adquirir por separado." />
+        <text name="GLTM_HL_TEXT_03_02"                     text="Los palet de consumibles pueden ser usados uno por uno y rellenar la máquina con $input_ACTIVATE_OBJECT; " />
+        <text name="GLTM_HL_TITLE_04"                       text="Otras funciones" />
+        <text name="GLTM_HL_TEXT_04_00"                     text="Este mod añade dos cosas útiles: " />
+        <text name="GLTM_HL_TEXT_04_01"                     text="A pie puede ver información sobre cualquier bale alrededor, y con $input_ACTIVATE_OBJECT; puede desembalar la bala y derramar el material sobre el terreno." />
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
-        <text name="GLTM_HL_TEXT_04_03"                     text="Optional equipment which can be purchased separately:" />
-        <text name="GLTM_HL_TEXT_04_04"                     text="1) Variable flow conveyor belt " />
-        <text name="GLTM_HL_TEXT_04_05"                     text="2) Additive inject equipment " />
-        <text name="GLTM_HL_TEXT_04_06"                     text="3) Dynamic density chamber " />
-        <text name="GLTM_HL_TEXT_04_07"                     text="4) Remote monitor system  " />
-        <text name="GLTM_HL_TEXT_04_08"                     text="5) Weighing system " />
+        <text name="GLTM_HL_TEXT_04_03"                     text="Equipamiento opcional el cual puede ser comprado independientemente:" />
+        <text name="GLTM_HL_TEXT_04_04"                     text="1) Cinta transportadora de flujo variable " />
+        <text name="GLTM_HL_TEXT_04_05"                     text="2) Equipamiento de inyección de aditivo " />
+        <text name="GLTM_HL_TEXT_04_06"                     text="3) Cámara de densidad dinámica " />
+        <text name="GLTM_HL_TEXT_04_07"                     text="4) Monitor de sistema remoto  " />
+        <text name="GLTM_HL_TEXT_04_08"                     text="5) Sistema de peso " />
     </texts>
 </l10n>
