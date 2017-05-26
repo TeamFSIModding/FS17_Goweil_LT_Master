@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="38">
+<modDesc descVersion="37">
     <author>Team FSI Modding</author>
     <version>1.0.0</version>
     <title>
@@ -149,7 +149,6 @@ Potencia Sugerida: 195 CV
     </vehicleTypes>
     <inputBindings></inputBindings>
     <l10n filenamePrefix="translations/l10n"/>
-    
     <translatedBy>
         <en>fcelsa</en>
         <it>fcelsa</it>
@@ -160,4 +159,3 @@ Potencia Sugerida: 195 CV
         <es>Vanquish081</es>
     </translatedBy>
 </modDesc>
-
