@@ -8,6 +8,7 @@
         <fr>Goweil LT Master</fr>
         <it>Goweil LT Master</it>
         <nl>Goweil LT Master</nl>
+        <pl>Goweil LT Master</pl>
     </title>
     <description>
         <de>
@@ -74,6 +75,17 @@ Onderhoud: 350 € / day
 Aanbevolen vermogen: 190 hp
 ]]>
         </nl>
+        <pl>
+            <![CDATA[Goweil LT Master  to kombajn do prasowania i owijania bel. 
+Sieczka, trwa, siano, słoma, wióry i obornik mogą być sprasowane w bele i owinięte folią dla wygodnego magazynowania i zwiększenia wydajności.
+Wszystkie typy bel mogą być sprzedawana w dotychczasowych punktach sprzedaży.
+Mod ten dodaje globalną funkcję otwierania bel i wysypywania ich zawartości na ziemię.
+Siatka do bel i folia do owijania znajdują się w sklepie, kupić można również pojemnik z dodatkami do kiszonki dla osiągnięcia jej lepszej jakości.
+Cena: 280000 €
+Utrzymanie: 350 € / day
+Zalecana moc: 190 KM
+]]>
+        </pl>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true" />
