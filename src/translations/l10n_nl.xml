@@ -20,15 +20,15 @@ U kunt uw gehuurd voertuig ophalen uit de winkel." />
         <text name="gltm_config_conveyor_300"               text="300 liter/s." />
         <text name="gltm_config_conveyor_400"               text="400 liter/s." />
         <text name="gltm_config_conveyor_500"               text="500 liter/s." />
-        <text name="input_EVIBALE"                          text="Open en vervan baal" />
+        <text name="input_EVIBALE"                          text="Open en vervang baal" />
         <text name="typeDesc_ltmaster"                      text="LT-Master" />
-        <text name="function_ltmasterbalerwrapper"          text="Goweil LT Master - Baal en wrapper combinatie " />
+        <text name="function_ltmasterbalerwrapper"          text="Goweil LT Master - Baal en wikkel combinatie " />
         <text name="function_silageAdditiveTank"            text="Silageadditieven worden gebruikt om hogere resolutie te krijgen." />
-        <text name="function_foilPallet"                    text="Hoge kwaliteit folie wrap pallet." />
+        <text name="function_foilPallet"                    text="Hoge kwaliteit wikkelfolie pallet." />
         <text name="function_netPallet"                     text="Baal net pallet." />
         <text name="fillType_silageAdditive"                text="Silage Additief" />
         <text name="fillType_balesNet"                      text="Baal Net" />
-        <text name="fillType_balesFoil"                     text="Wrap folie" />
+        <text name="fillType_balesFoil"                     text="Wikkel folie" />
         <text name="GLTM_TEMP_INFO"                         text="Een complete gebruikershandleiding beschikbaar in het hulp menu.." />
         <text name="GLTM_OPEN_HOOD"                         text="Open kap" />
         <text name="GLTM_CLOSE_HOOD"                        text="Sluit kap" />
@@ -45,8 +45,8 @@ U kunt uw gehuurd voertuig ophalen uit de winkel." />
         <text name="GLTM_TURNON_VEHICLE"                    text="Schakel het voertuig in voor werk " />
         <text name="GLTM_TURNON_NOT_ALLOWED_UNFOLD"         text="Zet de machine eerst in werkpositie!" />
         <text name="GLTM_TURNON_NOT_ALLOWED_BALESLIDE"      text="zet de baal glijbaan eerst in de omlaag stand!" />
-        <text name="GLTM_WRAPPER_SET_ON"                    text="Zet wrapper aan" />
-        <text name="GLTM_WRAPPER_SET_OFF"                   text="Zet wrapper uit" />
+        <text name="GLTM_WRAPPER_SET_ON"                    text="Zet wikkelaar aan" />
+        <text name="GLTM_WRAPPER_SET_OFF"                   text="Zet wikkelaar uit" />
         <text name="GLTM_UNLOAD_THEN_TIP"                   text="Voor lossen %s, maak leeg van %s " />
         <text name="GLTM_WASH_THEN_TIP"                     text="Na werk met %s, moet je de machine wassen voor het lossen %s " />
         <!-- HelpLine texts -->
