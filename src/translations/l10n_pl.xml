@@ -24,8 +24,8 @@ Zakupione przedmioty możesz odebrać w sklepie." />
         <text name="input_EVIBALE"                          text="Otwórz i rozsyp belę" />
         <text name="typeDesc_ltmaster"                      text="LT-Master" />
         <text name="function_ltmasterbalerwrapper"          text="Goweil LT Master - Kombajn do prasowania i owijania bel" />
-        <text name="function_silageAdditiveTank"            text="Dodatki do kiszonki zapewniają lepszy rozkład." />
-        <text name="function_foilPallet"                    text="Paleta wysokiej jakości foli do owijarki." />
+        <text name="function_silageAdditiveTank"            text="Dodatki do kiszonki zapewniają lepszą jakość kiszonki." />
+        <text name="function_foilPallet"                    text="Paleta wysokiej jakości folii do owijarki." />
         <text name="function_netPallet"                     text="Paleta siatki do owijania bel." />
         <text name="fillType_silageAdditive"                text="Dodatki do kiszonki" />
         <text name="fillType_balesNet"                      text="Siatka do bel" />
