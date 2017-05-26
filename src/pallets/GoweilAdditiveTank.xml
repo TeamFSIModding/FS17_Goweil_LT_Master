@@ -3,6 +3,7 @@
     <storeData>
         <name>
             <en>Silage Additive Tank</en>
+            <pl>Zbiornik z dodatkami</pl>
         </name>
         <functions>
             <function>$l10n_function_silageAdditiveTank</function>
