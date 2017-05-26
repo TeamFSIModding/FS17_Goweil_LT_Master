@@ -9,6 +9,7 @@
         <it>Goweil LT Master</it>
         <nl>Goweil LT Master</nl>
         <pl>Goweil LT Master</pl>
+        <es>Goweil LT Master</es>
     </title>
     <description>
         <de>
@@ -87,6 +88,19 @@ Utrzymanie: 200 € / day
 Zalecana moc: 190 KM
 ]]>
         </pl>
+        <es>
+            <![CDATA[Goweil LT Master es una combinación de empacadora y encintadora.
+Paja picada, hierba, heno, paja, virutas y estiércol pueden ser prensados en balas y encintados, para un mejor almacenaje y mejor rendimiento.
+Cualquiera de las balas de pueden vender en cualquier punto de venta.
+Este mod añade un función global para abrir las balas encintadas y derramar el producto sobre el terreno.
+
+Los palets de red y el papel de encintado están disponibles en la tienda, también hay disponible un depósito en palet con aditivo de ensilaje que se puede comprar para ve tener ensilaje de mejor calidad.
+
+Precio: 253700 €
+Mantenimiento: 200 € / día
+Potencia Sugerida: 195 CV
+]]>
+        </es>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true" />
