@@ -3,6 +3,7 @@
     <storeData>
         <name>
             <en>Bale's Nets Pallet</en>
+            <pl>Paleta z siatką</pl>
         </name>
         <functions>
             <function>$l10n_function_netPallet</function>
