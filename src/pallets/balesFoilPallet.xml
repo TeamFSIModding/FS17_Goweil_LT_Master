@@ -3,6 +3,7 @@
     <storeData>
         <name>
             <en>Bale's Foils Pallet</en>
+            <pl>Paleta z folią do owijania</pl>
         </name>
         <functions>
             <function>$l10n_function_foilPallet</function>
