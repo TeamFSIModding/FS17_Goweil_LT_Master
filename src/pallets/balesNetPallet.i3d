@@ -2,27 +2,31 @@
 
 <i3D name="woolPallet" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
-    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+    <Export program="GIANTS Editor 64bit" version="7.0.5"/>
   </Asset>
 
   <Files>
-    <File fileId="2" filename="textures/woolPallet_diffuse.png" relativePath="true"/>
-    <File fileId="3" filename="textures/woolPallet_normal.png" relativePath="true"/>
-    <File fileId="4" filename="textures/woolPallet_specular.png" relativePath="true"/>
-    <File fileId="5" filename="../textures/Computer_Diffuse.dds" relativePath="true"/>
+    <File fileId="4" filename="textures/Computer_Diffuse.dds" relativePath="true"/>
+    <File fileId="5" filename="textures/computer_normal.dds" relativePath="true"/>
+    <File fileId="2" filename="textures/goweil.dds" relativePath="true"/>
+    <File fileId="3" filename="textures/goweil_normal.dds" relativePath="true"/>
   </Files>
 
 
   <Materials>
-    <Material name="rete" materialId="7" ambientColor="1 1 1">
-      <Texture fileId="5"/>
-    </Material>
-    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
-    </Material>
-    <Material name="woolPallet_mat" materialId="8" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+    <Material name="gabbia1" materialId="7" ambientColor="1 1 1" cosPower="20" specularColor="0.5 0.5 0.5">
       <Texture fileId="2"/>
       <Normalmap fileId="3"/>
-      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="lambert1" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="pancale1" materialId="8" ambientColor="1 1 1">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+    </Material>
+    <Material name="rete" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
     </Material>
   </Materials>
 
@@ -35,87 +39,87 @@
   </Dynamics>
 
   <Scene>
-    <Shape shapeId="1" name="fillablePallet" dynamic="true" compound="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="28" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
-      <Shape shapeId="2" name="vis" clipDistance="300" nodeId="29" materialIds="8" castsShadows="true" receiveShadows="true">
-        <Shape shapeId="3" name="dummyTensionBeltNode" translation="0 0.722 0" visibility="false" clipDistance="100" nodeId="30" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="1" name="fillablePallet" dynamic="true" compound="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="30" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="2" name="pancale" clipDistance="300" nodeId="31" materialIds="8" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="3" name="dummyTensionBeltNode" translation="0 0.722 0" visibility="false" clipDistance="100" nodeId="32" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="gabbia3" clipDistance="300" nodeId="33" materialIds="7" castsShadows="true" receiveShadows="true"/>
       </Shape>
-      <Shape shapeId="4" name="palletAttacherTrigger" translation="0 0.175 0" kinematic="true" trigger="true" collisionMask="8192" nodeId="31" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <TransformGroup name="fillBags" nodeId="32">
-        <Shape shapeId="5" name="balesNet" translation="0.544154 0.86 -0.314363" nodeId="33" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="34" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="palletAttacherTrigger" translation="0 0.175 0" kinematic="true" trigger="true" collisionMask="8192" nodeId="34" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="fillBags" nodeId="35">
+        <Shape shapeId="6" name="balesNet" translation="0.544154 0.86 -0.314363" nodeId="36" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="37" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="0.178021 0.86 -0.32518" nodeId="35" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="36" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="0.178021 0.86 -0.32518" nodeId="38" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="39" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="-0.223528 0.86 -0.330321" nodeId="37" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="38" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="-0.223528 0.86 -0.330321" nodeId="40" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="41" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="-0.568724 0.86 -0.322171" nodeId="39" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="40" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="-0.568724 0.86 -0.322171" nodeId="42" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="43" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="0.509035 0.86 0.00255517" nodeId="41" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="42" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="0.509035 0.86 0.00255517" nodeId="44" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="45" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="0.160153 0.86 -0.00495395" nodeId="43" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="44" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="0.160153 0.86 -0.00495395" nodeId="46" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="47" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="-0.213803 0.86 -0.0073788" nodeId="45" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="46" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="-0.213803 0.86 -0.0073788" nodeId="48" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="49" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="-0.566299 0.86 -0.011102" nodeId="47" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="48" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="-0.566299 0.86 -0.011102" nodeId="50" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="51" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="-0.572006 0.86 0.31054" nodeId="49" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="50" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="-0.572006 0.86 0.31054" nodeId="52" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="53" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="-0.218396 0.86 0.318089" nodeId="51" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="52" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="-0.218396 0.86 0.318089" nodeId="54" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="55" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="0.201554 0.86 0.321207" nodeId="53" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="54" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="0.201554 0.86 0.321207" nodeId="56" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="57" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="0.564219 0.86 0.328625" nodeId="55" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="56" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="0.564219 0.86 0.328625" nodeId="58" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="59" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
       </TransformGroup>
-      <Shape shapeId="7" name="transportPallet_col8" translation="0.00271691 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="57" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="8" name="transportPallet_col7" translation="0.622586 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="58" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="9" name="transportPallet_col6" translation="-0.622301 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="59" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="10" name="transportPallet_col5" translation="0.00271691 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="60" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="11" name="transportPallet_col4" translation="0.00271691 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="61" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="12" name="transportPallet_col3" translation="0.622586 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="62" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="13" name="transportPallet_col2" translation="0.622586 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="63" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="14" name="transportPallet_col1" translation="-0.622301 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="64" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="15" name="transportPallet_col" translation="-0.622301 0.182 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="65" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="16" name="solidColi" translation="0 0.175 0" visibility="false" compoundChild="true" collisionMask="16781314" density="0.7" nodeId="66" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <TransformGroup name="notUsed" visibility="false" nodeId="67">
-        <Shape shapeId="5" name="balesNet" translation="-0.00535313 1.87483 0.173237" rotation="0 -0 90" nodeId="68" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="69" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="8" name="transportPallet_col8" translation="0.00271691 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="60" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="9" name="transportPallet_col7" translation="0.622586 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="61" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="10" name="transportPallet_col6" translation="-0.622301 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="62" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="11" name="transportPallet_col5" translation="0.00271691 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="63" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="12" name="transportPallet_col4" translation="0.00271691 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="64" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="13" name="transportPallet_col3" translation="0.622586 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="65" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="14" name="transportPallet_col2" translation="0.622586 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="66" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="15" name="transportPallet_col1" translation="-0.622301 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="67" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="16" name="transportPallet_col" translation="-0.622301 0.182 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="68" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="17" name="solidColi" translation="0 0.175 0" visibility="false" compoundChild="true" collisionMask="16781314" density="0.7" nodeId="69" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="notUsed" visibility="false" nodeId="70">
+        <Shape shapeId="6" name="balesNet" translation="-0.00535313 1.87483 0.173237" rotation="0 -0 90" nodeId="71" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="72" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="-0.00535313 1.87483 -0.159257" rotation="0 -0 90" nodeId="70" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="71" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="-0.00535313 1.87483 -0.159257" rotation="0 -0 90" nodeId="73" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="74" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="0.000406527 1.61687 -0.335891" rotation="0 -0 90" nodeId="72" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="73" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="0.000406527 1.61687 -0.335891" rotation="0 -0 90" nodeId="75" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="76" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="0.000406527 1.61687 -0.00471034" rotation="0 -0 90" nodeId="74" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="75" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="0.000406527 1.61687 -0.00471034" rotation="0 -0 90" nodeId="77" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="78" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="5" name="balesNet" translation="0.000406527 1.61687 0.328625" rotation="0 -0 90" nodeId="76" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="6" name="roll" translation="0 0 -5.32907e-17" nodeId="77" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="balesNet" translation="0.000406527 1.61687 0.328625" rotation="0 -0 90" nodeId="79" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="roll" translation="0 0 -5.32907e-17" nodeId="80" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </Shape>
       </TransformGroup>
-      <Shape shapeId="17" name="fillTrigger" translation="0 0.348315 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" clipDistance="300" nodeId="78" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="18" name="fillableTrigger1" translation="0 0.0469861 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" nodeId="79" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
-        <TransformGroup name="dischargeInfoNode" translation="-0.1 -0.0469861 -0.1" nodeId="80"/>
+      <Shape shapeId="18" name="fillTrigger" translation="0 0.348315 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" clipDistance="300" nodeId="81" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="19" name="fillableTrigger1" translation="0 0.0469861 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" nodeId="82" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <TransformGroup name="dischargeInfoNode" translation="-0.1 -0.0469861 -0.1" nodeId="83"/>
       </Shape>
-      <TransformGroup name="raycastNode" translation="0 8.88178e-18 0" nodeId="81"/>
+      <TransformGroup name="raycastNode" translation="0 8.88178e-18 0" nodeId="84"/>
     </Shape>
-    <Light name="light" rotation="-40 0 -30" nodeId="82" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistancesParameter="0.4" decayRate="4" range="500"/>
   </Scene>
 
   <UserAttributes>
-    <UserAttribute nodeId="28">
+    <UserAttribute nodeId="30">
       <Attribute name="capacity" type="integer" value="12"/>
       <Attribute name="deleteIfEmpty" type="boolean" value="true"/>
       <Attribute name="dynamicMountForceLimitScale" type="float" value="1"/>

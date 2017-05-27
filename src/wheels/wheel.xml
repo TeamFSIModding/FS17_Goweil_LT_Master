@@ -2,14 +2,14 @@
 <wheel>
     <configurations>
         <configuration index="basic" >
-            <tire filename="wheels/wheels.i3d" indexLeft="0|0" indexRight="1|0" />
-            <innerRim filename="wheels/wheels.i3d" indexLeft="0|1" indexRight="1|1" widthAndDiam="40 39.3" />
-			<hub filename="wheels/wheels.i3d" indexLeft="0|2" indexRight="1|2" />
+            <tire filename="wheels/wheels2.i3d" indexLeft="0|0" indexRight="1|0" />
+            <innerRim filename="wheels/wheels2.i3d" indexLeft="0|1" indexRight="1|1" widthAndDiam="40 39.3" />
+			<hub filename="wheels/wheels2.i3d" indexLeft="0|2" indexRight="1|2" />
         </configuration>
         <configuration index="premium" >
-            <tire filename="wheels/wheels.i3d" indexLeft="0|0" indexRight="1|0" />
-            <innerRim filename="wheels/wheels.i3d" indexLeft="0|1" indexRight="1|1" widthAndDiam="40 39.3" />
-			<hub filename="wheels/wheels.i3d" indexLeft="0|3" indexRight="1|3" />
+            <tire filename="wheels/wheels2.i3d" indexLeft="0|0" indexRight="1|0" />
+            <innerRim filename="wheels/wheels2.i3d" indexLeft="0|1" indexRight="1|1" widthAndDiam="40 39.3" />
+			<hub filename="wheels/wheels2.i3d" indexLeft="0|3" indexRight="1|3" />
         </configuration>
     </configurations>
     <size radius="0.581" width="0.57" maxDeformation="0.04" />

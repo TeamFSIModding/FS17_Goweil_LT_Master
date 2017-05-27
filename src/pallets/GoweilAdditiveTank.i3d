@@ -2,23 +2,25 @@
 
 <i3D name="Silage Additive Tank" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
-    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+    <Export program="GIANTS Editor 64bit" version="7.0.5"/>
   </Asset>
 
   <Files>
-    <File fileId="2" filename="textures/GoweilAdditiveTank_diffuse.png" relativePath="true"/>
-    <File fileId="3" filename="textures/GoweilAdditiveTank_normal.png" relativePath="true"/>
-    <File fileId="4" filename="textures/GoweilAdditiveTank_specular.png" relativePath="true"/>
+    <File fileId="2" filename="textures/goweil.dds" relativePath="true"/>
+    <File fileId="3" filename="textures/goweil_normal.dds" relativePath="true"/>
   </Files>
 
 
   <Materials>
-    <Material name="fertilizerTank_mat" materialId="7" ambientColor="1 1 1" cosPower="125" specularColor="1 1 1">
+    <Material name="gabbia1" materialId="7" ambientColor="1 1 1" cosPower="20" specularColor="0.5 0.5 0.5">
       <Texture fileId="2"/>
       <Normalmap fileId="3"/>
-      <Glossmap fileId="4"/>
     </Material>
-    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    <Material name="lambert1" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="pancale1" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
     </Material>
   </Materials>
 
@@ -31,29 +33,46 @@
   </Dynamics>
 
   <Scene>
-    <Shape shapeId="1" name="goweilAdditiveTank" dynamic="true" compound="true" collisionMask="25178120" density="0.07" clipDistance="300" nodeId="24" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
-      <Shape shapeId="2" name="dynamicMountTrigger" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="25" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <TransformGroup name="raycastNode" translation="0 8.88178e-18 0" nodeId="26"/>
-      <Shape shapeId="3" name="fillTrigger" translation="0 0.348315 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" clipDistance="300" nodeId="27" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="4" name="fertilizerTank_vis" translation="0 8.88178e-18 0" clipDistance="300" nodeId="28" materialIds="7" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="fillableTrigger1" translation="0 0.0469861 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" nodeId="29" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
-        <TransformGroup name="dischargeInfoNode" translation="-0.1 -0.0469861 -0.1" nodeId="30"/>
+    <Shape shapeId="1" name="goweilAdditiveTank" dynamic="true" compound="true" collisionMask="25178120" density="0.07" clipDistance="300" nodeId="33" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="2" name="dynamicMountTrigger" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="34" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="raycastNode" translation="0 8.88178e-18 0" nodeId="35"/>
+      <Shape shapeId="3" name="fillTrigger" translation="0 0.348315 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" clipDistance="300" nodeId="36" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="transform" nodeId="37"/>
+      <Shape shapeId="4" name="fillableTrigger1" translation="0 0.0469861 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" nodeId="38" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <TransformGroup name="dischargeInfoNode" translation="-0.1 -0.0469861 -0.1" nodeId="39"/>
       </Shape>
-      <Shape shapeId="6" name="transportPallet_col8" translation="0.00271691 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="31" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="7" name="transportPallet_col7" translation="0.622586 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="32" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="8" name="transportPallet_col6" translation="-0.622301 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="33" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="9" name="transportPallet_col5" translation="0.00271691 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="34" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="10" name="transportPallet_col4" translation="0.00271691 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="35" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="11" name="transportPallet_col3" translation="0.622586 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="36" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="12" name="transportPallet_col2" translation="0.622586 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="37" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="13" name="transportPallet_col1" translation="-0.622301 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="38" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="14" name="transportPallet_col" translation="-0.622301 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="39" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="15" name="solidCol" translation="-0.00649741 0.0776865 -0.0213836" visibility="false" compoundChild="true" trigger="true" collisionMask="16781314" clipDistance="100" nodeId="40" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="5" name="transportPallet_col8" translation="0.00271691 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="40" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="6" name="transportPallet_col7" translation="0.622586 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="41" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="7" name="transportPallet_col6" translation="-0.622301 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="42" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="8" name="transportPallet_col5" translation="0.00271691 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="43" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="9" name="transportPallet_col4" translation="0.00271691 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="44" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="10" name="transportPallet_col3" translation="0.622586 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="45" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="11" name="transportPallet_col2" translation="0.622586 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="46" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="12" name="transportPallet_col1" translation="-0.622301 0.181872 0.434665" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="47" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="13" name="transportPallet_col" translation="-0.622301 0.181872 -0.433009" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="48" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="14" name="solidCol" translation="-0.00649741 0.0776865 -0.0213836" visibility="false" compoundChild="true" trigger="true" collisionMask="16781314" clipDistance="100" nodeId="49" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="group1" rotation="0 -90 0" nodeId="50">
+        <Shape shapeId="15" name="pistola" translation="0.686449 1.21503 0.467061" nodeId="51" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="16" name="tubo1" nodeId="52" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="17" name="tappo" nodeId="53" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="18" name="tabella" nodeId="54" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="19" name="cisterna" nodeId="55" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="20" name="gabbia" nodeId="56" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="21" name="tappo_basso" translation="0.575874 0.279934 0.00126565" nodeId="57" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="22" name="pancale" nodeId="58" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="18" name="tabella" rotation="0 -90 0" nodeId="59" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="18" name="tabella" rotation="0 -180 0" nodeId="60" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="18" name="tabella" rotation="0 90 0" nodeId="61" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="joint1" translation="0.673395 0.272297 0" rotation="180 -0 90.1965" nodeId="62">
+        <TransformGroup name="joint2" translation="0.985539 2.43657e-05 -0.467051" rotation="180 -0 90" nodeId="63"/>
+      </TransformGroup>
+      <Shape shapeId="23" name="pistola3" visibility="false" nodeId="64" materialIds="7,6" castsShadows="true" receiveShadows="true" skinBindNodeIds="62 63"/>
     </Shape>
   </Scene>
 
   <UserAttributes>
-    <UserAttribute nodeId="24">
+    <UserAttribute nodeId="33">
       <Attribute name="capacity" type="integer" value="1000"/>
       <Attribute name="dynamicMountForceLimit" type="float" value="0"/>
       <Attribute name="dynamicMountTriggerIndex" type="string" value="0"/>
@@ -66,6 +85,12 @@
       <Attribute name="raycastNode" type="string" value="1"/>
       <Attribute name="startFillLevel" type="integer" value="0"/>
       <Attribute name="visibilityNodesAdditive" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="62">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="63">
+      <Attribute name="liw" type="boolean" value="false"/>
     </UserAttribute>
   </UserAttributes>
 
