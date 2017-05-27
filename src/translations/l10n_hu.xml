@@ -64,6 +64,7 @@ A megvásárolt gépedet a gépjárműboltnál találod." />
         <text name="GLTM_HL_TEXT_01_01"                     text="Összecsukva: mm 11550 x 2550 x 4000  -  Munkapozíció: mm 13940 x 5200 x 4010" />
         <text name="GLTM_HL_TEXT_01_02"                     text="Üres súly: 15200 kg " />
         <text name="GLTM_HL_TEXT_01_03"                     text="Ajánlott motorteljesítmémy: 190 hp " />
+        <text name="GLTM_HL_TEXT_01_04"                     text=" " />
         <text name="GLTM_HL_TITLE_02"                       text="Használati utasítás" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Vezesd a traktort és a gépet sík terepre, és fordulj kicsit balra vele. Ezután tudod a gépet munkapozícióba állítani a $input_IMPLEMENT_EXTRA2; " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Menj a géphez és nyisd ki a jobb oldali ajtót a $input_TOGGLE_COVER; gombbal, a vezérlő panelhez engedd le a támasztólábat a $input_IMPLEMENT_EXTRA4; gombbal, és állítsd a gépet munkaállásba a  $input_IMPLEMENT_EXTRA; lenyomásával, végül engedd le a bálacsúszdát a  $input_IMPLEMENT_EXTRA2; gombbal. " />

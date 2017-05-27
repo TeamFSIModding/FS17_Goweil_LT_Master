@@ -64,6 +64,7 @@ Puoi ritirare il tuo acquisto nel negozio." />
         <text name="GLTM_HL_TEXT_01_01"                     text="In posizione di lavoro: mm 13940 x 5200 x 4010" />
         <text name="GLTM_HL_TEXT_01_02"                     text="Peso a vuoto: 15200 kg " />
         <text name="GLTM_HL_TEXT_01_03"                     text="Potenza consigliata: 190 cv " />
+        <text name="GLTM_HL_TEXT_01_04"                     text=" " />
         <text name="GLTM_HL_TITLE_02"                       text="Operazioni" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Posizionarsi in una zona piana manovrando con il trattore leggermente a sinistra e mettere il timone in posizione di lavoro con $input_IMPLEMENT_EXTRA2; " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Scendere ed aprire lo sportello di destra con $input_TOGGLE_COVER; per accedere al pannello di controllo; abbassare i supporti con $input_IMPLEMENT_EXTRA4; e mettere la macchina in posizione di lavoro con $input_IMPLEMENT_EXTRA; infine abbassare lo scivolo balle con il $input_IMPLEMENT_EXTRA2; " />

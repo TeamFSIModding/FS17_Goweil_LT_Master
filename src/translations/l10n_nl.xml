@@ -63,6 +63,7 @@ U kunt uw gehuurd voertuig ophalen uit de winkel." />
         <text name="GLTM_HL_TEXT_01_01"                     text="opgevouwen: mm 11550 x 2550 x 4000  -  Werk positie: mm 13940 x 5200 x 4010" />
         <text name="GLTM_HL_TEXT_01_02"                     text="leeg gewicht: 15200 kg " />
         <text name="GLTM_HL_TEXT_01_03"                     text="Aanbevolen vermogen: 190 hp " />
+        <text name="GLTM_HL_TEXT_01_04"                     text=" " />
         <text name="GLTM_HL_TITLE_02"                       text="Operatie" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Plaats de trekker en de machine op vlak terrein en draai een beetje naar links, dan kunt u de machine in werkpositie zetten met $input_IMPLEMENT_EXTRA2; " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Ga naar de machine, open de rechter deur met $input_TOGGLE_COVER; Om toegang te krijgen tot het bedieningspaneel, laat de ondersteuning zakken $input_IMPLEMENT_EXTRA4; En zet de machine in werkpositie met $input_IMPLEMENT_EXTRA; als laatste laat de baal glijbaan zakken met $input_IMPLEMENT_EXTRA2; " />

@@ -64,6 +64,7 @@ You can fetch your purchase at the store." />
         <text name="GLTM_HL_TEXT_01_01"                     text="Folded: mm 11550 x 2550 x 4000  -  Work position: mm 13940 x 5200 x 4010" />
         <text name="GLTM_HL_TEXT_01_02"                     text="Empty weight: 15200 kg " />
         <text name="GLTM_HL_TEXT_01_03"                     text="Suggested power: 190 hp " />
+        <text name="GLTM_HL_TEXT_01_04"                     text=" " />
         <text name="GLTM_HL_TITLE_02"                       text="Operations" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Position tractor and machine on plain terrain and turn little bit to the left, then you can put machine in work position with $input_IMPLEMENT_EXTRA2; " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Go down to machine, open right door with $input_TOGGLE_COVER; to access control panel, put down support with $input_IMPLEMENT_EXTRA4; and set machine in work position with $input_IMPLEMENT_EXTRA; finally set down bales chute with $input_IMPLEMENT_EXTRA2; " />

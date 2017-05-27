@@ -64,6 +64,7 @@
         <text name="GLTM_HL_TEXT_01_01"                     text="В сложенном состоянии, мм: 11550 x 2550 x 4000  -  В рабочем положении, мм: 13940 x 5200 x 4010" />
         <text name="GLTM_HL_TEXT_01_02"                     text="Пустой вес: 15200 кг " />
         <text name="GLTM_HL_TEXT_01_03"                     text="Рекомендуемая мощность: 190 л.с. " />
+        <text name="GLTM_HL_TEXT_01_04"                     text=" " />
         <text name="GLTM_HL_TITLE_02"                       text="Операции" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Расположите трактор и машину на ровной местности и поверните немного влево, после чего выдвиньте загрузочный бункер $input_IMPLEMENT_EXTRA2;. " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Опустите машину $input_TOGGLE_COVER;, откройте правую дверь для доступа к панели управления, опустите опоры $input_IMPLEMENT_EXTRA4; и установите машину в рабочее положение $input_IMPLEMENT_EXTRA;; наконец опустите рампу для тюков $input_IMPLEMENT_EXTRA2; " />

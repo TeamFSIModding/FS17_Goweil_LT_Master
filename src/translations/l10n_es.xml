@@ -64,6 +64,7 @@ Puede recoger su vehículo en la tienda." />
         <text name="GLTM_HL_TEXT_01_01"                     text="Plegada: mm 11550 x 2550 x 4000  -  Posición Trabajo: mm 13940 x 5200 x 4010" />
         <text name="GLTM_HL_TEXT_01_02"                     text="Peso en vacío: 15200 kg " />
         <text name="GLTM_HL_TEXT_01_03"                     text="Potencia sugerida: 195 CV " />
+        <text name="GLTM_HL_TEXT_01_04"                     text=" " />
         <text name="GLTM_HL_TITLE_02"                       text="Operaciones" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Coloque el tractor y la máquina en terreno llano y gire el tractor a la izquierda en el sitio, para poder poner en posición de trabajo con $input_IMPLEMENT_EXTRA2; " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Vaya a la máquina, abra la tapa con $input_TOGGLE_COVER; acceda al panel de control, baje el soporte inferior con $input_IMPLEMENT_EXTRA4; y extienda la máquina a posición de trabajo con $input_IMPLEMENT_EXTRA; finalmente baje la extension de rampa con $input_IMPLEMENT_EXTRA2; " />
