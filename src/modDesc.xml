@@ -10,6 +10,7 @@
         <nl>Goweil LT Master</nl>
         <pl>Goweil LT Master</pl>
         <es>Goweil LT Master</es>
+        <ru>Goweil LT Master</ru>
     </title>
     <description>
         <de>
@@ -101,6 +102,18 @@ Mantenimiento: 200 € / día
 Potencia Sugerida: 195 CV
 ]]>
         </es>
+        		        <ru>
+            <![CDATA[Goweil LT Master это стационарный комбинированный пресс-обмотчик.
+Сечку, траву, сено, солому, щепу и навоз можно полностью спрессовать в тюки и обернуть для удобства хранения или увеличения доходности.
+Все типы тюков могут быть проданы в стандартном триггере продажи.
+
+В магазине имеется сетка и фольга для упаковывания тюков, а также емкость с силосной добавкой на поддоне, которую можно приобрести для улучшения качества силоса.
+
+Цена: 253700 €
+Обслуживание: 200 € / день
+Рекомендуемая мощность: 190 л.с.
+]]>
+        </ru>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true" />
@@ -157,5 +170,6 @@ Potencia Sugerida: 195 CV
         <nl>FarmingVidsHD</nl>
         <pl>Dzi4d3k</pl>
         <es>Vanquish081</es>
+        <ru>Gonomy_Vetrom</ru>
     </translatedBy>
 </modDesc>
