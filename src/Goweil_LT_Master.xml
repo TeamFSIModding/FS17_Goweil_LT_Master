@@ -172,7 +172,7 @@
             <part node="0>20" startTime="0" duration="3" startRot="0 28 0" endRot="0 0 0" />
         </animation>
         <animation name="folding2">
-            <!--scivoloUP --><
+            <!--scivoloUP -->
             <part node="0>7" startTime="0" duration="3" startTrans="0 4.347 -0.01" endTrans="0 3.731 -0.67" />
             <part node="0>7|2|4" startTime="0" duration="3" startRot="0 0 0" endRot="-180 0 0" />
             <part node="0>7|2|3" startTime="0" duration="3" startRot="0 0 0" endRot="-180 0 0" />
