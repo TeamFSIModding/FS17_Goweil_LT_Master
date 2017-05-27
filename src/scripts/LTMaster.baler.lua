@@ -11,6 +11,7 @@ function LTMaster:loadBaler()
     self.isUnloadingAllowed = LTMaster.isUnloadingAllowed;
     self.setBaleVolume = LTMaster.setBaleVolume;
     self.getNextVolumesIndex = LTMaster.getNextVolumesIndex;
+    self.getCreatedBales = LTMaster.getCreatedBales;
     self.allowPickingUp = Utils.overwrittenFunction(self.allowPickingUp, LTMaster.allowPickingUp);
     
     self.LTMaster.baler = {};
@@ -135,6 +136,7 @@ function LTMaster:loadBaler()
     else
         self.LTMaster.baler.dynamicChamber = true;
     end
+    self.LTMaster.baler.createdBales = 0;
 end
 
 function LTMaster:postLoadBaler(savegame)
@@ -143,6 +145,7 @@ function LTMaster:postLoadBaler(savegame)
         local numBales = getXMLInt(savegame.xmlFile, savegame.key .. "#numBales");
         self.LTMaster.baler.baleVolumesIndex = Utils.getNoNil(getXMLInt(savegame.xmlFile, savegame.key .. "#baleVolumesIndex"), self.LTMaster.baler.baleVolumesIndex);
         self.LTMaster.baler.balesNet.netRollRemainingUses = Utils.getNoNil(getXMLInt(savegame.xmlFile, savegame.key .. "#netRollRemainingUses"), self.LTMaster.baler.balesNet.netRollRemainingUses);
+        self.LTMaster.baler.createdBales = Utils.getNoNil(getXMLFloat(savegame.xmlFile, savegame.key .. "#createdBales"), self.LTMaster.baler.createdBales);
         if numBales ~= nil and numBales > 0 then
             self.LTMaster.baler.balesToLoad = {};
             local baleKey = savegame.key .. ".bale(0)";
@@ -160,6 +163,7 @@ function LTMaster:getSaveAttributesAndNodesBaler(nodeIdent)
     local attributes = 'numBales="' .. table.getn(self.LTMaster.baler.bales) .. '"';
     attributes = attributes .. ' baleVolumesIndex="' .. self.LTMaster.baler.baleVolumesIndex .. '"';
     attributes = attributes .. ' netRollRemainingUses="' .. self.LTMaster.baler.balesNet.netRollRemainingUses .. '"';
+    attributes = attributes .. ' createdBales="' .. self.LTMaster.baler.createdBales .. '"';
     local nodes = "";
     if table.getn(self.LTMaster.baler.bales) > 0 then
         local bale = self.LTMaster.baler.bales[1];
@@ -587,6 +591,7 @@ function LTMaster:dropBale(baleIndex)
     end
     Utils.releaseSharedI3DFile(bale.filename, nil, true);
     table.remove(self.LTMaster.baler.bales, baleIndex);
+    self.LTMaster.baler.createdBales = self.LTMaster.baler.createdBales + 0.000001;
     g_currentMission.missionStats:updateStats("baleCount", 1);
 end
 
@@ -608,4 +613,8 @@ function LTMaster:getNextVolumesIndex(baleVolumesIndex)
         nextVolumesIndex = 1;
     end
     return nextVolumesIndex;
+end
+
+function LTMaster:getCreatedBales()
+    return self.LTMaster.baler.createdBales * 1000000;
 end

@@ -15,6 +15,7 @@ function LTMaster:loadWrapper(savegame)
     self.doStateChange = LTMaster.doStateChange;
     self.updateWrapNodes = LTMaster.updateWrapNodes;
     self.playMoveToWrapper = LTMaster.playMoveToWrapper;
+    self.getWrappedBales = LTMaster.getWrappedBales;
     self.hasBaleWrapper = true;
     for _, baleCategory in pairs({"roundBaleWrapper", "squareBaleWrapper"}) do
         self[baleCategory] = {};
@@ -208,6 +209,7 @@ function LTMaster:loadWrapper(savegame)
         self.LTMaster.wrapper.balesFoil.sampleFill = SoundUtil.loadSample(self.xmlFile, {}, "vehicle.LTMaster.wrapper.balesFoil.fillSound", nil, self.baseDirectory, self.components[1].node);
     end
     self.LTMaster.wrapper.balesFoil.fillLitersPerSecond = Utils.getNoNil(getXMLFloat(self.xmlFile, "vehicle.LTMaster.wrapper.balesFoil#fillLitersPerSecond"), 1);
+    self.LTMaster.wrapper.wrappedBales = 0;
 end
 
 function LTMaster:postLoadWrapper(savegame)
@@ -224,6 +226,7 @@ function LTMaster:postLoadWrapper(savegame)
         end
         self.LTMaster.wrapper.enabled = Utils.getNoNil(getXMLBool(savegame.xmlFile, savegame.key .. "#wrapperEnabled"), self.LTMaster.wrapper.enabled);
         self.LTMaster.wrapper.balesFoil.foilRollRemainingUses = Utils.getNoNil(getXMLInt(savegame.xmlFile, savegame.key .. "#foilRollRemainingUses"), self.LTMaster.wrapper.balesFoil.foilRollRemainingUses);
+        self.LTMaster.wrapper.wrappedBales = Utils.getNoNil(getXMLFloat(savegame.xmlFile, savegame.key .. "#wrappedBales"), self.LTMaster.wrapper.wrappedBales);
     end
 end
 
@@ -231,6 +234,7 @@ function LTMaster:getSaveAttributesAndNodesWrapper(nodeIdent)
     local attributes = "";
     attributes = ' wrapperEnabled="' .. tostring(self.LTMaster.wrapper.enabled) .. '"';
     attributes = attributes .. ' foilRollRemainingUses="' .. self.LTMaster.wrapper.balesFoil.foilRollRemainingUses .. '"';
+    attributes = attributes .. ' wrappedBales="' .. self.LTMaster.wrapper.wrappedBales .. '"';
     local baleServerId = self.LTMaster.wrapper.baleGrabber.currentBale;
     if baleServerId == nil then
         baleServerId = self.LTMaster.wrapper.currentWrapper.currentBale;
@@ -665,6 +669,7 @@ function LTMaster:doStateChange(id, nearestBaleServerId)
             self:playAnimation(self.LTMaster.wrapper.currentWrapper.animations["resetAfterDrop"].animName, self.LTMaster.wrapper.currentWrapper.animations["resetAfterDrop"].animSpeed, nil, true);
         end
         self.LTMaster.wrapper.baleWrapperState = BaleWrapper.STATE_WRAPPER_RESETTING_PLATFORM;
+        self.LTMaster.baler.createdBales = self.LTMaster.baler.createdBales + 0.000001;
     elseif id == BaleWrapper.CHANGE_WRAPPER_PLATFORM_RESET then
         self:updateWrappingState(0);
         self:updateWrapNodes(false, true, 0);
@@ -746,4 +751,8 @@ function LTMaster:getIsFoldAllowed(superFunc, onAiTurnOn)
         return superFunc(self, onAiTurnOn);
     end
     return true;
+end
+
+function LTMaster:getWrappedBales()
+    return self.LTMaster.wrapper.wrappedBales * 1000000;
 end
