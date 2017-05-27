@@ -33,7 +33,7 @@
                 <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="basic" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
                 <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="basic" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
                 <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="basic" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <!--   <wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25"/> -->
+                <!-- <wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25"/> -->
             </wheels>
         </wheelConfiguration>
         <wheelConfiguration name="$l10n_configuration_valueWheelPremium" price="1800" icon="$dataS2/menu/hud/configurations/config_rimColor.png">
@@ -42,7 +42,7 @@
                 <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="premium" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
                 <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="premium" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
                 <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="premium" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <!--  <wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25"/> -->
+                <!-- <wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25"/> -->
             </wheels>
         </wheelConfiguration>
     </wheelConfigurations>
@@ -65,6 +65,10 @@
             <light realLight="0>7|4|1|13|0|0|0|3|0|1" decoration="0>7|4|1|13|0|0|0|3|0|0" lightTypes="1"/>
             <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|1|13|0|0|0|3|1|1" decoration="0>7|4|1|13|0|0|0|3|1|0" lightTypes="2"/>
+            <!--WorklightFront - coclea-->
+            <light realLight="0>7|15|0|0|3|0|1" decoration="0>7|15|0|0|3|0|0" lightTypes="1"/>
+            <!--WorklightBack - coclea-->
+            <light realLight="0>7|15|0|0|3|1|1" decoration="0>7|15|0|0|3|1|0" lightTypes="2"/>
             <!--WorklightFront - RETRO-->
             <light realLight="0>15|4|6|3|0|1" decoration="0>15|4|6|3|0|0" lightTypes="1"/>
             <!--WorklightFront - neon-->
@@ -86,7 +90,11 @@
             <light realLight="0>7|4|0|11|0|0|0|3|0|1" decoration="0>7|4|0|11|0|0|0|3|0|0" lightTypes="1"/>
             <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|0|11|0|0|0|3|1|1" decoration="0>7|4|0|11|0|0|0|3|1|0" lightTypes="2"/>
-            <!--WorklightFront - RETRO-->
+            <!--WorklightFront - coclea-->
+            <light realLight="0>7|15|0|0|3|0|1" decoration="0>7|15|0|0|3|0|0" lightTypes="1"/>
+            <!--WorklightBack - coclea-->
+            <light realLight="0>7|15|0|0|3|1|1" decoration="0>7|15|0|0|3|1|0" lightTypes="2"/>
+            <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|1|13|0|0|0|3|0|1" decoration="0>7|4|1|13|0|0|0|3|0|0" lightTypes="1"/>
             <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|1|13|0|0|0|3|1|1" decoration="0>7|4|1|13|0|0|0|3|1|0" lightTypes="2"/>
@@ -164,7 +172,7 @@
             <part node="0>20" startTime="0" duration="3" startRot="0 28 0" endRot="0 0 0" />
         </animation>
         <animation name="folding2">
-            <!--scivoloUP -->
+            <!--scivoloUP --><
             <part node="0>7" startTime="0" duration="3" startTrans="0 4.347 -0.01" endTrans="0 3.731 -0.67" />
             <part node="0>7|2|4" startTime="0" duration="3" startRot="0 0 0" endRot="-180 0 0" />
             <part node="0>7|2|3" startTime="0" duration="3" startRot="0 0 0" endRot="-180 0 0" />
@@ -410,20 +418,20 @@
             <translatingPart index="0>7|1|0|0" />
         </movingPart>
         <movingPart index="0>7|1|1" referencePoint="0>7|4|0|9" referenceFrame="0>7|4|0|9" isActiveDirty="true">
-            <translatingPart index="0>7|1|1|1" />
+            <translatingPart index="0>7|1|1|0" />
         </movingPart>
         <!--sponde_scivolo1-->
         <movingPart index="0>8|3|0|0" referencePoint="0>8|1|1|0|3" referenceFrame="0>8|1|1|0|3" isActiveDirty="true">
-            <translatingPart index="0>8|3|0|0|1" />
+            <translatingPart index="0>8|3|0|0|0" />
         </movingPart>
         <movingPart index="0>8|3|1|0" referencePoint="0>8|1|1|0|4" referenceFrame="0>8|1|1|0|4" isActiveDirty="true">
-            <translatingPart index="0>8|3|1|0|1" />
+            <translatingPart index="0>8|3|1|0|0" />
         </movingPart>
         <movingPart index="0>8|3|2|0" referencePoint="0>8|1|0|0|3" referenceFrame="0>8|1|0|0|3" isActiveDirty="true">
-            <translatingPart index="0>8|3|2|0|1" />
+            <translatingPart index="0>8|3|2|0|0" />
         </movingPart>
         <movingPart index="0>8|3|3|0" referencePoint="0>8|1|0|0|4" referenceFrame="0>8|1|0|0|4" isActiveDirty="true">
-            <translatingPart index="0>8|3|3|0|1" />
+            <translatingPart index="0>8|3|3|0|0" />
         </movingPart>
         <!--portelli -->
         <movingPart index="0>15|0|0" referencePoint="0>15|4|4" referenceFrame="0>15|4|4" isActiveDirty="true">
@@ -438,13 +446,31 @@
         <movingPart index="0>15|0|3" referencePoint="0>15|5|5" referenceFrame="0>15|5|5" isActiveDirty="true">
             <translatingPart index="0>15|0|3|1" />
         </movingPart>
-        <!--rotoli -->
+        <!--rotoli	-->
         <movingPart index="0>15|0|4" referencePoint="0>15|2|6" referenceFrame="0>15|2|6" isActiveDirty="true">
             <translatingPart index="0>15|0|4|0" />
         </movingPart>
         <movingPart index="0>15|0|5" referencePoint="0>15|1|13" referenceFrame="0>15|1|13" isActiveDirty="true">
             <translatingPart index="0>15|0|5|0" />
         </movingPart>
+        <!--piston_scarico_balla -->
+        <movingPart index="0>15|13|0" referencePoint="0>15|6|1|4" referenceFrame="0>15|6|1|4" isActiveDirty="true">
+            <translatingPart index="0>15|13|0|1" />
+        </movingPart>
+        <!--piston_timone -->
+        <movingPart index="0>15|14|0" referencePoint="0>20|0|16" referenceFrame="0>20|0|16" isActiveDirty="true">
+            <translatingPart index="0>15|14|0|1" />
+        </movingPart>
+        <!--tubi-->
+        <movingPart index="0>33|0|0|0" referencePoint="0>15|13|0|4" referenceFrame="0>15|13|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>34|0|0" referencePoint="0>15|14|0|3" referenceFrame="0>15|14|0|3" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>15|15|0|0|0" referencePoint="0>15|0|4|2" referenceFrame="0>15|0|4|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>15|15|0|2|0" referencePoint="0>15|0|5|2" referenceFrame="0>15|0|5|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>8|6|4|0|0" referencePoint="0>8|3|0|0|2" referenceFrame="0>8|3|0|0|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>8|6|4|2|0" referencePoint="0>8|3|3|0|4" referenceFrame="0>8|3|3|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>8|6|4|4|0" referencePoint="0>8|3|1|0|4" referenceFrame="0>8|3|1|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>8|6|4|6|0" referencePoint="0>8|3|2|0|4" referenceFrame="0>8|3|2|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <!--	<movingPart index="0>7|14|9|0|2|0" referencePoint="0>7|1|1|4" referenceFrame="0>7|1|1|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/><movingPart index="0>7|14|9|0|0|0" referencePoint="0>7|1|0|4" referenceFrame="0>7|1|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>	 -->
     </movingParts>
     <support animationName="moveSupport" />
     <movingTools>
@@ -750,6 +776,20 @@
         <starterKitConfiguration name="$l10n_ui_yes" price="1700" icon="hud/configurations/config_starterKit.dds" />
         <starterKitConfiguration name="$l10n_ui_no" price="0" />
     </starterKitConfigurations>
+    <skinnedNodes>
+        <skinnedNode index="0>33|0|1" moveToZero="false"/>
+        <skinnedNode index="0>34|1" moveToZero="false"/>
+        <skinnedNode index="0>15|15|0|1" moveToZero="false"/>
+        <skinnedNode index="0>15|15|0|3" moveToZero="false"/>
+        <skinnedNode index="0>8|6|4|1" moveToZero="false"/>
+        <skinnedNode index="0>8|6|4|3" moveToZero="false"/>
+        <skinnedNode index="0>8|6|4|5" moveToZero="false"/>
+        <skinnedNode index="0>8|6|4|7" moveToZero="false"/>
+        <skinnedNode index="0>7|0|5|1" moveToZero="false"/>
+        <skinnedNode index="0>7|0|5|3" moveToZero="false"/>
+        <skinnedNode index="0>7|14|9|0|1" moveToZero="false"/>
+        <skinnedNode index="0>7|14|9|0|3" moveToZero="false"/>
+    </skinnedNodes>
     <washable dirtDuration="120" washDuration="5" workMultiplier="5" fieldMultiplier="3" />
     <components count="1">
         <component1 centerOfMass="0 1.9 0.3" solverIterationCount="7" />
