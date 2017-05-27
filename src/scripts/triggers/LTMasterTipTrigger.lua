@@ -46,7 +46,8 @@ function LTMasterTipTrigger:getAllowFillTypeFromTool(fillType, toolType)
     local allow = LTMasterTipTrigger:superClass().getAllowFillTypeFromTool(self, fillType, toolType);
     if allow then
         local currentFillType = self.owner:getUnitLastValidFillType(self.fillUnitIndex);
-        if (currentFillType ~= FillUtil.FILLTYPE_UNKNOWN and currentFillType ~= fillType) or (self.owner.LTMaster.manureLock and fillType ~= FillUtil.FILLTYPE_MANURE) then
+        local currentFillLevel = self.owner:getUnitFillLevel(self.fillUnitIndex);
+        if (currentFillLevel > 0 and currentFillType ~= fillType) or (self.owner.LTMaster.manureLock and fillType ~= FillUtil.FILLTYPE_MANURE) then
             self.disallowFillType = fillType;
             return false;
         end
