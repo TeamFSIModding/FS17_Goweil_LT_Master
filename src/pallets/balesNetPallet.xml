@@ -5,6 +5,7 @@
             <en>Bale's Nets Pallet</en>
             <pl>Paleta z siatką</pl>
             <es>Palet de red para balas</es>
+            <ru>Поддон из сеткой</ru>
         </name>
         <functions>
             <function>$l10n_function_netPallet</function>
