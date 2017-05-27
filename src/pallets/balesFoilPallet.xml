@@ -5,6 +5,7 @@
             <en>Bale's Foils Pallet</en>
             <pl>Paleta z folią do owijania</pl>
             <es>Palet de papel para encintado</es>
+            <ru>Поддон с фольгой</ru>
         </name>
         <functions>
             <function>$l10n_function_foilPallet</function>
