@@ -18,6 +18,7 @@
             <item type="text" value="GLTM_HL_TEXT_01_01"/>
             <item type="text" value="GLTM_HL_TEXT_01_02"/>
             <item type="text" value="GLTM_HL_TEXT_01_03"/>
+   			<item type="text" value="GLTM_HL_TEXT_01_04"/>
         </helpLine>
         <helpLine title="GLTM_HL_TITLE_02">
             <item type="image" value="helpline/GLTM_HEADER.dds" heightScale="0.0625"/>
