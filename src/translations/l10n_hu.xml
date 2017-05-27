@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
-    <translationContributors></translationContributors>
+    <translationContributors> n0tr3adY </translationContributors>
     <texts>
-<text name="shop_overwrite_messageLeasingReady"     text="A complete user manual available in game help. 
+<text name="shop_overwrite_messageLeasingReady"     text="A teljes leírást a játék segítség részén találod. 
  
-You can pick up your leased vehicle from the store." />
+A bérelt gépedet a gépjárműboltnál találod." />
  
-        <text name="shop_overwrite_messagePurchaseReady"    text="A complete user manual available in game help. 
+        <text name="shop_overwrite_messagePurchaseReady"    text="A teljes leírást a játék segítség részén találod. 
  
-You can fetch your purchase at the store." />
+A megvásárolt gépedet a gépjárműboltnál találod." />
 
-        <text name="configuration_valueWheelPremium"        text="Premium" />
-        <text name="configuration_silageAdditiveSystem"     text="Additive injection system" />
-        <text name="configuration_dynamicChamber"           text="Dynamic density chamber" />
-        <text name="configuration_conveyorFlow"             text="Variable conveyor flow" />
-        <text name="configuration_monitorSystem"            text="Monitor system" />
-        <text name="configuration_remoteMonitorSystem"      text="Remote hud" />
-        <text name="configuration_starterKit"               text="Starter Kit" />
-        <text name="gltm_config_conveyor_200"               text="200 liter/s." />
-        <text name="gltm_config_conveyor_300"               text="300 liter/s." />
-        <text name="gltm_config_conveyor_400"               text="400 liter/s." />
-        <text name="gltm_config_conveyor_500"               text="500 liter/s." />
+        <text name="configuration_valueWheelPremium"        text="Prémium" />
+        <text name="configuration_silageAdditiveSystem"     text="Adalékoló rendszer" />  <!-- needs an ingame test for perfect translation -->
+        <text name="configuration_dynamicChamber"           text="Dinamikus sűrűség-kamra" />  <!-- needs an ingame test for perfect translation -->
+        <text name="configuration_conveyorFlow"             text="Változtatható futószalag sebesség" />
+        <text name="configuration_monitorSystem"            text="Megfigyelő rendszer" />
+        <text name="configuration_remoteMonitorSystem"      text="Távvezérelt megfigyelő rendszer" />
+        <text name="configuration_starterKit"               text="Kezdő csomag" />
+        <text name="gltm_config_conveyor_200"               text="200 liter/másodperc." />
+        <text name="gltm_config_conveyor_300"               text="300 liter/másodperc." />
+        <text name="gltm_config_conveyor_400"               text="400 liter/másodperc." />
+        <text name="gltm_config_conveyor_500"               text="500 liter/másodperc." />
         <text name="input_EVIBALE"                          text="Open and fade bale" />
         <text name="typeDesc_ltmaster"                      text="LT-Master" />
-        <text name="function_ltmasterbalerwrapper"          text="Goweil LT Master - baler wrapper combination " />
-        <text name="function_silageAdditiveTank"            text="Silage Additives is used to get higher resolution." />
-        <text name="function_foilPallet"                    text="High quality foil wrap pallet." />
-        <text name="function_netPallet"                     text="Bale net pallet." />
-        <text name="fillType_silageAdditive"                text="Silage Additives" />
-        <text name="fillType_balesNet"                      text="Bales Net" />
-        <text name="fillType_balesFoil"                     text="Wrap foil" />
-        <text name="GLTM_TEMP_INFO"                         text="A complete user manual available in game help." />
-        <text name="GLTM_OPEN_HOOD"                         text="Open hood" />
-        <text name="GLTM_CLOSE_HOOD"                        text="Close hood" />
-        <text name="GLTM_LOWER_SUPPORTS"                    text="Lower standing support" />
-        <text name="GLTM_RAISE_SUPPORTS"                    text="Raise standing support" />
-        <text name="GLTM_LOWER_LADDER"                      text="Lower ladder" />
-        <text name="GLTM_RAISE_LADDER"                      text="Raise ladder" />
-        <text name="GLTM_LOWER_BALE_SLIDE"                  text="Lower bale slide" />
-        <text name="GLTM_RAISE_BALE_SLIDE"                  text="Raise bale slide" />
+        <text name="function_ltmasterbalerwrapper"          text="Goweil LT Master - bálázó csomagoló kombináció " />
+        <text name="function_silageAdditiveTank"            text="Silage Additives is used to get higher resolution." /> <!-- needs an ingame test for perfect translation -->
+        <text name="function_foilPallet"                    text="Kitűnő minőségű raklapos csomagoló fólia." />
+        <text name="function_netPallet"                     text="Bálamadzag raklap." />
+        <text name="fillType_silageAdditive"                text="Siló adalék" />
+        <text name="fillType_balesNet"                      text="Bálamadzag" />
+        <text name="fillType_balesFoil"                     text="Csomagoló fólia" />
+        <text name="GLTM_TEMP_INFO"                         text="A teljes leírást a játék segítség részén találod." />
+        <text name="GLTM_OPEN_HOOD"                         text="Tető nyitása" />
+        <text name="GLTM_CLOSE_HOOD"                        text="Tető zárása" />
+        <text name="GLTM_LOWER_SUPPORTS"                    text="Támasztóláb leengedése" />
+        <text name="GLTM_RAISE_SUPPORTS"                    text="Támasztóláb felhúzása" />
+        <text name="GLTM_LOWER_LADDER"                      text="Létra leengedése" />
+        <text name="GLTM_RAISE_LADDER"                      text="Létra emelése" />
+        <text name="GLTM_LOWER_BALE_SLIDE"                  text="Bálacsúszda leengedése" />
+        <text name="GLTM_RAISE_BALE_SLIDE"                  text="Bálacsúszda emelése" />
         <text name="GLTM_UNLOAD_SIDE"                       text="Unload and clean sides" />
-        <text name="GLTM_TURNON_CONVEYOR"                   text="Turn on conveyor belt" />
-        <text name="GLTM_TURNOFF_CONVEYOR"                  text="Turn off conveyor belt" />
-        <text name="GLTM_CHANGE_BALE_VOLUME"                text="Change bale density - from %s to %s" />
-        <text name="GLTM_TURNON_VEHICLE"                    text="Turn on vehicle for work" />
-        <text name="GLTM_TURNON_NOT_ALLOWED_UNFOLD"         text="Set machinery in work position first!" />
-        <text name="GLTM_TURNON_NOT_ALLOWED_BALESLIDE"      text="Set bale slide lower first!" />
-        <text name="GLTM_WRAPPER_SET_ON"                    text="Turn on wrapper" />
-        <text name="GLTM_WRAPPER_SET_OFF"                   text="Turn off wrapper" />
-        <text name="GLTM_UNLOAD_THEN_TIP"                   text="Before unload %s, clear from the %s " />
-        <text name="GLTM_WASH_THEN_TIP"                     text="After work with %s, you need to wash machine before unload %s " />
+        <text name="GLTM_TURNON_CONVEYOR"                   text="Szállítószalag bekapcsolása" />
+        <text name="GLTM_TURNOFF_CONVEYOR"                  text="Szállítószalag kikapcsolása" />
+        <text name="GLTM_CHANGE_BALE_VOLUME"                text="Bálasűrűség állítás - %s-ról %s-ra" />
+        <text name="GLTM_TURNON_VEHICLE"                    text="Munkaeszköz bekapcsolása" />
+        <text name="GLTM_TURNON_NOT_ALLOWED_UNFOLD"         text="Állítsd az eszközt munkapozícióba!" />
+        <text name="GLTM_TURNON_NOT_ALLOWED_BALESLIDE"      text="Előbb engedd le a bálacsúszdát!" />
+        <text name="GLTM_WRAPPER_SET_ON"                    text="Csomagoló bekapcsolása" />
+        <text name="GLTM_WRAPPER_SET_OFF"                   text="Csomagoló kikapcsolása" />
+        <text name="GLTM_UNLOAD_THEN_TIP"                   text="%s ürítése előtt , clear from the %s " />  <!-- needs an ingame test for perfect translation -->
+        <text name="GLTM_WASH_THEN_TIP"                     text="After work with %s, you need to wash machine before unload %s " /> <!-- needs an ingame test for perfect translation -->
         <!-- HelpLine texts -->
         <text name="GLTM_HL_CATEGORY"                       text="Goweil LT Master" />
-        <text name="GLTM_HL_TITLE_00"                       text="General description" />
-        <text name="GLTM_HL_TEXT_00_00"                     text="The LT Master is a baler-wrapper combination wich can be process a great kind of material, not only mais chaff or grass; in the perspective of the game FS17, this machine can work on fields or in farm, and can process a wide variety of material greatly faster than a conventional baler and wrapper:" />
-        <text name="GLTM_HL_TEXT_00_01"                     text="Chaff and grass can be pressed and wrapped for silage fermentation" />
-        <text name="GLTM_HL_TEXT_00_02"                     text="Hay and straw can be pressed, and optional wrapped for weather protection" />
-        <text name="GLTM_HL_TEXT_00_03"                     text="Woodchips can be pressed and wrapped for weather protection and for a better storage and handling, since LT Master can reduce the volume of tipical air dried woodchips" />
-        <text name="GLTM_HL_TEXT_00_04"                     text="Manure can also be pressed and wrapped for convenient storage and later use as fertilizer" />
-        <text name="GLTM_HL_TEXT_00_05"                     text="All wrapped bales have a greater value on the sell point" />
-        <text name="GLTM_HL_TITLE_01"                       text="Technical details and dimensions" />
+        <text name="GLTM_HL_TITLE_00"                       text="Általános leírás" />
+        <text name="GLTM_HL_TEXT_00_00"                     text="Az LT Master egy bálázó-csomagoló kombinációja, ami nagyon sok féle alapanyagot tud kezelni; az FS17 szemszpontjából ez a gép használható földeken és a farmon is. Sokkal gyorsabban dolgozza fel a sok féle alapanyagot egy hagyományos bálázóval és csomagolóval szemben:" />		
+        <text name="GLTM_HL_TEXT_00_01"                     text="Az apríték és a fű összetömöríthető és befóliázható erjedő silónak." />      
+        <text name="GLTM_HL_TEXT_00_02"                     text="A széna és szalma összetömöríthető és opcionálisan csomagolható -védve a bálát az időjárástól." />
+        <text name="GLTM_HL_TEXT_00_03"                     text="A faapríték is összetömöríthető és csomagolható, védve az időjárástól és a jobb kezelhetőség érdekebén; az LT Master csökkenti a levegőn szárított faapríték helyfoglalását." />      
+		<text name="GLTM_HL_TEXT_00_04"                     text="A trágya is összetömöríthető és csomagolható a jobb tárolás érdekében, későbbi felhasználásra." />
+        <text name="GLTM_HL_TEXT_00_05"                     text="A csomagolt bálákért többet fizetnek az átvételi ponton." />
+        <text name="GLTM_HL_TITLE_01"                       text="Technikai leírás és méretek" />
         <text name="GLTM_HL_TEXT_01_00"                     text=" " />
-        <text name="GLTM_HL_TEXT_01_01"                     text="Folded: mm 11550 x 2550 x 4000  -  Work position: mm 13940 x 5200 x 4010" />
-        <text name="GLTM_HL_TEXT_01_02"                     text="Empty weight: 15200 kg " />
-        <text name="GLTM_HL_TEXT_01_03"                     text="Suggested power: 190 hp " />
-        <text name="GLTM_HL_TITLE_02"                       text="Operations" />
-        <text name="GLTM_HL_TEXT_02_00"                     text="Position tractor and machine on plain terrain and turn little bit to the left, then you can put machine in work position with $input_IMPLEMENT_EXTRA2; " />
-        <text name="GLTM_HL_TEXT_02_01"                     text="Go down to machine, open right door with $input_TOGGLE_COVER; to access control panel, put down support with $input_IMPLEMENT_EXTRA4; and set machine in work position with $input_IMPLEMENT_EXTRA; finally set down bales chute with $input_IMPLEMENT_EXTRA2; " />
-        <text name="GLTM_HL_TEXT_02_03"                     text="Now you can go on tractor and turn on machine with $input_IMPLEMENT_EXTRA; , now with $input_IMPLEMENT_EXTRA4; it's possible to turn off/on wrapper and with $input_IMPLEMENT_EXTRA3; it's possible to set desidered bale density. " />
-        <text name="GLTM_HL_TEXT_02_04"                     text="Icons on hud from left: " />
-        <text name="GLTM_HL_TEXT_02_05"                     text="  1) wrapper on/off  -  2) Net status  -  3) Foil Status  -  4) Bale chamber fill" />
-        <text name="GLTM_HL_TITLE_03"                       text="Net, wrap foil, Additive" />
-        <text name="GLTM_HL_TEXT_03_00"                     text="You needs to refill the baler station with net, wrap foil and optional additive which can be purchased in the shop." />
-        <text name="GLTM_HL_TEXT_03_01"                     text="Net and wrap foil always needful, additive is not mandatory, will useful for a better yeld with chaff and grass; necessary equipment can be purchased separately." />
-        <text name="GLTM_HL_TEXT_03_02"                     text="Pallet of consumable can be used one by one to refill machine with $input_ACTIVATE_OBJECT; " />
-        <text name="GLTM_HL_TITLE_04"                       text="Other function" />
-        <text name="GLTM_HL_TEXT_04_00"                     text="This mod add two useful things: " />
-        <text name="GLTM_HL_TEXT_04_01"                     text="On the foot you can see information about any bales around, and with $input_ACTIVATE_OBJECT; you can unpack the bale and tip material to ground." />
+        <text name="GLTM_HL_TEXT_01_01"                     text="Összecsukva: mm 11550 x 2550 x 4000  -  Munkapozíció: mm 13940 x 5200 x 4010" />
+        <text name="GLTM_HL_TEXT_01_02"                     text="Üres súly: 15200 kg " />
+        <text name="GLTM_HL_TEXT_01_03"                     text="Ajánlott motorteljesítmémy: 190 hp " />
+        <text name="GLTM_HL_TITLE_02"                       text="Használati utasítás" />
+        <text name="GLTM_HL_TEXT_02_00"                     text="Vezesd a traktort és a gépet sík terepre, és fordulj kicsit balra vele. Ezután tudod a gépet munkapozícióba állítani a $input_IMPLEMENT_EXTRA2; " />
+        <text name="GLTM_HL_TEXT_02_01"                     text="Menj a géphez és nyisd ki a jobb oldali ajtót a $input_TOGGLE_COVER; gombbal, a vezérlő panelhez engedd le a támasztólábat a $input_IMPLEMENT_EXTRA4; gombbal, és állítsd a gépet munkaállásba a  $input_IMPLEMENT_EXTRA; lenyomásával, végül engedd le a bálacsúszdát a  $input_IMPLEMENT_EXTRA2; gombbal. " />
+        <text name="GLTM_HL_TEXT_02_03"                     text="Ezután a traktorban kapcsol be a  $input_IMPLEMENT_EXTRA; gombbal, now with $input_IMPLEMENT_EXTRA4; a csomagolót ki-be kapcsolhatod a $input_IMPLEMENT_EXTRA3; gombbal, és tudsz állítani a bála sűrűségén is. " />
+        <text name="GLTM_HL_TEXT_02_04"                     text="Ikonok a hudon balról jobbra: " />
+        <text name="GLTM_HL_TEXT_02_05"                     text="  1) csomagoló ki/be  -  2) Bálamadzag mennyisége  -  3) Fólia mennyisége -  4) Bálakamra töltöttsége" />
+        <text name="GLTM_HL_TITLE_03"                       text="Bálamadzag, csomagoló fólia, adalék" />
+        <text name="GLTM_HL_TEXT_03_00"                     text="Újra kell töltened a bálázót bálamadzaggal, csomagoló fóliával és adalékkal, amit a gépjárműboltban tudsz megvenni." />
+        <text name="GLTM_HL_TEXT_03_01"                     text="A bálamadzag és a fólia szükséges, míg az adalék csak lehetőség; a szükséges felszerelést külön-külön is meg tudod vásárolni." /> <!-- needs an ingame test for perfect translation -->
+        <text name="GLTM_HL_TEXT_03_02"                     text="A raklapokról az újratöltést csak egyesével végezheted el a  $input_ACTIVATE_OBJECT; gomb lenyomásával" />
+        <text name="GLTM_HL_TITLE_04"                       text="Egyéb funkciók:" />
+        <text name="GLTM_HL_TEXT_04_00"                     text="Ez a mod kétféle hasznos információt ad: " />
+        <text name="GLTM_HL_TEXT_04_01"                     text="Gyalogosan a körülötted lévő bálákat a $input_ACTIVATE_OBJECT; gombbal ki tudod bontani a bálát és a földre üríteni." /> <!-- needs an ingame test for perfect translation -->
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
-        <text name="GLTM_HL_TEXT_04_03"                     text="Optional equipment which can be purchased separately:" />
-        <text name="GLTM_HL_TEXT_04_04"                     text="1) Variable flow conveyor belt " />
-        <text name="GLTM_HL_TEXT_04_05"                     text="2) Additive inject equipment " />
-        <text name="GLTM_HL_TEXT_04_06"                     text="3) Dynamic density chamber " />
-        <text name="GLTM_HL_TEXT_04_07"                     text="4) Remote monitor system  " />
-        <text name="GLTM_HL_TEXT_04_08"                     text="5) Weighing system " />
+        <text name="GLTM_HL_TEXT_04_03"                     text="Opcionális felszerelést külön is megveheted:" />
+        <text name="GLTM_HL_TEXT_04_04"                     text="1) Változtatható sebességű futószalag " />
+        <text name="GLTM_HL_TEXT_04_05"                     text="2) Adalékoló rendszer " />
+        <text name="GLTM_HL_TEXT_04_06"                     text="3) Dinamikus sűrűség-kamra " />
+        <text name="GLTM_HL_TEXT_04_07"                     text="4) Távvezérlő rendszer  " />
+        <text name="GLTM_HL_TEXT_04_08"                     text="5) Súlyozó rendszer " />
     </texts>
 </l10n>
