@@ -322,8 +322,6 @@
             <part node="0>10|1" startTime="1.4" duration="1" startRot="0 0 0" endRot="62 0 0" />
             <part node="0>10|1|4" startTime="1.5" duration="0.8" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="-1 0 0 0" />
             <part node="0>10|1|5" startTime="1.5" duration="0.8" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="-1 0 0 0" />
-            <part node="0>10|1|0|0" startTime="1.5" duration="0.8" startRot="0 0 0" endRot="360 0 0" />
-            <part node="0>10|1|0|1" startTime="1.5" duration="0.8" startRot="0 0 0" endRot="360 0 0" />
             <part node="0>10|1|9|0" startTime="1.5" duration="0.5" startRot="0 0 0" endRot="0 0 20" startTrans="0 0 0" endTrans="-0.07 -0.1 0" />
             <part node="0>10|1|9|0" startTime="2" duration="0.5" startRot="0 0 20" endRot="0 0 40" startTrans="-0.07 -0.1 0" endTrans="-0.25 -0.55 0" />
             <part node="0>10|1|9|0" startTime="2.5" duration="0.5" startRot="0 0 40" endRot="0 0 80" startTrans="-0.25 -0.55 0" endTrans="-0.2 -1 0" />
@@ -341,6 +339,8 @@
             <part node="0>10|1|5" startTime="0" duration="0" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0 0 0 0" />
             <part node="0>10|1|0|0" startTime="0" duration="0" endRot="0 0 0" />
             <part node="0>10|1|0|1" startTime="0" duration="0" endRot="0 0 0" />
+            <part node="0>10|1|1|0" startTime="0" duration="0" endRot="0 0 0" />
+            <part node="0>10|1|2|0" startTime="0" duration="0" endRot="0 0 0" />
             <!--leve-->
             <part node="0>14|0|5" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|5" startTime="2" duration="0.25" startRot="0 0 20" endRot="0 0 0" />
@@ -358,32 +358,32 @@
             <part node="0>10|1|2|0" startTime="2.52" endTime="3.15" startRot="0 -360 0" endRot="0 -540 0" />
             <part node="0>10|1|1|0" startTime="3.15" endTime="3.78" startRot="0 -540 0" endRot="0 -720 0" />
             <part node="0>10|1|2|0" startTime="3.15" endTime="3.78" startRot="0 -540 0" endRot="0 -720 0" />
-            <part node="0>10|1|1|0" startTime="3.78" endTime="4.41" startRot="0 -720 0" endRot="0 -900 0" />
-            <part node="0>10|1|2|0" startTime="3.78" endTime="4.41" startRot="0 -720 0" endRot="0 -900 0" />
-            <part node="0>10|1|1|0" startTime="4.41" endTime="5.04" startRot="0 -900 0" endRot="0 -1080 0" />
-            <part node="0>10|1|2|0" startTime="4.41" endTime="5.04" startRot="0 -900 0" endRot="0 -1080 0" />
-            <part node="0>10|1|1|0" startTime="5.04" endTime="5.67" startRot="0 -1080 0" endRot="0 -1260 0" />
-            <part node="0>10|1|2|0" startTime="5.04" endTime="5.67" startRot="0 -1080 0" endRot="0 -1260 0" />
-            <part node="0>10|1|1|0" startTime="5.67" endTime="6.3" startRot="0 -1260 0" endRot="0 -1440 0" />
-            <part node="0>10|1|2|0" startTime="5.67" endTime="6.3" startRot="0 -1260 0" endRot="0 -1440 0" />
-            <part node="0>10|1|1|0" startTime="6.3" endTime="6.93" startRot="0 -1440 0" endRot="0 -1620 0" />
-            <part node="0>10|1|2|0" startTime="6.3" endTime="6.93" startRot="0 -1440 0" endRot="0 -1620 0" />
-            <part node="0>10|1|1|0" startTime="6.93" endTime="7.56" startRot="0 -1620 0" endRot="0 -1800 0" />
-            <part node="0>10|1|2|0" startTime="6.93" endTime="7.56" startRot="0 -1620 0" endRot="0 -1800 0" />
-            <part node="0>10|1|1|0" startTime="7.56" endTime="8.19" startRot="0 -1800 0" endRot="0 -1980 0" />
-            <part node="0>10|1|2|0" startTime="7.56" endTime="8.19" startRot="0 -1800 0" endRot="0 -1980 0" />
-            <part node="0>10|1|1|0" startTime="8.19" endTime="8.82" startRot="0 -1980 0" endRot="0 -2160 0" />
-            <part node="0>10|1|2|0" startTime="8.19" endTime="8.82" startRot="0 -1980 0" endRot="0 -2160 0" />
-            <part node="0>10|1|1|0" startTime="8.82" endTime="9.45" startRot="0 -2160 0" endRot="0 -2340 0" />
-            <part node="0>10|1|2|0" startTime="8.82" endTime="9.45" startRot="0 -2160 0" endRot="0 -2340 0" />
-            <part node="0>10|1|1|0" startTime="9.45" endTime="10.08" startRot="0 -2320 0" endRot="0 -2360 0" />
-            <part node="0>10|1|2|0" startTime="9.45" endTime="10.08" startRot="0 -2320 0" endRot="0 -2360 0" />
-            <part node="0>10|1|1|0" startTime="10.08" endTime="14" startRot="0 -2360 0" endRot="0 -2370 0" />
-            <part node="0>10|1|2|0" startTime="10.08" endTime="14" startRot="0 -2360 0" endRot="0 -2370 0" />
+            <part node="0>10|1|1|0" startTime="3.78" endTime="4.41" startRot="0 -720 0" endRot="0 -1080 0" />
+            <part node="0>10|1|2|0" startTime="3.78" endTime="4.41" startRot="0 -720 0" endRot="0 -1080 0" />
+            <part node="0>10|1|1|0" startTime="4.41" endTime="5.04" startRot="0 -1080 0" endRot="0 -1260 0" />
+            <part node="0>10|1|2|0" startTime="4.41" endTime="5.04" startRot="0 -1080 0" endRot="0 -1260 0" />
+            <part node="0>10|1|1|0" startTime="5.04" endTime="5.67" startRot="0 -1260 0" endRot="0 -1440 0" />
+            <part node="0>10|1|2|0" startTime="5.04" endTime="5.67" startRot="0 -1260 0" endRot="0 -1440 0" />
+            <part node="0>10|1|1|0" startTime="5.67" endTime="6.3" startRot="0 -1440 0" endRot="0 -1620 0" />
+            <part node="0>10|1|2|0" startTime="5.67" endTime="6.3" startRot="0 -1440 0" endRot="0 -1620 0" />
+            <part node="0>10|1|1|0" startTime="6.3" endTime="6.93" startRot="0 -1620 0" endRot="0 -1800 0" />
+            <part node="0>10|1|2|0" startTime="6.3" endTime="6.93" startRot="0 -1620 0" endRot="0 -1800 0" />
+            <part node="0>10|1|1|0" startTime="6.93" endTime="7.56" startRot="0 -1800 0" endRot="0 -1920 0" />
+            <part node="0>10|1|2|0" startTime="6.93" endTime="7.56" startRot="0 -1800 0" endRot="0 -1920 0" />
+            <part node="0>10|1|1|0" startTime="7.56" endTime="8.19" startRot="0 -1920 0" endRot="0 -2000 0" />
+            <part node="0>10|1|2|0" startTime="7.56" endTime="8.19" startRot="0 -1920 0" endRot="0 -2000 0" />
+            <part node="0>10|1|1|0" startTime="8.19" endTime="8.82" startRot="0 -2000 0" endRot="0 -2050 0" />
+            <part node="0>10|1|2|0" startTime="8.19" endTime="8.82" startRot="0 -2000 0" endRot="0 -2050 0" />
+            <part node="0>10|1|1|0" startTime="8.82" endTime="9.45" startRot="0 -2050 0" endRot="0 -2100 0" />
+            <part node="0>10|1|2|0" startTime="8.82" endTime="9.45" startRot="0 -2050 0" endRot="0 -2100 0" />
+            <part node="0>10|1|1|0" startTime="9.45" endTime="10.08" startRot="0 -2100 0" endRot="0 -2150 0" />
+            <part node="0>10|1|2|0" startTime="9.45" endTime="10.08" startRot="0 -2100 0" endRot="0 -2150 0" />
+            <part node="0>10|1|1|0" startTime="10.08" endTime="14" startRot="0 -2150 0" endRot="0 -2200 0" />
+            <part node="0>10|1|2|0" startTime="10.08" endTime="14" startRot="0 -2150 0" endRot="0 -2200 0" />
             <part node="0>10|1|4" startTime="0.63" endTime="1.26" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0.25 0 0 0" />
             <part node="0>10|1|5" startTime="0.63" endTime="1.26" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0.25 0 0 0" />
-            <part node="0>10|1|0|0" startTime="0.63" endTime="1.26" startRot="0 0 0" endRot="-90 0 0" />
-            <part node="0>10|1|0|1" startTime="0.63" endTime="1.26" startRot="0 0 0" endRot="-90 0 0" />
+            <part node="0>10|1|0|0" startTime="0.63" endTime="1.26" startRot="-0 0 0" endRot="-90 0 0" />
+            <part node="0>10|1|0|1" startTime="0.63" endTime="1.26" startRot="-0 0 0" endRot="-90 0 0" />
             <part node="0>10|1|4" startTime="1.26" endTime="1.89" shaderParameter="offsetUV" shaderStartValues="0.25 0 0 0" shaderEndValues="0.5 0 0 0" />
             <part node="0>10|1|5" startTime="1.26" endTime="1.89" shaderParameter="offsetUV" shaderStartValues="0.25 0 0 0" shaderEndValues="0.5 0 0 0" />
             <part node="0>10|1|0|0" startTime="1.26" endTime="1.89" startRot="-90 0 0" endRot="-180 0 0" />
@@ -402,48 +402,48 @@
             <part node="0>10|1|0|1" startTime="3.15" endTime="3.78" startRot="-540 0 0" endRot="-720 0 0" />
             <part node="0>10|1|4" startTime="3.78" endTime="4.41" shaderParameter="offsetUV" shaderStartValues="1.25 0 0 0" shaderEndValues="1.5 0 0 0" />
             <part node="0>10|1|5" startTime="3.78" endTime="4.41" shaderParameter="offsetUV" shaderStartValues="1.25 0 0 0" shaderEndValues="1.5 0 0 0" />
-            <part node="0>10|1|0|0" startTime="3.78" endTime="4.41" startRot="-720 0 0" endRot="-900 0" />
-            <part node="0>10|1|0|1" startTime="3.78" endTime="4.41" startRot="-720 0 0" endRot="-900 0 0" />
+            <part node="0>10|1|0|0" startTime="3.78" endTime="4.41" startRot="-720 0 0" endRot="-1080 0 0" />
+            <part node="0>10|1|0|1" startTime="3.78" endTime="4.41" startRot="-720 0 0" endRot="-1080 0 0" />
             <part node="0>10|1|4" startTime="4.41" endTime="5.04" shaderParameter="offsetUV" shaderStartValues="1.5 0 0 0" shaderEndValues="1.75 0 0 0" />
             <part node="0>10|1|5" startTime="4.41" endTime="5.04" shaderParameter="offsetUV" shaderStartValues="1.5 0 0 0" shaderEndValues="1.75 0 0 0" />
-            <part node="0>10|1|0|0" startTime="4.41" endTime="5.04" startRot="-900 0 0" endRot="-1080 0 0" />
-            <part node="0>10|1|0|1" startTime="4.41" endTime="5.04" startRot="-900 0 0" endRot="-1080 0 0" />
+            <part node="0>10|1|0|0" startTime="4.41" endTime="5.04" startRot="-1080 0 0" endRot="-1260 0 0" />
+            <part node="0>10|1|0|1" startTime="4.41" endTime="5.04" startRot="-1080 0 0" endRot="-1260 0 0" />
             <part node="0>10|1|4" startTime="5.04" endTime="5.67" shaderParameter="offsetUV" shaderStartValues="2 0 0 0" shaderEndValues="2.25 0 0 0" />
             <part node="0>10|1|5" startTime="5.04" endTime="5.67" shaderParameter="offsetUV" shaderStartValues="2 0 0 0" shaderEndValues="2.25 0 0 0" />
-            <part node="0>10|1|0|0" startTime="5.04" endTime="5.67" startRot="-1080 0 0" endRot="-1260 0 0" />
-            <part node="0>10|1|0|1" startTime="5.04" endTime="5.67" startRot="-1080 0 0" endRot="-1260 0 0" />
+            <part node="0>10|1|0|0" startTime="5.04" endTime="5.67" startRot="-1260 0 0" endRot="-1440 0 0" />
+            <part node="0>10|1|0|1" startTime="5.04" endTime="5.67" startRot="-1260 0 0" endRot="-1440 0 0" />
             <part node="0>10|1|4" startTime="5.67" endTime="6.3" shaderParameter="offsetUV" shaderStartValues="2.25 0 0 0" shaderEndValues="2.5 0 0 0" />
             <part node="0>10|1|5" startTime="5.67" endTime="6.3" shaderParameter="offsetUV" shaderStartValues="2.25 0 0 0" shaderEndValues="2.5 0 0 0" />
-            <part node="0>10|1|0|0" startTime="5.67" endTime="6.3" startRot="-1260 0 0" endRot="-1440 0 0" />
-            <part node="0>10|1|0|1" startTime="5.67" endTime="6.3" startRot="-1260 0 0" endRot="-1440 0 0" />
+            <part node="0>10|1|0|0" startTime="5.67" endTime="6.3" startRot="-1440 0 0" endRot="-1620 0 0" />
+            <part node="0>10|1|0|1" startTime="5.67" endTime="6.3" startRot="-1440 0 0" endRot="-1620 0 0" />
             <part node="0>10|1|4" startTime="6.3" endTime="6.93" shaderParameter="offsetUV" shaderStartValues="2.5 0 0 0" shaderEndValues="2.75 0 0 0" />
             <part node="0>10|1|5" startTime="6.3" endTime="6.93" shaderParameter="offsetUV" shaderStartValues="2.5 0 0 0" shaderEndValues="2.75 0 0 0" />
-            <part node="0>10|1|0|0" startTime="6.3" endTime="6.93" startRot="-1440 0 0" endRot="-1620 0 0" />
-            <part node="0>10|1|0|1" startTime="6.3" endTime="6.93" startRot="-1440 0 0" endRot="-1620 0 0" />
+            <part node="0>10|1|0|0" startTime="6.3" endTime="6.93" startRot="-1620 0 0" endRot="-1800 0 0" />
+            <part node="0>10|1|0|1" startTime="6.3" endTime="6.93" startRot="-1620 0 0" endRot="-1800 0 0" />
             <part node="0>10|1|4" startTime="6.93" endTime="7.56" shaderParameter="offsetUV" shaderStartValues="2.75 0 0 0" shaderEndValues="3 0 0 0" />
             <part node="0>10|1|5" startTime="6.93" endTime="7.56" shaderParameter="offsetUV" shaderStartValues="2.75 0 0 0" shaderEndValues="3 0 0 0" />
-            <part node="0>10|1|0|0" startTime="6.93" endTime="7.56" startRot="-1620 0 0" endRot="-1800 0 0" />
-            <part node="0>10|1|0|1" startTime="6.93" endTime="7.56" startRot="-1620 0 0" endRot="-1800 0 0" />
+            <part node="0>10|1|0|0" startTime="6.93" endTime="7.56" startRot="-1800 0 0" endRot="-1920 0 0" />
+            <part node="0>10|1|0|1" startTime="6.93" endTime="7.56" startRot="-1800 0 0" endRot="-1920 0 0" />
             <part node="0>10|1|4" startTime="7.56" endTime="8.19" shaderParameter="offsetUV" shaderStartValues="3 0 0 0" shaderEndValues="3.25 0 0 0" />
             <part node="0>10|1|5" startTime="7.56" endTime="8.19" shaderParameter="offsetUV" shaderStartValues="3 0 0 0" shaderEndValues="3.25 0 0 0" />
-            <part node="0>10|1|0|0" startTime="7.56" endTime="8.19" startRot="-1800 0 0" endRot="-1980 0 0" />
-            <part node="0>10|1|0|1" startTime="7.56" endTime="8.19" startRot="-1800 0 0" endRot="-1980 0 0" />
-            <part node="0>10|1|4" startTime="8.19" endTime="8.82" shaderParameter="offsetUV" shaderStartValues="3.25 0 0 0" shaderEndValues="3.5 0 0 0" />
-            <part node="0>10|1|5" startTime="8.19" endTime="8.82" shaderParameter="offsetUV" shaderStartValues="3.25 0 0 0" shaderEndValues="3.5 0 0 0" />
-            <part node="0>10|1|0|0" startTime="8.19" endTime="8.82" startRot="-1980 0 0" endRot="-2160 0 0" />
-            <part node="0>10|1|0|1" startTime="8.19" endTime="8.82" startRot="-1980 0 0" endRot="-2160 0 0" />
-            <part node="0>10|1|4" startTime="8.82" endTime="9.45" shaderParameter="offsetUV" shaderStartValues="3.5 0 0 0" shaderEndValues="3.75 0 0 0" />
-            <part node="0>10|1|5" startTime="8.82" endTime="9.45" shaderParameter="offsetUV" shaderStartValues="3.5 0 0 0" shaderEndValues="3.75 0 0 0" />
-            <part node="0>10|1|0|0" startTime="8.82" endTime="9.45" startRot="-2160 0 0" endRot="-2300 0 0" />
-            <part node="0>10|1|0|1" startTime="8.82" endTime="9.45" startRot="-2160 0 0" endRot="-2300 0 0" />
-            <part node="0>10|1|4" startTime="9.45" endTime="10.08" shaderParameter="offsetUV" shaderStartValues="3.75 0 0 0" shaderEndValues="4 0 0 0" />
-            <part node="0>10|1|5" startTime="9.45" endTime="10.08" shaderParameter="offsetUV" shaderStartValues="3.75 0 0 0" shaderEndValues="4 0 0 0" />
-            <part node="0>10|1|0|0" startTime="9.45" endTime="10.08" startRot="-2300 0 0" endRot="-2360 0 0" />
-            <part node="0>10|1|0|1" startTime="9.45" endTime="10.08" startRot="-2300 0 0" endRot="-2360 0 0" />
-            <part node="0>10|1|4" startTime="10.08" endTime="14" shaderParameter="offsetUV" shaderStartValues="4 0 0 0" shaderEndValues="4.05 0 0 0" />
-            <part node="0>10|1|5" startTime="10.08" endTime="14" shaderParameter="offsetUV" shaderStartValues="4 0 0 0" shaderEndValues="4.05 0 0 0" />
-            <part node="0>10|1|0|0" startTime="10.08" endTime="14" startRot="-2360 0 0" endRot="-2370 0 0" />
-            <part node="0>10|1|0|1" startTime="10.08" endTime="14" startRot="-2360 0 0" endRot="-2370 0 0" />
+            <part node="0>10|1|0|0" startTime="7.56" endTime="8.19" startRot="-1920 0 0" endRot="-2000 0 0" />
+            <part node="0>10|1|0|1" startTime="7.56" endTime="8.19" startRot="-1920 0 0" endRot="-2000 0 0" />
+            <part node="0>10|1|4" startTime="8.19" endTime="8.82" shaderParameter="offsetUV" shaderStartValues="3.25 0 0 0" shaderEndValues="3.3 0 0 0" />
+            <part node="0>10|1|5" startTime="8.19" endTime="8.82" shaderParameter="offsetUV" shaderStartValues="3.25 0 0 0" shaderEndValues="3.3 0 0 0" />
+            <part node="0>10|1|0|0" startTime="8.19" endTime="8.82" startRot="-2000 0 0" endRot="-2050 0 0" />
+            <part node="0>10|1|0|1" startTime="8.19" endTime="8.82" startRot="-2000 0 0" endRot="-2050 0 0" />
+            <part node="0>10|1|4" startTime="8.82" endTime="9.45" shaderParameter="offsetUV" shaderStartValues="3.3 0 0 0" shaderEndValues="3.35 0 0 0" />
+            <part node="0>10|1|5" startTime="8.82" endTime="9.45" shaderParameter="offsetUV" shaderStartValues="3.3 0 0 0" shaderEndValues="3.35 0 0 0" />
+            <part node="0>10|1|0|0" startTime="8.82" endTime="9.45" startRot="-2050 0 0" endRot="-2100 0 0" />
+            <part node="0>10|1|0|1" startTime="8.82" endTime="9.45" startRot="-2050 0 0" endRot="-2100 0 0" />
+            <part node="0>10|1|4" startTime="9.45" endTime="10.08" shaderParameter="offsetUV" shaderStartValues="3.35 0 0 0" shaderEndValues="3.4 0 0 0" />
+            <part node="0>10|1|5" startTime="9.45" endTime="10.08" shaderParameter="offsetUV" shaderStartValues="3.35 0 0 0" shaderEndValues="3.4 0 0 0" />
+            <part node="0>10|1|0|0" startTime="9.45" endTime="10.08" startRot="-2100 0 0" endRot="-2150 0 0" />
+            <part node="0>10|1|0|1" startTime="9.45" endTime="10.08" startRot="-2100 0 0" endRot="-2150 0 0" />
+            <part node="0>10|1|4" startTime="10.08" endTime="14" shaderParameter="offsetUV" shaderStartValues="3.4 0 0 0" shaderEndValues="3.5 0 0 0" />
+            <part node="0>10|1|5" startTime="10.08" endTime="14" shaderParameter="offsetUV" shaderStartValues="3.4 0 0 0" shaderEndValues="3.5 0 0 0" />
+            <part node="0>10|1|0|0" startTime="10.08" endTime="14" startRot="-2150 0 0" endRot="-2200 0 0" />
+            <part node="0>10|1|0|1" startTime="10.08" endTime="14" startRot="-2150 0 0" endRot="-2200 0 0" />
             <part node="0>14|0|6" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 -18" />
             <part node="0>14|0|6" startTime="15" duration="1" startRot="0 0 -18" endRot="0 0 0" />
             <part node="0>14|0|6|0" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 18" />
