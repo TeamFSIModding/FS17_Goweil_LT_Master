@@ -800,11 +800,6 @@
         <silageAdditive fillUnitIndex="3" fillTypes="chaff grass_windrow" gain="1.1" usage="0.0012" fillLitersPerSecond="20">
             <effects>
                 <effectNode effectNode="0>31|0" materialType="SPRAYER" />
-                <effectNode effectNode="0>31|1" materialType="SPRAYER" />
-                <effectNode effectNode="0>31|2" materialType="SPRAYER" />
-                <effectNode effectNode="0>31|3" materialType="SPRAYER" />
-                <effectNode effectNode="0>31|4" materialType="SPRAYER" />
-                <effectNode effectNode="0>31|5" materialType="SPRAYER" />
             </effects>
             <fillSound file="$data/maps/sounds/refuel.wav" pitchOffset="1.00" volume="1" volume3D="1" indoorVolumeFactor="0.5" innerRadius="5" radius="15" />
         </silageAdditive>
