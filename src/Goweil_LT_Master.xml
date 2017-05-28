@@ -174,9 +174,9 @@
         <animation name="folding2">
             <!--scivoloUP -->
             <part node="0>7" startTime="0" duration="3" startTrans="0 4.347 -0.01" endTrans="0 3.731 -0.67" />
-            <part node="0>7|2|4" startTime="0" duration="3" startRot="0 0 0" endRot="-180 0 0" />
-            <part node="0>7|2|3" startTime="0" duration="3" startRot="0 0 0" endRot="-180 0 0" />
-            <part node="0>7|2|5" startTime="3" duration="11" startRot="0 0 0" endRot="-400 0 0" />
+            <part node="0>7|2|4" startTime="0" duration="3" startRot="0 0 0" endRot="-300 0 0" />
+            <part node="0>7|2|3" startTime="0" duration="3" startRot="0 0 0" endRot="-300 0 0" />
+            <part node="0>7|2|5" startTime="3" duration="11" startRot="0 0 0" endRot="-700 0 0" />
             <part node="0>7" startTime="3" duration="11" startRot="-43 0 0" endRot="-13.802 0 0" />
             <part node="0>7" startTime="3" duration="11" startTrans="0 3.731 -0.67" endTrans="0 1.43 -2.821" />
             <part node="0>15|12|5|0" direction="1" startTime="0" duration="1" startTrans="0 0 0" endTrans="-0.1 0 0" />
@@ -184,8 +184,10 @@
             <part node="0>15|12|6|0" direction="-1" startTime="0" duration="1" startTrans="0 0 0" endTrans="-0.1 0 0" />
             <part node="0>15|12|6|0" direction="-1" startTime="10" duration="1" startTrans="-0.1 0 0" endTrans="0 0 0" />
             <!--apertura_scivoloUP-->
-            <part node="0>7|4|0" startTime="12" duration="3" startRot="0 0 0" endRot="0 0 90" />
+            <part node="0>7|4|0" startTime="12.5" duration="3" startRot="0 0 0" endRot="0 0 90" />
             <part node="0>7|4|1" startTime="13" duration="3" startRot="0 0 0" endRot="0 0 -90" />
+            <part node="0>7|0|6" startTime="12.5" duration="3" startTrans="-0.515 2.442 -9.949" endTrans="-0.65 2.442 -9.949" />
+            <part node="0>7|0|7" startTime="12.5" duration="3" startTrans="0.515 2.442 -9.949" endTrans="0.65 2.442 -9.949" />
             <part node="0>14|0|18" direction="1" startTime="11" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|18" direction="1" startTime="13.7" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
             <part node="0>14|0|18" direction="-1" startTime="11" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
@@ -271,14 +273,19 @@
         <animation name="unloadBale">
             <part node="0>12" startTime="0" duration="0.75" startRot="0 0 0" endRot="-90 0 0" />
             <part node="0>12|8" startTime="0" duration="0.75" startRot="0 0 0" endRot="25 0 0" />
-            <part node="0>10|1" startTime="0.75" duration="1" startTrans="0 -0.969 -0.178" endTrans="0 -0.969 -1.025" />
-            <part node="0>10|1" startTime="4.25" duration="2.25" startTrans="0 -0.969 -1.025" endTrans="0 -0.969 -0.178" />
+            <part node="0>10|1" startTime="0.75" duration="1.2" startTrans="0 -1.25 -0.185" endTrans="0 -1.25 -1.025" />
+            <part node="0>10|1" startTime="4.25" duration="2.25" startTrans="0 -1.25 -1.025" endTrans="0 -1.25 -0.185" />
+            <part node="0>10|1|8|0" startTime="0.75" duration="1.2" startRot="0 0 0" endRot="-360 0 0" />
+            <part node="0>10|1|8|0" startTime="4.25" duration="2.25" startRot="-360 0 0" endRot="-720 0 0" />
+            <part node="0>10|1|7|0" startTime="0.75" duration="1.2" startRot="0 0 0" endRot="-360 0 0" />
+            <part node="0>10|1|7|0" startTime="4.25" duration="2.25" startRot="-360 0 0" endRot="-720 0 0" />
             <part node="0>14|0|5" startTime="0.75" duration="0.25" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|5" startTime="4" duration="0.3" startRot="0 0 20" endRot="0 0 -20" />
             <part node="0>14|0|5" startTime="6.5" duration="0.25" startRot="0 0 -20" endRot="0 0 0" />
             <part node="0>14|0|5|0" startTime="0.75" duration="0.25" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|5|0" startTime="4" duration="0.3" startRot="0 0 -20" endRot="0 0 20" />
             <part node="0>14|0|5|0" startTime="6.5" duration="0.25" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>23" startTime="1.249" duration="0" startRot="0 0 0" endRot="0 0 0" />
             <part node="0>23" startTime="1.25" duration="1" startTrans="0 2.632 1.442" endTrans="0 2.362 1.88" />
             <part node="0>23" startTime="1.25" duration="1" startRot="0 0 0" endRot="35 0 0" />
             <part node="0>23" startTime="2.25" duration="1" startTrans="0 2.362 1.88" endTrans="0 2.103 2.447" />
@@ -318,8 +325,10 @@
             <part node="0>10|1|9|0" startTime="0" duration="0" endRot="0 0 0" />
             <part node="0>10|1|4" startTime="0" duration="0" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0 0 0 0" />
             <part node="0>10|1|5" startTime="0" duration="0" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0 0 0 0" />
-            <part node="0>10|1" startTime="0" duration="1.5" startTrans="0 -0.969 -0.178" endTrans="0 -0.969 0.3" />
-            <part node="0>10|1" startTime="1.4" duration="1" startRot="0 0 0" endRot="62 0 0" />
+            <part node="0>10|1" startTime="0" duration="1.5" startTrans="0 -1.25 -0.185" endTrans="0 -1.25 0.3" />
+            <part node="0>10|1" startTime="1.4" duration="1" startRot="0 0 0" endRot="70 0 0" />
+            <part node="0>10|1|8|0" startTime="0" duration="1.5" startRot="0 0 0" endRot="-360 0 0" />
+            <part node="0>10|1|7|0" startTime="0" duration="1.5" startRot="0 0 0" endRot="-360 0 0" />
             <part node="0>10|1|4" startTime="1.5" duration="0.8" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="-1 0 0 0" />
             <part node="0>10|1|5" startTime="1.5" duration="0.8" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="-1 0 0 0" />
             <part node="0>10|1|9|0" startTime="1.5" duration="0.5" startRot="0 0 0" endRot="0 0 20" startTrans="0 0 0" endTrans="-0.07 -0.1 0" />
@@ -332,8 +341,10 @@
             <part node="0>14|0|5|0" startTime="2.75" duration="0.25" startRot="0 0 20" endRot="0 0 0" />
         </animation>
         <animation name="resetWrapperAfterBaleDrop">
-            <part node="0>10|1" startTime="0" endTime="1" startRot="62 0 0" endRot="0 0 0" />
-            <part node="0>10|1" startTime="2" endTime="3.5" startTrans="0 -0.969 0.3" endTrans="0 -0.969 -0.178" />
+            <part node="0>10|1" startTime="0" endTime="1" startRot="70 0 0" endRot="0 0 0" />
+            <part node="0>10|1" startTime="2" endTime="3.5" startTrans="0 -1.25 0.3" endTrans="0 -1.25 -0.185" />
+            <part node="0>10|1|8|0" startTime="2" duration="1.5" startRot="-360 0 0" endRot="0 0 0" />
+            <part node="0>10|1|7|0" startTime="2" duration="1.5" startRot="-360 0 0" endRot="0 0 0" />
             <part node="0>10|1|9|0" startTime="0" duration="0" endRot="0 0 0" endTrans="0 0 0"/>
             <part node="0>10|1|4" startTime="0" duration="0" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0 0 0 0" />
             <part node="0>10|1|5" startTime="0" duration="0" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0 0 0 0" />
@@ -368,18 +379,24 @@
             <part node="0>10|1|2|0" startTime="5.67" endTime="6.3" startRot="0 -1440 0" endRot="0 -1620 0" />
             <part node="0>10|1|1|0" startTime="6.3" endTime="6.93" startRot="0 -1620 0" endRot="0 -1800 0" />
             <part node="0>10|1|2|0" startTime="6.3" endTime="6.93" startRot="0 -1620 0" endRot="0 -1800 0" />
-            <part node="0>10|1|1|0" startTime="6.93" endTime="7.56" startRot="0 -1800 0" endRot="0 -1920 0" />
-            <part node="0>10|1|2|0" startTime="6.93" endTime="7.56" startRot="0 -1800 0" endRot="0 -1920 0" />
-            <part node="0>10|1|1|0" startTime="7.56" endTime="8.19" startRot="0 -1920 0" endRot="0 -2000 0" />
-            <part node="0>10|1|2|0" startTime="7.56" endTime="8.19" startRot="0 -1920 0" endRot="0 -2000 0" />
-            <part node="0>10|1|1|0" startTime="8.19" endTime="8.82" startRot="0 -2000 0" endRot="0 -2050 0" />
-            <part node="0>10|1|2|0" startTime="8.19" endTime="8.82" startRot="0 -2000 0" endRot="0 -2050 0" />
-            <part node="0>10|1|1|0" startTime="8.82" endTime="9.45" startRot="0 -2050 0" endRot="0 -2100 0" />
-            <part node="0>10|1|2|0" startTime="8.82" endTime="9.45" startRot="0 -2050 0" endRot="0 -2100 0" />
-            <part node="0>10|1|1|0" startTime="9.45" endTime="10.08" startRot="0 -2100 0" endRot="0 -2150 0" />
-            <part node="0>10|1|2|0" startTime="9.45" endTime="10.08" startRot="0 -2100 0" endRot="0 -2150 0" />
-            <part node="0>10|1|1|0" startTime="10.08" endTime="14" startRot="0 -2150 0" endRot="0 -2200 0" />
-            <part node="0>10|1|2|0" startTime="10.08" endTime="14" startRot="0 -2150 0" endRot="0 -2200 0" />
+            <part node="0>10|1|1|0" startTime="6.93" endTime="7.56" startRot="0 -1800 0" endRot="0 -1980 0" />
+            <part node="0>10|1|2|0" startTime="6.93" endTime="7.56" startRot="0 -1800 0" endRot="0 -1980 0" />
+            <part node="0>10|1|1|0" startTime="7.56" endTime="8.19" startRot="0 -1980 0" endRot="0 -2160 0" />
+            <part node="0>10|1|2|0" startTime="7.56" endTime="8.19" startRot="0 -1980 0" endRot="0 -2160 0" />
+            <part node="0>10|1|1|0" startTime="8.19" endTime="8.82" startRot="0 -2160 0" endRot="0 -2340 0" />
+            <part node="0>10|1|2|0" startTime="8.19" endTime="8.82" startRot="0 -2160 0" endRot="0 -2340 0" />
+            <part node="0>10|1|1|0" startTime="8.82" endTime="9.45" startRot="0 -2340 0" endRot="0 -2520 0" />
+            <part node="0>10|1|2|0" startTime="8.82" endTime="9.45" startRot="0 -2340 0" endRot="0 -2520 0" />
+            <part node="0>10|1|1|0" startTime="9.45" endTime="10.08" startRot="0 -2520 0" endRot="0 -2700 0" />
+            <part node="0>10|1|2|0" startTime="9.45" endTime="10.08" startRot="0 -2520 0" endRot="0 -2700 0" />
+            <part node="0>10|1|1|0" startTime="10.08" endTime="10.71" startRot="0 -2700 0" endRot="0 -2880 0" />
+            <part node="0>10|1|2|0" startTime="10.08" endTime="10.71" startRot="0 -2700 0" endRot="0 -2880 0" />
+            <part node="0>10|1|1|0" startTime="10.71" endTime="11.34" startRot="0 -2880 0" endRot="0 -3060 0" />
+            <part node="0>10|1|2|0" startTime="10.71" endTime="11.34" startRot="0 -2880 0" endRot="0 -3060 0" />
+            <part node="0>10|1|1|0" startTime="11.34" endTime="13.3" startRot="0 -3060 0" endRot="0 -3240 0" />
+            <part node="0>10|1|2|0" startTime="11.34" endTime="13.3" startRot="0 -3060 0" endRot="0 -3240 0" />
+            <part node="0>10|1|1|0" startTime="13.3" endTime="14" startRot="0 -3060 0" endRot="0 -3240 0" />
+            <part node="0>10|1|2|0" startTime="13.3" endTime="14" startRot="0 -3060 0" endRot="0 -3240 0" />
             <part node="0>10|1|4" startTime="0.63" endTime="1.26" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0.25 0 0 0" />
             <part node="0>10|1|5" startTime="0.63" endTime="1.26" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0.25 0 0 0" />
             <part node="0>10|1|0|0" startTime="0.63" endTime="1.26" startRot="-0 0 0" endRot="-90 0 0" />
@@ -422,38 +439,50 @@
             <part node="0>10|1|0|1" startTime="6.3" endTime="6.93" startRot="-1620 0 0" endRot="-1800 0 0" />
             <part node="0>10|1|4" startTime="6.93" endTime="7.56" shaderParameter="offsetUV" shaderStartValues="2.75 0 0 0" shaderEndValues="3 0 0 0" />
             <part node="0>10|1|5" startTime="6.93" endTime="7.56" shaderParameter="offsetUV" shaderStartValues="2.75 0 0 0" shaderEndValues="3 0 0 0" />
-            <part node="0>10|1|0|0" startTime="6.93" endTime="7.56" startRot="-1800 0 0" endRot="-1920 0 0" />
-            <part node="0>10|1|0|1" startTime="6.93" endTime="7.56" startRot="-1800 0 0" endRot="-1920 0 0" />
+            <part node="0>10|1|0|0" startTime="6.93" endTime="7.56" startRot="-1800 0 0" endRot="-1980 0 0" />
+            <part node="0>10|1|0|1" startTime="6.93" endTime="7.56" startRot="-1800 0 0" endRot="-1980 0 0" />
             <part node="0>10|1|4" startTime="7.56" endTime="8.19" shaderParameter="offsetUV" shaderStartValues="3 0 0 0" shaderEndValues="3.25 0 0 0" />
             <part node="0>10|1|5" startTime="7.56" endTime="8.19" shaderParameter="offsetUV" shaderStartValues="3 0 0 0" shaderEndValues="3.25 0 0 0" />
-            <part node="0>10|1|0|0" startTime="7.56" endTime="8.19" startRot="-1920 0 0" endRot="-2000 0 0" />
-            <part node="0>10|1|0|1" startTime="7.56" endTime="8.19" startRot="-1920 0 0" endRot="-2000 0 0" />
-            <part node="0>10|1|4" startTime="8.19" endTime="8.82" shaderParameter="offsetUV" shaderStartValues="3.25 0 0 0" shaderEndValues="3.3 0 0 0" />
-            <part node="0>10|1|5" startTime="8.19" endTime="8.82" shaderParameter="offsetUV" shaderStartValues="3.25 0 0 0" shaderEndValues="3.3 0 0 0" />
-            <part node="0>10|1|0|0" startTime="8.19" endTime="8.82" startRot="-2000 0 0" endRot="-2050 0 0" />
-            <part node="0>10|1|0|1" startTime="8.19" endTime="8.82" startRot="-2000 0 0" endRot="-2050 0 0" />
-            <part node="0>10|1|4" startTime="8.82" endTime="9.45" shaderParameter="offsetUV" shaderStartValues="3.3 0 0 0" shaderEndValues="3.35 0 0 0" />
-            <part node="0>10|1|5" startTime="8.82" endTime="9.45" shaderParameter="offsetUV" shaderStartValues="3.3 0 0 0" shaderEndValues="3.35 0 0 0" />
-            <part node="0>10|1|0|0" startTime="8.82" endTime="9.45" startRot="-2050 0 0" endRot="-2100 0 0" />
-            <part node="0>10|1|0|1" startTime="8.82" endTime="9.45" startRot="-2050 0 0" endRot="-2100 0 0" />
-            <part node="0>10|1|4" startTime="9.45" endTime="10.08" shaderParameter="offsetUV" shaderStartValues="3.35 0 0 0" shaderEndValues="3.4 0 0 0" />
-            <part node="0>10|1|5" startTime="9.45" endTime="10.08" shaderParameter="offsetUV" shaderStartValues="3.35 0 0 0" shaderEndValues="3.4 0 0 0" />
-            <part node="0>10|1|0|0" startTime="9.45" endTime="10.08" startRot="-2100 0 0" endRot="-2150 0 0" />
-            <part node="0>10|1|0|1" startTime="9.45" endTime="10.08" startRot="-2100 0 0" endRot="-2150 0 0" />
-            <part node="0>10|1|4" startTime="10.08" endTime="14" shaderParameter="offsetUV" shaderStartValues="3.4 0 0 0" shaderEndValues="3.5 0 0 0" />
-            <part node="0>10|1|5" startTime="10.08" endTime="14" shaderParameter="offsetUV" shaderStartValues="3.4 0 0 0" shaderEndValues="3.5 0 0 0" />
-            <part node="0>10|1|0|0" startTime="10.08" endTime="14" startRot="-2150 0 0" endRot="-2200 0 0" />
-            <part node="0>10|1|0|1" startTime="10.08" endTime="14" startRot="-2150 0 0" endRot="-2200 0 0" />
+            <part node="0>10|1|0|0" startTime="7.56" endTime="8.19" startRot="-1980 0 0" endRot="-2160 0 0" />
+            <part node="0>10|1|0|1" startTime="7.56" endTime="8.19" startRot="-1980 0 0" endRot="-2160 0 0" />
+            <part node="0>10|1|4" startTime="8.19" endTime="8.82" shaderParameter="offsetUV" shaderStartValues="3.25 0 0 0" shaderEndValues="3.5 0 0 0" />
+            <part node="0>10|1|5" startTime="8.19" endTime="8.82" shaderParameter="offsetUV" shaderStartValues="3.25 0 0 0" shaderEndValues="3.5 0 0 0" />
+            <part node="0>10|1|0|0" startTime="8.19" endTime="8.82" startRot="-2160 0 0" endRot="-2340 0 0" />
+            <part node="0>10|1|0|1" startTime="8.19" endTime="8.82" startRot="-2160 0 0" endRot="-2340 0 0" />
+            <part node="0>10|1|4" startTime="8.82" endTime="9.45" shaderParameter="offsetUV" shaderStartValues="3.5 0 0 0" shaderEndValues="3.75 0 0 0" />
+            <part node="0>10|1|5" startTime="8.82" endTime="9.45" shaderParameter="offsetUV" shaderStartValues="3.5 0 0 0" shaderEndValues="3.75 0 0 0" />
+            <part node="0>10|1|0|0" startTime="8.82" endTime="9.45" startRot="-2340 0 0" endRot="-2520 0 0" />
+            <part node="0>10|1|0|1" startTime="8.82" endTime="9.45" startRot="-2340 0 0" endRot="-2520 0 0" />
+            <part node="0>10|1|4" startTime="9.45" endTime="10.08" shaderParameter="offsetUV" shaderStartValues="4 0 0 0" shaderEndValues="4.25 0 0 0" />
+            <part node="0>10|1|5" startTime="9.45" endTime="10.08" shaderParameter="offsetUV" shaderStartValues="4 0 0 0" shaderEndValues="4.25 0 0 0" />
+            <part node="0>10|1|0|0" startTime="9.45" endTime="10.08" startRot="-2520 0 0" endRot="-2700 0 0" />
+            <part node="0>10|1|0|1" startTime="9.45" endTime="10.08" startRot="-2520 0 0" endRot="-2700 0 0" />
+            <part node="0>10|1|4" startTime="10.08" endTime="10.71" shaderParameter="offsetUV" shaderStartValues="4.25 0 0 0" shaderEndValues="4.5 0 0 0" />
+            <part node="0>10|1|5" startTime="10.08" endTime="10.71" shaderParameter="offsetUV" shaderStartValues="4.25 0 0 0" shaderEndValues="4.5 0 0 0" />
+            <part node="0>10|1|0|0" startTime="10.08" endTime="10.71" startRot="-2700 0 0" endRot="-2880 0 0" />
+            <part node="0>10|1|0|1" startTime="10.08" endTime="10.71" startRot="-2700 0 0" endRot="-2880 0 0" />
+            <part node="0>10|1|4" startTime="10.71" endTime="11.34" shaderParameter="offsetUV" shaderStartValues="4.5 0 0 0" shaderEndValues="4.75 0 0 0" />
+            <part node="0>10|1|5" startTime="10.71" endTime="11.34" shaderParameter="offsetUV" shaderStartValues="4.5 0 0 0" shaderEndValues="4.75 0 0 0" />
+            <part node="0>10|1|0|0" startTime="10.71" endTime="11.34" startRot="-2880 0 0" endRot="-3060 0 0" />
+            <part node="0>10|1|0|1" startTime="10.71" endTime="11.34" startRot="-2880 0 0" endRot="-3060 0 0" />
+            <part node="0>10|1|4" startTime="11.34" endTime="13.3" shaderParameter="offsetUV" shaderStartValues="4.75 0 0 0" shaderEndValues="5 0 0 0" />
+            <part node="0>10|1|5" startTime="11.34" endTime="13.3" shaderParameter="offsetUV" shaderStartValues="4.75 0 0 0" shaderEndValues="5 0 0 0" />
+            <part node="0>10|1|0|0" startTime="11.34" endTime="13.3" startRot="-3060 0 0" endRot="-3240 0 0" />
+            <part node="0>10|1|0|1" startTime="11.34" endTime="13.3" startRot="-3060 0 0" endRot="-3240 0 0" />
+            <part node="0>10|1|4" startTime="13.3" endTime="14" shaderParameter="offsetUV" shaderStartValues="4.75 0 0 0" shaderEndValues="5 0 0 0" />
+            <part node="0>10|1|5" startTime="13.3" endTime="14" shaderParameter="offsetUV" shaderStartValues="4.75 0 0 0" shaderEndValues="5 0 0 0" />
+            <part node="0>10|1|0|0" startTime="13.3" endTime="14" startRot="-3060 0 0" endRot="-3240 0 0" />
+            <part node="0>10|1|0|1" startTime="13.3" endTime="14" startRot="-3060 0 0" endRot="-3240 0 0" />
             <part node="0>14|0|6" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 -18" />
             <part node="0>14|0|6" startTime="15" duration="1" startRot="0 0 -18" endRot="0 0 0" />
             <part node="0>14|0|6|0" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 18" />
             <part node="0>14|0|6|0" startTime="15" duration="1" startRot="0 0 18" endRot="0 0 0" />
-            <part node="0>10|2|0|0" startTime="9.5" duration="0.5" startRot="0 0 0" endRot="-69 0 0" />
-            <part node="0>10|2|0|0|0" startTime="9.7" duration="0.5" startRot="0 0 0" endRot="122 0 0" />
+            <part node="0>10|2|0|0" startTime="9.47" duration="0.7" startRot="0 0 0" endRot="-69 0 0" />
+            <part node="0>10|2|0|0|0" startTime="9.47" duration="0.7" startRot="0 0 0" endRot="122 0 0" />
             <part node="0>10|2|0|0" startTime="13.95" duration="0.1" startRot="-69 0 0" endRot="0 0 0" />
             <part node="0>10|2|0|0|0" startTime="13.95" duration="0.1" startRot="122 0 0" endRot="0 0 0" />
-            <part node="0>10|2|1|0|0" startTime="9.3" duration="0.5" startRot="0 0 0" endRot="-69 0 0" />
-            <part node="0>10|2|1|0|0|0" startTime="9.5" duration="0.5" startRot="0 0 0" endRot="122 0 0" />
+            <part node="0>10|2|1|0|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="-69 0 0" />
+            <part node="0>10|2|1|0|0|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="122 0 0" />
             <part node="0>10|2|1|0|0" startTime="13.95" duration="0.1" startRot="-69 0 0" endRot="0 0 0" />
             <part node="0>10|2|1|0|0|0" startTime="13.95" duration="0.1" startRot="122 0 0" endRot="0 0 0" />
             <part node="0>14|0|3" startTime="13.5" duration="0.25" startRot="0 0 0" endRot="0 0 18" />
@@ -680,7 +709,7 @@
         </conveyor>
         <wrapper>
             <mustWrappedBales fillTypes="silage chaff woodChips manure" />
-            <balesFoil fillUnitIndex="5" foilRollMinScale="0.3" leftFoilRollIndex="0>10|0|1|0" rightFoilRollIndex="0>10|0|2|0" leftFoilIndex="0>10|0|5" rightFoilIndex="0>10|0|6" foilRollUses="70" fillLitersPerSecond="1">
+            <balesFoil fillUnitIndex="5" foilRollMinScale="0.3" leftFoilRollIndex="0>10|0|1" rightFoilRollIndex="0>10|0|2" leftFoilIndex="0>10|0|5" rightFoilIndex="0>10|0|6" foilRollUses="70" fillLitersPerSecond="1">
                 <foilNode index="0>15|1|0" order="1" />
                 <foilNode index="0>15|1|1" order="2" />
                 <foilNode index="0>15|1|2" order="3" />
@@ -711,29 +740,32 @@
                 </baleTypes>
                 <wrapperAnimation>
                     <key time="0" baleRot="0 0 0" wrapperRot="0 0 0" />
-                    <key time="0.045" baleRot="0 0 0" wrapperRot="0 -80 0" />
-                    <key time="0.09" baleRot="0 0 18" wrapperRot="0 -180 0" />
-                    <key time="0.135" baleRot="0 0 36" wrapperRot="0 -260 0 " />
-                    <key time="0.18" baleRot="0 0 54" wrapperRot="0 -360 0" />
-                    <key time="0.225" baleRot="0 0 72" wrapperRot="0 -440 0" />
-                    <key time="0.27" baleRot="0 0 90" wrapperRot="0 -540 0" />
-                    <key time="0.315" baleRot="0 0 108" wrapperRot="0 -620 0" />
-                    <key time="0.36" baleRot="0 0 126" wrapperRot="0 -720 0" />
-                    <key time="0.405" baleRot="0 0 144" wrapperRot="0 -800 0" />
-                    <key time="0.45" baleRot="0 0 162" wrapperRot="0 -900 0" />
-                    <key time="0.495" baleRot="0 0 180" wrapperRot="0 -980 0" />
-                    <key time="0.54" baleRot="0 0 192" wrapperRot="0 -1080 0" />
-                    <key time="0.585" baleRot="0 0 200" wrapperRot="0 -1160 0" />
-                    <key time="0.63" baleRot="0 0 205" wrapperRot="0 -1260 0" />
-                    <key time="0.675" baleRot="0 0 210" wrapperRot="0 -1340 0" />
-                    <key time="0.72" baleRot="0 0 215" wrapperRot="0 -1400 0" />
-                    <key time="1" baleRot="0 0 220" wrapperRot="0 -1440 0" />
+                    <key time="0.045" baleRot="0 0 0" wrapperRot="0 -85 0" />
+                    <key time="0.09" baleRot="0 0 18" wrapperRot="0 -185 0" />
+                    <key time="0.135" baleRot="0 0 36" wrapperRot="0 -265 0 " />
+                    <key time="0.18" baleRot="0 0 54" wrapperRot="0 -365 0" />
+                    <key time="0.225" baleRot="0 0 72" wrapperRot="0 -445 0" />
+                    <key time="0.27" baleRot="0 0 90" wrapperRot="0 -545 0" />
+                    <key time="0.315" baleRot="0 0 108" wrapperRot="0 -640 0" />
+                    <key time="0.36" baleRot="0 0 126" wrapperRot="0 -730 0" />
+                    <key time="0.405" baleRot="0 0 144" wrapperRot="0 -805 0" />
+                    <key time="0.45" baleRot="0 0 162" wrapperRot="0 -905 0" />
+                    <key time="0.495" baleRot="0 0 180" wrapperRot="0 -985 0" />
+                    <key time="0.54" baleRot="0 0 198" wrapperRot="0 -1085 0" />
+                    <key time="0.585" baleRot="0 0 216" wrapperRot="0 -1165 0" />
+                    <key time="0.63" baleRot="0 0 234" wrapperRot="0 -1265 0" />
+                    <key time="0.675" baleRot="0 0 252" wrapperRot="0 -1345 0" />
+                    <key time="0.72" baleRot="0 0 270" wrapperRot="0 -1405 0" />
+                    <key time="0.765" baleRot="0 0 288" wrapperRot="0 -1430 0" />
+                    <key time="0.81" baleRot="0 0 306" wrapperRot="0 -1435 0" />
+                    <key time="0.95" baleRot="0 0 324" wrapperRot="0 -1438 0" />
+                    <key time="1" baleRot="0 0 324" wrapperRot="0 -1440 0" />
                 </wrapperAnimation>
                 <wrapNodes>
-                    <wrapNode index="0>10|0|1|2" wrapVisibility="true" emptyVisibility="false" />
-                    <wrapNode index="0>10|0|2|2" wrapVisibility="true" emptyVisibility="false" />
-                    <wrapNode index="0>10|0|1|1" wrapVisibility="false" emptyVisibility="true" />
-                    <wrapNode index="0>10|0|2|1" wrapVisibility="false" emptyVisibility="true" />
+                    <wrapNode index="0>10|0|1|1" wrapVisibility="true" emptyVisibility="false" />
+                    <wrapNode index="0>10|0|2|1" wrapVisibility="true" emptyVisibility="false" />
+                    <wrapNode index="0>10|0|1|0" wrapVisibility="false" emptyVisibility="true" />
+                    <wrapNode index="0>10|0|2|0" wrapVisibility="false" emptyVisibility="true" />
                 </wrapNodes>
             </roundBaleWrapper>
         </wrapper>
@@ -812,6 +844,11 @@
         <silageAdditive fillUnitIndex="3" fillTypes="chaff grass_windrow" gain="1.1" usage="0.0012" fillLitersPerSecond="20">
             <effects>
                 <effectNode effectNode="0>31|0" materialType="SPRAYER" />
+                <effectNode effectNode="0>31|1" materialType="SPRAYER" />
+                <effectNode effectNode="0>31|2" materialType="SPRAYER" />
+                <effectNode effectNode="0>31|3" materialType="SPRAYER" />
+                <effectNode effectNode="0>31|4" materialType="SPRAYER" />
+                <effectNode effectNode="0>31|5" materialType="SPRAYER" />
             </effects>
             <fillSound file="$data/maps/sounds/refuel.wav" pitchOffset="1.00" volume="1" volume3D="1" indoorVolumeFactor="0.5" innerRadius="5" radius="15" />
         </silageAdditive>
