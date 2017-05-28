@@ -138,6 +138,8 @@
     </Material>
     <Material name="decals_goweil" materialId="24" ambientColor="1 1 1">
       <Texture fileId="29"/>
+	  <CustomParameter name="RDT" value="1 0.99 20 20"/>
+      <CustomParameter name="RDTColor" value="0.11 0.12 0.08 0"/>
     </Material>
     <Material name="corona_orange_mat" materialId="14" ambientColor="1 1 1" alphaBlending="true" customShaderId="35">
       <Emissivemap fileId="36"/>
@@ -148,8 +150,8 @@
       <Normalmap fileId="15"/>
       <Glossmap fileId="16"/>
       <Reflectionmap fileId="5" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
-      <CustomParameter name="RDT" value="1 1 20 20"/>
-      <CustomParameter name="RDTColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="RDT" value="1 1 50 50"/>
+      <CustomParameter name="RDTColor" value="0.11 0.12 0.08 0"/>
     </Material>
     <Material name="lambert1" materialId="16" diffuseColor="0.486275 0.494118 0.494118 1" ambientColor="1 1 1">
     </Material>
@@ -185,8 +187,8 @@
       <Texture fileId="22"/>
       <Glossmap fileId="23"/>
       <Reflectionmap fileId="5" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
-      <CustomParameter name="RDT" value="1 1 20 20"/>
-      <CustomParameter name="RDTColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="RDT" value="0.93 1 50 50"/>
+      <CustomParameter name="RDTColor" value="0.11 0.12 0.08 0"/>
     </Material>
     <Material name="COMPUTER_MAT" materialId="32" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1" customShaderId="6">
       <Texture fileId="24"/>
@@ -201,7 +203,7 @@
       <Glossmap fileId="18"/>
       <Reflectionmap fileId="5" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
       <CustomParameter name="RDT" value="1 1 20 20"/>
-      <CustomParameter name="RDTColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="RDTColor" value="0.11 0.12 0.08 0"/>
     </Material>
     <Material name="car_corona_white_mat" materialId="34" ambientColor="1 1 1" alphaBlending="true" customShaderId="35" customShaderVariation="BILLBOARD">
       <Emissivemap fileId="38"/>
@@ -214,8 +216,8 @@
       <Normalmap fileId="40"/>
       <Glossmap fileId="41"/>
       <Reflectionmap fileId="5" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
-      <CustomParameter name="RDT" value="1 1 20 20"/>
-      <CustomParameter name="RDTColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="RDT" value="1 1 50 50"/>
+      <CustomParameter name="RDTColor" value="0.11 0.12 0.08 0"/>
     </Material>
     <Material name="LCD_Active" materialId="26" ambientColor="1 1 1">
       <Texture fileId="47"/>
@@ -229,8 +231,8 @@
       <Normalmap fileId="9"/>
       <Glossmap fileId="10"/>
       <Reflectionmap fileId="5" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
-      <CustomParameter name="RDT" value="1 1 20 20"/>
-      <CustomParameter name="RDTColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="RDT" value="1 1 50 50"/>
+      <CustomParameter name="RDTColor" value="0.11 0.12 0.08 0"/>
     </Material>
     <Material name="car_corona_white_mat" materialId="21" ambientColor="1 1 1" alphaBlending="true" customShaderId="35">
       <Emissivemap fileId="37"/>
