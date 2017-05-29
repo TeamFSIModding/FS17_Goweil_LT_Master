@@ -6,6 +6,7 @@
             <pl>Paleta z folią do owijania</pl>
             <es>Palet de papel para encintado</es>
             <ru>Поддон с фольгой</ru>
+            <nl>Wikkelfolie pallet</nl>
         </name>
         <functions>
             <function>$l10n_function_foilPallet</function>
