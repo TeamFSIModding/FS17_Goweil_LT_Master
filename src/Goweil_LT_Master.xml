@@ -751,10 +751,10 @@
                     <key time="1" baleRot="0 0 324" wrapperRot="0 -1440 0" />
                 </wrapperAnimation>
                 <wrapNodes>
-                    <wrapNode index="0>10|0|1|1" wrapVisibility="true" emptyVisibility="false" />
-                    <wrapNode index="0>10|0|2|1" wrapVisibility="true" emptyVisibility="false" />
-                    <wrapNode index="0>10|0|1|0" wrapVisibility="false" emptyVisibility="true" />
-                    <wrapNode index="0>10|0|2|0" wrapVisibility="false" emptyVisibility="true" />
+                    <wrapNode index="0>10|0|1|2" wrapVisibility="true" emptyVisibility="false" />
+                    <wrapNode index="0>10|0|2|2" wrapVisibility="true" emptyVisibility="false" />
+                    <wrapNode index="0>10|0|1|1" wrapVisibility="false" emptyVisibility="true" />
+                    <wrapNode index="0>10|0|2|1" wrapVisibility="false" emptyVisibility="true" />
                 </wrapNodes>
             </roundBaleWrapper>
         </wrapper>
