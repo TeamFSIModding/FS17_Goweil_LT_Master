@@ -6,6 +6,7 @@
             <pl>Zbiornik z dodatkami</pl>
             <es>Depósito de aditivo para ensilaje</es>
             <ru>Добавки к силосу</ru>
+            <nl> Silageadditief tank </nl>
         </name>
         <functions>
             <function>$l10n_function_silageAdditiveTank</function>
