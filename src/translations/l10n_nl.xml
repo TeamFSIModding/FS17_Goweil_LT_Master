@@ -23,13 +23,13 @@ U kunt uw gehuurd voertuig ophalen uit de winkel." />
         <text name="input_EVIBALE"                          text="Open en vervang baal" />
         <text name="typeDesc_ltmaster"                      text="LT-Master" />
         <text name="function_ltmasterbalerwrapper"          text="Goweil LT Master - Baal en wikkel combinatie " />
-        <text name="function_silageAdditiveTank"            text="Silageadditieven worden gebruikt om hogere resolutie te krijgen." />
+        <text name="function_silageAdditiveTank"            text="Silageadditieven worden gebruikt om hogere opbrengsten te krijgen." />
         <text name="function_foilPallet"                    text="Hoge kwaliteit wikkelfolie pallet." />
         <text name="function_netPallet"                     text="Baal net pallet." />
         <text name="fillType_silageAdditive"                text="Silage Additief" />
         <text name="fillType_balesNet"                      text="Baal Net" />
         <text name="fillType_balesFoil"                     text="Wikkel folie" />
-        <text name="GLTM_TEMP_INFO"                         text="Een complete gebruikershandleiding beschikbaar in het hulp menu.." />
+        <text name="GLTM_TEMP_INFO"                         text="Een complete gebruikershandleiding beschikbaar in het hulp menu." />
         <text name="GLTM_OPEN_HOOD"                         text="Open kap" />
         <text name="GLTM_CLOSE_HOOD"                        text="Sluit kap" />
         <text name="GLTM_LOWER_SUPPORTS"                    text="Laat steun zakken" />
@@ -52,7 +52,7 @@ U kunt uw gehuurd voertuig ophalen uit de winkel." />
         <!-- HelpLine texts -->
         <text name="GLTM_HL_CATEGORY"                       text="Goweil LT Master" />
         <text name="GLTM_HL_TITLE_00"                       text="Algemene beschrijving" />
-        <text name="GLTM_HL_TEXT_00_00"                     text="The LT Master Is een combinatie balenpers die een groot soort materiaal kunnen zijn, niet alleen mais kaf of gras; In het perspectief van het spel FS17, kan deze machine op velden of in de boerderij werken, en kan een breed assortiment materiaal veel sneller verwerken dan een conventionele balenpers en wrapper:" />
+        <text name="GLTM_HL_TEXT_00_00"                     text="De LT Master Is een combinatie balenpers die een groot soort materiaal kunnen zijn, niet alleen mais kaf of gras; In het perspectief van het spel FS17, kan deze machine op velden of in de boerderij werken, en kan een breed assortiment materiaal veel sneller verwerken dan een conventionele balenpers en wrapper:" />
         <text name="GLTM_HL_TEXT_00_01"                     text="Het kaf en het gras kunnen worden geperst en verpakt voor kuilvoerfermentatie" />
         <text name="GLTM_HL_TEXT_00_02"                     text="Hooi en stro kunnen worden tot baal geperst worden, en optioneel worden verpakt voor weerbescherming" />
         <text name="GLTM_HL_TEXT_00_03"                     text="Houtsnippers kunnen worden geperst en verpakt voor weerbescherming en voor betere opslag en hantering, aangezien LT Master het volume van tipische luchtdroogde houtsnippers kan verminderen" />
@@ -67,8 +67,7 @@ U kunt uw gehuurd voertuig ophalen uit de winkel." />
         <text name="GLTM_HL_TITLE_02"                       text="Operatie" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Plaats de trekker en de machine op vlak terrein en draai een beetje naar links, dan kunt u de machine in werkpositie zetten met $input_IMPLEMENT_EXTRA2; " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Ga naar de machine, open de rechter deur met $input_TOGGLE_COVER; Om toegang te krijgen tot het bedieningspaneel, laat de ondersteuning zakken $input_IMPLEMENT_EXTRA4; En zet de machine in werkpositie met $input_IMPLEMENT_EXTRA; als laatste laat de baal glijbaan zakken met $input_IMPLEMENT_EXTRA2; " />
-        <text name="GLTM_HL_TEXT_02_03"                     text="Nu kunt u in de trekker gaan en de machine aanzetten $input_IMPLEMENT_EXTRA; , en met $input_IMPLEMENT_EXTRA4; Is het mogelijk om de wrapper aan/uit te schakelen en met $input_IMPLEMENT_EXTRA3; Is het mogelijk om de desbetreffende baldichtheid in te stellen
-                                                                  et  mogelijk om de desbetreffende baldichtheid in te stellen. " />
+        <text name="GLTM_HL_TEXT_02_03"                     text="Nu kunt u in de trekker gaan en de machine aanzetten $input_IMPLEMENT_EXTRA; , en met $input_IMPLEMENT_EXTRA4; Is het mogelijk om de wrapper aan/uit te schakelen en met $input_IMPLEMENT_EXTRA3; Is het mogelijk om de desbetreffende baldichtheid in te stellen." />
         <text name="GLTM_HL_TEXT_02_04"                     text="Iconen op hud vanaf links: " />
         <text name="GLTM_HL_TEXT_02_05"                     text="  1) wrapper aan/uit  -  2) Net status  -  3) Folie Status  -  4) Baalkamer vul level" />
         <text name="GLTM_HL_TITLE_03"                       text="Net, wrap folie, Additief" />
@@ -77,7 +76,7 @@ U kunt uw gehuurd voertuig ophalen uit de winkel." />
         <text name="GLTM_HL_TEXT_03_02"                     text="Pallet Van verbruiksartikelen kunnen één voor één worden gebruikt om de machine te vullen $input_ACTIVATE_OBJECT; " />
         <text name="GLTM_HL_TITLE_04"                       text="overige functies" />
         <text name="GLTM_HL_TEXT_04_00"                     text="Deze mod voegt twee nuttige dingen toe: " />
-        <text name="GLTM_HL_TEXT_04_01"                     text="Te voet zie je informatie over balen rond en met $input_ACTIVATE_OBJECT; kunt je de baal uitpakken en het materiaal naar de grond plukken." />
+        <text name="GLTM_HL_TEXT_04_01"                     text="Te voet zie je informatie over balen rond en met $input_ACTIVATE_OBJECT; kunt je de baal uitpakken en het materiaal naar de grond verplaatsen." />
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
         <text name="GLTM_HL_TEXT_04_03"                     text="Optionele apparatuur die afzonderlijk kan worden gekocht:" />
         <text name="GLTM_HL_TEXT_04_04"                     text="1) Variabele stroom transportband " />
