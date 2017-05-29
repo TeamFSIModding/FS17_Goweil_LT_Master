@@ -17,9 +17,9 @@
       <Normalmap fileId="2"/>
       <Reflectionmap fileId="3" wrap="false" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.1" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4 -4 1 7"/>
-      <CustomParameter name="MaskChannels" value="0.1 0.7 0.1 0"/>
-      <CustomParameter name="ColorAlpha" value="0.85 0.95 1.1 2"/>
+      <CustomParameter name="UVScaleSpeed" value="2 -1 2 3"/>
+      <CustomParameter name="MaskChannels" value="0.1 0 0.1 0"/>
+      <CustomParameter name="ColorAlpha" value="0.85 1.05 1.15 2"/>
       <CustomParameter name="alphaRemap" value="0 1 0 0"/>
     </Material>
   </Materials>

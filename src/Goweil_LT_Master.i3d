@@ -2142,7 +2142,7 @@
           <Shape shapeId="763" name="nurbsToPoly98" nodeId="2282" materialIds="42" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="effectSpray" translation="0.00937325 4.32404 1.0535" rotation="-17.752 -8.48331e-06 -4.44591e-07" scale="0.672704 0.505246 0.673" visibility="false" nodeId="2283">
+      <TransformGroup name="effectSpray" translation="0.00937325 4.32404 1.0535" rotation="-17.752 -8.48331e-06 -4.44591e-07" scale="0.672704 0.505246 0.673" nodeId="2283">
         <Shape shapeId="764" name="middle" translation="0 0 0.0110866" rotation="10 -8.14222e-13 0" scale="0.870815 0.775947 0.832" clipDistance="100" nodeId="2284" materialIds="47" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
       <TransformGroup name="polmone" nodeId="2285">
@@ -2184,7 +2184,7 @@
         <Shape shapeId="778" name="move1_target" visibility="false" clipDistance="300" nodeId="2323" materialIds="21" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       </TransformGroup>
     </Shape>
-    <Camera name="work" translation="-4.5728 2.71531 -1.47747" rotation="174.041 -55.3026 -180" nodeId="2310" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
+    <Camera name="work" translation="2.11741 4.73355 5.21061" rotation="9.16706 23.3549 -1.18426e-06" nodeId="2310" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
       <Light name="light" rotation="-40 0 -30" visibility="false" nodeId="2311" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistancesParameter="0.4" decayRate="4" range="500"/>
     </Camera>
     <Camera name="Luigi" translation="6.19057 3.25849 -12.5047" rotation="165.332 25.9894 -180" nodeId="2312" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
