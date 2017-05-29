@@ -687,6 +687,7 @@
             </effects>
             <unloadEffects>
                 <effectNode effectClass="MorphPositionEffect" effectNode="0>35|0" materialType="BELT" fadeTime="0" speed="1" scrollLength="9" scrollSpeed="-0.5" />
+                <effectNode effectClass="MorphPositionEffect" effectNode="0>37" materialType="BELT" fadeTime="2" speed="1" scrollLength="9" scrollSpeed="0.5" />
             </unloadEffects>
             <unloadParticleSystems>
                 <!--Qui ci puoi mettere particle come il fumo che esce dalla camera di pressatura-->
