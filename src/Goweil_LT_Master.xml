@@ -517,8 +517,7 @@
             <part node="0>14|0|11|0" startTime="4.5" duration="1" startRot="0 0 0" endRot="0 0 -18" />
             <part node="0>14|0|11|0" startTime="6" duration="1" startRot="0 0 -18" endRot="0 0 0" />
         </animation>
-        <animation name="baling">
-        </animation>
+        <animation name="baling"></animation>
     </animations>
     <indoorHud>
         <balePressure animName="balePressure" minValueAnim="0" maxValueAnim="5000" />
