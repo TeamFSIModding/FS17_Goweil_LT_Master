@@ -980,6 +980,10 @@
           <Shape shapeId="268" name="move1" translation="5.04431e-14 -0.374 3.152" rotation="-2.125 8.14222e-13 -3.05333e-13" scale="3.691 0.457 0.557" clipDistance="300" nodeId="1375" materialIds="32" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="269" name="move1_taget" translation="0 -0.374 3.152" rotation="-2.125 0 0" scale="3.691 0.457 0.557" visibility="false" clipDistance="300" nodeId="1376" materialIds="21" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </TransformGroup>
+        <TransformGroup name="deformNodes" visibility="false" nodeId="2324">
+          <Shape shapeId="246" name="deform1" translation="1.09651 0 -0.25" rotation="0 180 0" nodeId="2325" materialIds="21" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="246" name="deform2" translation="-1.09627 0.25 -0.25" rotation="0 180 0" nodeId="2326" materialIds="21" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
       </TransformGroup>
       <TransformGroup name="conveyor" translation="0 2.70238 -1.094" nodeId="1377">
         <TransformGroup name="static" nodeId="1378">
@@ -2180,7 +2184,7 @@
         <Shape shapeId="778" name="move1_target" visibility="false" clipDistance="300" nodeId="2323" materialIds="21" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       </TransformGroup>
     </Shape>
-    <Camera name="work" translation="2.90131 5.01101 2.22059" rotation="-13.522 82.8958 6.43149e-06" nodeId="2310" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
+    <Camera name="work" translation="-0.0308136 7.32798 -8.73821" rotation="137.83 7.26442 -180" nodeId="2310" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
       <Light name="light" rotation="-40 0 -30" visibility="false" nodeId="2311" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistancesParameter="0.4" decayRate="4" range="500"/>
     </Camera>
     <Camera name="Luigi" translation="6.19057 3.25849 -12.5047" rotation="165.332 25.9894 -180" nodeId="2312" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>

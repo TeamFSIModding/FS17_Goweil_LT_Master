@@ -464,6 +464,20 @@ function LTMaster:update(dt)
             rootVehicle.motor:updateMotorRpm(dt);
         end
     end
+    if self.fillUnits ~= nil and self.LTMaster.conveyor.isOverloading then
+        local fillUnit = self.fillUnits[self.LTMaster.fillUnits["main"].index];
+        if fillUnit ~= nil then
+            local fillVolume = self.fillVolumes[fillUnit.fillVolumeIndex];
+            if fillVolume ~= nil then
+                if fillVolume.scrollSpeedDischarge[1] ~= 0 or fillVolume.scrollSpeedDischarge[2] ~= 0 or fillVolume.scrollSpeedDischarge[3] ~= 0 then
+                    fillVolume.uvPosition[1] = fillVolume.uvPosition[1] + fillVolume.scrollSpeedDischarge[1] * dt;
+                    fillVolume.uvPosition[2] = fillVolume.uvPosition[2] + fillVolume.scrollSpeedDischarge[2] * dt;
+                    fillVolume.uvPosition[3] = fillVolume.uvPosition[3] + fillVolume.scrollSpeedDischarge[3] * dt;
+                    setShaderParameter(fillVolume.volume, "uvOffset", fillVolume.uvPosition[1], fillVolume.uvPosition[2], fillVolume.uvPosition[3], 0, false);
+                end
+            end
+        end
+    end
 end
 
 function LTMaster:updateTick(dt)

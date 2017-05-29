@@ -602,34 +602,23 @@
     </fillUnits>
     <fillVolumes>
         <volumes>
-            <volume index="0>7|8" fillUnitIndex="1" maxSubDivEdgeLength="0.3" maxAllowedHeapAngle="80">
-                <deformNode index="0>7|11|0" />
-                <deformNode index="0>7|11|1" />
-                <deformNode index="0>7|11|2" />
-                <deformNode index="0>7|12|0" />
-                <deformNode index="0>7|12|1" />
-                <deformNode index="0>7|12|2" />
-                <deformNode index="0>7|12|3" />
-                <deformNode index="0>7|12|4" />
-                <deformNode index="0>7|12|5" />
+            <volume index="0>7|8" maxDelta="0.3" fillUnitIndex="1" maxSubDivEdgeLength="0.3" maxAllowedHeapAngle="80" scrollSpeedDischarge="0 0 -0.05">
+                <!--<deformNode index="0>7|17|0" /><deformNode index="0>7|17|1" />-->
             </volume>
             <!--<volume index="0>7|4|0|12" fillUnitIndex="2" /><volume index="0>7|4|1|14" fillUnitIndex="3" />-->
         </volumes>
         <loadInfos>
             <loadInfo fillVolumeIndex="1">
-                <node index="0>7|11|0" minHeight="0.5" priority="2" />
                 <node index="0>7|11|1" />
-                <node index="0>7|11|2" minHeight="0.5" priority="2" />
             </loadInfo>
         </loadInfos>
         <unloadInfos>
             <unloadInfo fillVolumeIndex="1">
-                <node index="0>7|12|0" />
-                <node index="0>7|12|1" minHeight="1" priority="2" />
-                <node index="0>7|12|2" />
-                <node index="0>7|12|3" minHeight="1" priority="2" />
-                <node index="0>7|12|4" />
-                <node index="0>7|12|5" minHeight="1" priority="2" />
+                <node index="0>7|12|1" width="1.0" length="1.5" minHeight="1.5" priority="3" />
+                <node index="0>7|12|2" width="1.0" length="1.5" minHeight="2.2" priority="2" />
+                <node index="0>7|12|0" width="1.0" length="1.5" minHeight="2.2" priority="2" />
+                <node index="0>7|12|3" width="1.0" length="5.0" />
+                <node index="0>7|12|5" width="1.0" length="5.0" />
             </unloadInfo>
         </unloadInfos>
     </fillVolumes>
@@ -692,9 +681,9 @@
                 <rotatingPart index="0>7|2|6" type="LTMaster.conveyor" rotSpeed="-700" rotAxis="1" turnOnFadeTime="1" turnOffFadeTime="3" />
             </rotatingParts>
             <effects>
-                <effectNode effectClass="MorphPositionEffect" effectNode="0>36|0" materialType="BELT" delay="3.7" fadeTime="0" speed="1" scrollLength="9" scrollSpeed="-0.5" />
-                <effectNode effectClass="MorphPositionEffect" effectNode="0>9|0" materialType="BELT" delay="0" fadeTime="4" speed="1" scrollLength="9" scrollSpeed="0.5" />
-                <effectNode effectClass="MorphPositionEffect" effectNode="0>7|16|0" materialType="BELT" delay="0" fadeTime="0" speed="1" scrollLength="9" scrollSpeed="0.5" />
+                <effectNode effectClass="MorphPositionEffect" effectNode="0>36|0" materialType="BELT" delay="3.95" fadeTime="0" speed="1" scrollLength="9" scrollSpeed="-0.5" />
+                <effectNode effectClass="MorphPositionEffect" effectNode="0>9|0" materialType="BELT" delay="0.25" fadeTime="4" speed="1" scrollLength="9" scrollSpeed="0.5" />
+                <effectNode effectClass="MorphPositionEffect" effectNode="0>7|16|0" materialType="BELT" delay="0" fadeTime="0.25" speed="1" scrollLength="9" scrollSpeed="0.5" />
             </effects>
             <unloadEffects>
                 <effectNode effectClass="MorphPositionEffect" effectNode="0>35|0" materialType="BELT" fadeTime="0" speed="1" scrollLength="9" scrollSpeed="-0.5" />
