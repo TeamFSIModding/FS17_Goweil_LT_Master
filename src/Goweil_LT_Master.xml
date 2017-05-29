@@ -479,12 +479,12 @@
             <part node="0>14|0|6|0" startTime="15" duration="1" startRot="0 0 18" endRot="0 0 0" />
             <part node="0>10|2|0|0" startTime="9.47" duration="0.7" startRot="0 0 0" endRot="-69 0 0" />
             <part node="0>10|2|0|0|0" startTime="9.47" duration="0.7" startRot="0 0 0" endRot="122 0 0" />
-            <part node="0>10|2|0|0" startTime="13.95" duration="0.1" startRot="-69 0 0" endRot="0 0 0" />
-            <part node="0>10|2|0|0|0" startTime="13.95" duration="0.1" startRot="122 0 0" endRot="0 0 0" />
+            <part node="0>10|2|0|0" startTime="13.75" duration="0.6" startRot="-69 0 0" endRot="0 0 0" />
+            <part node="0>10|2|0|0|0" startTime="13.75" duration="0.6" startRot="122 0 0" endRot="0 0 0" />
             <part node="0>10|2|1|0|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="-69 0 0" />
             <part node="0>10|2|1|0|0|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="122 0 0" />
-            <part node="0>10|2|1|0|0" startTime="13.95" duration="0.1" startRot="-69 0 0" endRot="0 0 0" />
-            <part node="0>10|2|1|0|0|0" startTime="13.95" duration="0.1" startRot="122 0 0" endRot="0 0 0" />
+            <part node="0>10|2|1|0|0" startTime="13.75" duration="0.6" startRot="-69 0 0" endRot="0 0 0" />
+            <part node="0>10|2|1|0|0|0" startTime="13.75" duration="0.6" startRot="122 0 0" endRot="0 0 0" />
             <part node="0>14|0|3" startTime="13.5" duration="0.25" startRot="0 0 0" endRot="0 0 18" />
             <part node="0>14|0|3" startTime="14.25" duration="0.5" startRot="0 0 18" endRot="0 0 -18" />
             <part node="0>14|0|3" startTime="15.5" duration="0.25" startRot="0 0 -18" endRot="0 0 0" />
