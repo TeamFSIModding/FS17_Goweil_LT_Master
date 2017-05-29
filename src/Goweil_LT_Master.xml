@@ -603,7 +603,7 @@
     </fillUnits>
     <fillVolumes>
         <volumes>
-            <volume index="0>7|8" maxDelta="0.3" fillUnitIndex="1" maxSubDivEdgeLength="0.3" maxAllowedHeapAngle="80" scrollSpeedDischarge="0 0 -0.05">
+            <volume index="0>7|8" fillUnitIndex="1" maxSubDivEdgeLength="0.5" maxAllowedHeapAngle="80" scrollSpeedDischarge="0 0 -0.05">
                 <!--<deformNode index="0>7|17|0" /><deformNode index="0>7|17|1" />-->
             </volume>
             <!--<volume index="0>7|4|0|12" fillUnitIndex="2" /><volume index="0>7|4|1|14" fillUnitIndex="3" />-->
@@ -844,7 +844,7 @@
             <part index="0>14|0|12|5" fadeIn="1" fadeOut="0.5" axis="x" startRot="0" endRot="-40" condition="baleDoorClosing" />
             <part index="0>14|0|12|6" fade="2" axis="x" startRot="0" endRot="-60" condition="turnedOn" />
             <part index="0>14|0|1" fadeIn="2" fadeOut="1" axis="x" startRot="0" endRot="100" condition="conveyorOn" />
-            <part index="0>14|0|0" fade="1" axis="x" startRot="0" endRot="110" condition="wrapperEnabled" />
+            <part index="0>14|0|0" fade="1" axis="x" startRot="0" endRot="-95" condition="wrapperEnabled" />
         </gauge>
     </LTMaster>
     <silageAdditiveSystemConfigurations>
@@ -901,7 +901,7 @@
     </skinnedNodes>
     <washable dirtDuration="120" washDuration="5" workMultiplier="5" fieldMultiplier="3" />
     <components count="1">
-        <component1 centerOfMass="0 1.9 0.3" solverIterationCount="7" />
+        <component1 centerOfMass="0 1.7 0.3" solverIterationCount="7" />
     </components>
     <schemaOverlay file="$dataS2/menu/schemas/implementSchema.png" fileSelected="$dataS2/menu/schemas/implementSchemaSelected.png" fileTurnedOn="$dataS2/menu/schemas/implementSchemaTurnedOn.png" fileSelectedTurnedOn="$dataS2/menu/schemas/implementSchemaSelectedTurnedOn.png" width="0.5" height="0.5" attacherJointPosition="0 0" />
 </vehicle>
