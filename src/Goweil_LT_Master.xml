@@ -311,9 +311,9 @@
         <animation name="closeDoor">
             <part node="0>12" startTime="0" duration="0.50" startRot="-90 0 0" endRot="0 0 0" />
             <part node="0>12|8" startTime="0" duration="0.50" startRot="25 0 0" endRot="0 0 0" />
-            <part node="0>10|1" startTime="0" duration="0.50" startRot="25 0 0" endRot="0 0 0" />
-            <part node="0>23" startTime="0" duration="0.50" startTrans="0 2.079 4.049" endTrans="0 2.632 1.442" />
-            <part node="0>23" startTime="0" duration="0.50" startRot="110 0 0" endRot="0 0 0" />
+            <part node="0>23" startTime="0" duration="0" startTrans="0 2.079 4.049" endTrans="0 2.632 1.442" />
+            <part node="0>23" startTime="0" duration="0" startRot="110 0 0" endRot="0 0 0" />
+            <part node="0>23" startTime="0" duration="0" startScale="1 1 1" endScale="0 0 0" />
             <part node="0>14|0|4" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|4" startTime="2" duration="0.15" startRot="0 0 -20" endRot="0 0 0" />
             <part node="0>14|0|4|0" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
@@ -517,6 +517,8 @@
             <part node="0>14|0|11|0" startTime="4.5" duration="1" startRot="0 0 0" endRot="0 0 -18" />
             <part node="0>14|0|11|0" startTime="6" duration="1" startRot="0 0 -18" endRot="0 0 0" />
         </animation>
+        <animation name="baling">
+        </animation>
     </animations>
     <indoorHud>
         <balePressure animName="balePressure" minValueAnim="0" maxValueAnim="5000" />
@@ -687,7 +689,6 @@
             </effects>
             <unloadEffects>
                 <effectNode effectClass="MorphPositionEffect" effectNode="0>35|0" materialType="BELT" fadeTime="0" speed="1" scrollLength="9" scrollSpeed="-0.5" />
-                <effectNode effectClass="MorphPositionEffect" effectNode="0>37" materialType="BELT" fadeTime="2" speed="1" scrollLength="9" scrollSpeed="0.5" />
             </unloadEffects>
             <unloadParticleSystems>
                 <!--Qui ci puoi mettere particle come il fumo che esce dalla camera di pressatura-->
@@ -767,7 +768,7 @@
             <knottingSound file="sounds/balerKnotting.wav" pitchOffset="0.90" volume="1" volume3D="1" indoorVolumeFactor="0.5" innerRadius="5" radius="25" />
             <outOfNetSound file="$data/sounds/rollBelt150Alarm.wav" pitchOffset="0.50" volume="0.5" volume3D="0.5" indoorVolumeFactor="0.5" innerRadius="15" radius="75" />
             <baleAnimation node="0>23|0" scaleNode="0>23" baleNode="0>23|0" unloadAnimationName="unloadBale" closeAnimationName="closeDoor" />
-            <balingAnimation name="" />
+            <balingAnimation name="baling" />
             <knottingAnimation name="leverKnotting" />
             <knottingScrollParts>
                 <!--rotolo-->

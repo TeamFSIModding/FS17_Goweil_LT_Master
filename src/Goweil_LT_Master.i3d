@@ -2179,7 +2179,7 @@
         <Shape shapeId="778" name="move1_target" visibility="false" clipDistance="300" nodeId="2313" materialIds="29" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       </TransformGroup>
     </Shape>
-    <Camera name="work" translation="8.11663 11.7293 0.103138" rotation="-39.6489 88.6251 0" nodeId="2317" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
+    <Camera name="work" translation="4.36367 6.46624 5.88317" rotation="-46.7536 65.7062 -1.30349e-05" nodeId="2317" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
       <Light name="light" rotation="-40 0 -30" visibility="false" nodeId="2318" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistancesParameter="0.4" decayRate="4" range="500"/>
     </Camera>
     <Camera name="Luigi" translation="6.19057 3.25849 -12.5047" rotation="165.332 25.9894 -180" nodeId="2319" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
