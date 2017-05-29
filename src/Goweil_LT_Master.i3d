@@ -1499,7 +1499,7 @@
           </Shape>
         </TransformGroup>
         <TransformGroup name="rotazione_rotoli_wrapper" translation="-0.875 1.358 1.298" nodeId="1771">
-          <Shape shapeId="473" name="pacco1" translation="-0.00021541 0.490028 1.4673" nodeId="1772" materialIds="37" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="473" name="pacco1" translation="-0.00021541 0.49 1.4673" nodeId="1772" materialIds="37" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="474" name="pacco2" translation="-0.00021541 0.490028 1.17094" nodeId="1773" materialIds="37" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="475" name="pacco3" translation="-0.00021541 0.490028 0.871757" nodeId="1774" materialIds="37" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="476" name="pacco4" translation="-0.00021541 0.490028 0.578319" nodeId="1775" materialIds="37" castsShadows="true" receiveShadows="true"/>
@@ -1509,7 +1509,7 @@
           <Shape shapeId="480" name="pacco8" translation="-0.00021541 0.490028 -0.632622" nodeId="1779" materialIds="37" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="474" name="pacco9" translation="-0.00021541 0.490028 -0.918178" nodeId="1780" materialIds="37" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="474" name="pacco10" translation="-0.00021541 0.490028 -1.22547" nodeId="1781" materialIds="37" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="481" name="pacco11" translation="-0.00021541 0.490028 -1.51979" nodeId="1782" materialIds="37" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="481" name="pacco11" translation="-0.00021541 0.490028 -1.51979" visibility="false" nodeId="1782" materialIds="37" castsShadows="true" receiveShadows="true"/>
           <TransformGroup name="vuoto" nodeId="1783"/>
           <Shape shapeId="482" name="Barra_rotoli_wrapper" translation="-0.00021541 -0.000388132 -0.000472568" nodeId="1784" materialIds="43" castsShadows="true" receiveShadows="true">
             <Shape shapeId="483" name="rif" translation="-0.0857695 0.0207972 1.64304" nodeId="1785" materialIds="43" castsShadows="true" receiveShadows="true"/>
@@ -2184,7 +2184,7 @@
         <Shape shapeId="778" name="move1_target" visibility="false" clipDistance="300" nodeId="2323" materialIds="21" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       </TransformGroup>
     </Shape>
-    <Camera name="work" translation="-0.0308136 7.32798 -8.73821" rotation="137.83 7.26442 -180" nodeId="2310" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
+    <Camera name="work" translation="-4.5728 2.71531 -1.47747" rotation="174.041 -55.3026 -180" nodeId="2310" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
       <Light name="light" rotation="-40 0 -30" visibility="false" nodeId="2311" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistancesParameter="0.4" decayRate="4" range="500"/>
     </Camera>
     <Camera name="Luigi" translation="6.19057 3.25849 -12.5047" rotation="165.332 25.9894 -180" nodeId="2312" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
