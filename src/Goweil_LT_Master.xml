@@ -521,6 +521,9 @@
     </animations>
     <indoorHud>
         <balePressure animName="balePressure" minValueAnim="0" maxValueAnim="5000" />
+        <weight numbers="0>14|1|14|0" precision="0" />
+        <production numbers="0>14|1|15|0" precision="0" />
+        <vehicleRpm numbers="0>14|1|13|0" precision="0" />
     </indoorHud>
     <movingParts>
         <!--piston_scivoloUP -->

@@ -262,6 +262,11 @@ function LTMaster:load(savegame)
     
     self.LTMaster.conveyor.overloadingCapacity = 100 + (self.configurations["conveyorFlow"] * 100);
     
+    self.LTMaster.vehicleRpmHud = VehicleHudUtils.loadHud(self, self.xmlFile, "vehicleRpm");
+    self.LTMaster.productionHud = VehicleHudUtils.loadHud(self, self.xmlFile, "production");
+    self.LTMaster.weightHud = VehicleHudUtils.loadHud(self, self.xmlFile, "weight");
+    self.LTMaster.balePressureHud = VehicleHudUtils.loadHud(self, self.xmlFile, "balePressure");
+    
     LTMaster.loadBaler(self, savegame);
     LTMaster.loadWrapper(self, savegame);
     LTMaster.loadWrkMove(self, savegame);
@@ -486,6 +491,29 @@ function LTMaster:updateTick(dt)
     LTMaster.updateTickWrapper(self, dt, normalizedDt);
     LTMaster.updateTickWrkMove(self, dt, normalizedDt);
     PlayerTriggers:update();
+    if self.LTMaster.vehicleRpmHud ~= nil and self:getRootAttacherVehicle() ~= nil then
+        local rv = self:getRootAttacherVehicle();
+        if rv.motor ~= nil then
+            VehicleHudUtils.setHudValue(self, self.LTMaster.vehicleRpmHud, rv.motor:getLastMotorRpm(), rv.motor:getMaxRpm());
+        end
+    end
+    if self.LTMaster.productionHud ~= nil then
+        VehicleHudUtils.setHudValue(self, self.LTMaster.productionHud, self:getCreatedBales(), 99999);
+    end
+    if self.LTMaster.weightHud ~= nil and self:getRootAttacherVehicle() ~= nil then
+        local desc = FillUtil.fillTypeIndexToDesc[self:getUnitLastValidFillType(self.LTMaster.baler.fillUnitIndex)];
+        if desc ~= nil then
+            local value = desc.massPerLiter * self:getUnitFillLevel(self.LTMaster.baler.fillUnitIndex) * 1000;
+            VehicleHudUtils.setHudValue(self, self.LTMaster.weightHud, value, 9999);
+        end
+    end
+    if self.LTMaster.baler.balePressureHud ~= nil then
+        local value = 0;
+        if self.LTMaster.baler.unloadingState == Baler.UNLOADING_CLOSED then
+            value = self:getUnitFillLevel(self.LTMaster.baler.fillUnitIndex);
+        end
+        VehicleHudUtils.setHudValue(self, self.LTMaster.baler.balePressureHud, value, self.LTMaster.baler.balePressureHud.maxValueAnim);
+    end
     self.inputAttacherJoints[1].ptoInput.rotSpeed = self.LTMaster.ptoRotSpeed;
     if self.isServer then
         if self:getDirtAmount() > 0.01 then

@@ -130,7 +130,6 @@ function LTMaster:loadBaler()
         self.LTMaster.baler.balesNet.sampleFill = SoundUtil.loadSample(self.xmlFile, {}, "vehicle.LTMaster.baler.balesNet.fillSound", nil, self.baseDirectory, self.components[1].node);
     end
     self.LTMaster.baler.balesNet.fillLitersPerSecond = Utils.getNoNil(getXMLFloat(self.xmlFile, "vehicle.LTMaster.baler.balesNet#fillLitersPerSecond"), 1);
-    self.LTMaster.baler.balePressureHud = VehicleHudUtils.loadHud(self, self.xmlFile, "balePressure");
     if self.configurations["dynamicChamber"] == 1 then
         self.LTMaster.baler.dynamicChamber = false;
     else
@@ -263,13 +262,6 @@ function LTMaster:updateBaler(dt)
 end
 
 function LTMaster:updateTickBaler(dt, normalizedDt)
-    if self.LTMaster.baler.balePressureHud ~= nil then
-        local value = 0;
-        if self.LTMaster.baler.unloadingState == Baler.UNLOADING_CLOSED then
-            value = self:getUnitFillLevel(self.LTMaster.baler.fillUnitIndex);
-        end
-        VehicleHudUtils.setHudValue(self, self.LTMaster.baler.balePressureHud, value, self.LTMaster.baler.balePressureHud.maxValueAnim);
-    end
     if self.LTMaster.baler.balesNet.numNetNodes > 0 then
         local level = self:getUnitFillLevel(self.LTMaster.fillUnits["balesNet"].index);
         for i = 1, self.LTMaster.baler.balesNet.numNetNodes do

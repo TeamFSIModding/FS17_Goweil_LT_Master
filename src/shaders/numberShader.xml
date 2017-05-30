@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="3">
+    <Parameters>
+        <Parameter name="number"      target="number"      type="float"  defaultValue="-1 0 0 0"/>
+        <Parameter name="numberColor" target="numberColor" type="float3" defaultValue="0.0009 0.0021 0.0144 1"/>
+    </Parameters>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+          <CodeInjection position="MATERIALINFO">
+<![CDATA[
+    uniform float number;
+    uniform float3 numberColor;
+]]>
+          </CodeInjection>
+            <CodeInjection position = "POST_ALBEDO_FS">
+<![CDATA[
+    albedo.xyz *= numberColor.rgb;
+]]>
+            </CodeInjection>          
+			<CodeInjection position="POST_SET_TEXCOORDS_VS">
+<![CDATA[
+#if defined(ALBEDO_MAP) || defined(EMISSIVE_MAP)
+    float2 uv = getDefaultTexCoords(In);
+    uv.y += (number + 1) / 11;
+    Out.defaultTexCoords = uv;
+#endif
+]]>
+        	</CodeInjection>
+     	  </CodeInjections>
+    </LodLevel>
+</CustomShader>
