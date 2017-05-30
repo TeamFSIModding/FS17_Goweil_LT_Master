@@ -682,12 +682,12 @@
                 <rotatingPart index="0>7|2|6" type="LTMaster.conveyor" rotSpeed="-700" rotAxis="1" turnOnFadeTime="1" turnOffFadeTime="3" />
             </rotatingParts>
             <effects>
-                <effectNode effectClass="MorphPositionEffect" effectNode="0>36|0" materialType="BELT" delay="3.95" fadeTime="0" speed="1" scrollLength="9" scrollSpeed="-0.5" />
-                <effectNode effectClass="MorphPositionEffect" effectNode="0>9|0" materialType="BELT" delay="0.25" fadeTime="4" speed="1" scrollLength="9" scrollSpeed="0.5" />
-                <effectNode effectClass="MorphPositionEffect" effectNode="0>7|16|0" materialType="BELT" delay="0" fadeTime="0.25" speed="1" scrollLength="9" scrollSpeed="0.5" />
+                <effectNode effectClass="MorphPositionEffect" effectNode="0>36|0" materialType="BELT" delay="3.95" fadeTime="0" speed="0.5" scrollLength="1" scrollSpeed="-0.5" />
+                <effectNode effectClass="MorphPositionEffect" effectNode="0>9|0" materialType="BELT" delay="0.25" fadeTime="4" speed="0.5" scrollLength="4" scrollSpeed="0.5" />
+                <effectNode effectClass="MorphPositionEffect" effectNode="0>7|16|0" materialType="BELT" delay="0" fadeTime="0.25" speed="0.5" scrollLength="3" scrollSpeed="0.5" />
             </effects>
             <unloadEffects>
-                <effectNode effectClass="MorphPositionEffect" effectNode="0>35|0" materialType="BELT" fadeTime="0" speed="1" scrollLength="9" scrollSpeed="-0.5" />
+                <effectNode effectClass="MorphPositionEffect" effectNode="0>35|0" materialType="BELT" fadeTime="0" speed="0.5" scrollLength="1" scrollSpeed="-0.5" />
             </unloadEffects>
             <unloadParticleSystems>
                 <!--Qui ci puoi mettere particle come il fumo che esce dalla camera di pressatura-->
@@ -901,7 +901,7 @@
     </skinnedNodes>
     <washable dirtDuration="120" washDuration="5" workMultiplier="5" fieldMultiplier="3" />
     <components count="1">
-        <component1 centerOfMass="0 1.7 0.3" solverIterationCount="7" />
+        <component1 centerOfMass="0 1.4 0.3" solverIterationCount="7" />
     </components>
     <schemaOverlay file="$dataS2/menu/schemas/implementSchema.png" fileSelected="$dataS2/menu/schemas/implementSchemaSelected.png" fileTurnedOn="$dataS2/menu/schemas/implementSchemaTurnedOn.png" fileSelectedTurnedOn="$dataS2/menu/schemas/implementSchemaSelectedTurnedOn.png" width="0.5" height="0.5" attacherJointPosition="0 0" />
 </vehicle>
