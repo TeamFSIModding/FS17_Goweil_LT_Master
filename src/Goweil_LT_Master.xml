@@ -26,6 +26,9 @@
     <filename>Goweil_LT_Master.i3d</filename>
     <size width="5.5" length="8"/>
     <powerConsumer ptoRpm="540" neededPtoPower="150"/>
+    <toolCameras count="1">
+        <toolCamera1 index="0>37" rotatable="true" useWorldXZRotation="false" useMirror="false" isInside="false" allowHeadTracking="true" />
+    </toolCameras>
     <wheelConfigurations>
         <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
             <wheels>
