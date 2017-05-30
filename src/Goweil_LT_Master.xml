@@ -884,8 +884,8 @@
         </remoteMonitorSystemConfiguration>
     </remoteMonitorSystemConfigurations>
     <starterKitConfigurations>
-        <starterKitConfiguration name="$l10n_ui_yes" price="1700" icon="hud/configurations/config_starterKit.dds" />
         <starterKitConfiguration name="$l10n_ui_no" price="0" />
+        <starterKitConfiguration name="$l10n_ui_yes" price="1700" icon="hud/configurations/config_starterKit.dds" />
     </starterKitConfigurations>
     <skinnedNodes>
         <skinnedNode index="0>33|0|1" moveToZero="false"/>
