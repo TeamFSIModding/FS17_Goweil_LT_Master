@@ -840,7 +840,7 @@ end
 
 function LTMaster:onAttach(attacherVehicle, implement)
     local isAllowed, motorOff = PowerConsumer.getIsTurnedOnAllowed(self, nil, true);
-    if not isAllowed and self.firstTimeRun then
+    if not isAllowed and self.firstTimeRun and not motorOff then
         g_currentMission:showBlinkingWarning(self.powerConsumer.turnOnNotAllowedWarning, 2000);
     end
 end
