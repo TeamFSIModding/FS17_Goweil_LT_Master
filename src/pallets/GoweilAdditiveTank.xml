@@ -7,6 +7,7 @@
             <es>Depósito de aditivo para ensilaje</es>
             <ru>Добавки к силосу</ru>
             <nl> Silageadditief tank </nl>
+ 			<hu>Siló-adalékanyag tartály</hu>           
         </name>
         <functions>
             <function>$l10n_function_silageAdditiveTank</function>
