@@ -29,19 +29,19 @@
     <wheelConfigurations>
         <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
             <wheels>
-                <wheel repr="0>0" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheels.xml" configIndex="basic" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheels.xml" configIndex="basic" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheels.xml" configIndex="basic" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheels.xml" configIndex="basic" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <!-- <wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25"/> -->
+                <wheel repr="0>0" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="basic" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="basic" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="basic" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="basic" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
+                <!--<wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25"/> -->
             </wheels>
         </wheelConfiguration>
         <wheelConfiguration name="$l10n_configuration_valueWheelPremium" price="1800" icon="$dataS2/menu/hud/configurations/config_rimColor.png">
             <wheels>
-                <wheel repr="0>0" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheels.xml" configIndex="premium" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheels.xml" configIndex="premium" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheels.xml" configIndex="premium" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheels.xml" configIndex="premium" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>0" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="premium" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="premium" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="premium" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="premium" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
                 <!-- <wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25"/> -->
             </wheels>
         </wheelConfiguration>
@@ -186,8 +186,7 @@
             <!--apertura_scivoloUP-->
             <part node="0>7|4|0" startTime="12.5" duration="3" startRot="0 0 0" endRot="0 0 90" />
             <part node="0>7|4|1" startTime="13" duration="3" startRot="0 0 0" endRot="0 0 -90" />
-            <part node="0>7|0|6" startTime="12.5" duration="3" startTrans="-0.515 2.442 -9.949" endTrans="-0.65 2.442 -9.949" />
-            <part node="0>7|0|7" startTime="12.5" duration="3" startTrans="0.515 2.442 -9.949" endTrans="0.65 2.442 -9.949" />
+            <!--  <part node="0>7|0|6" startTime="12.5" duration="3" startTrans="-0.515 2.442 -9.949" endTrans="-0.65 2.442 -9.949" /><part node="0>7|0|7" startTime="12.5" duration="3" startTrans="0.515 2.442 -9.949" endTrans="0.65 2.442 -9.949" /> -->
             <part node="0>14|0|18" direction="1" startTime="11" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|18" direction="1" startTime="13.7" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
             <part node="0>14|0|18" direction="-1" startTime="11" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
@@ -481,10 +480,10 @@
             <part node="0>10|2|0|0|0" startTime="9.47" duration="0.7" startRot="0 0 0" endRot="122 0 0" />
             <part node="0>10|2|0|0" startTime="13.75" duration="0.6" startRot="-69 0 0" endRot="0 0 0" />
             <part node="0>10|2|0|0|0" startTime="13.75" duration="0.6" startRot="122 0 0" endRot="0 0 0" />
-            <part node="0>10|2|1|0|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="-69 0 0" />
-            <part node="0>10|2|1|0|0|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="122 0 0" />
-            <part node="0>10|2|1|0|0" startTime="13.75" duration="0.6" startRot="-69 0 0" endRot="0 0 0" />
-            <part node="0>10|2|1|0|0|0" startTime="13.75" duration="0.6" startRot="122 0 0" endRot="0 0 0" />
+            <part node="0>10|2|1|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="69 0 0" />
+            <part node="0>10|2|1|0|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="-122 0 0" />
+            <part node="0>10|2|1|0" startTime="13.75" duration="0.6" startRot="69 0 0" endRot="0 0 0" />
+            <part node="0>10|2|1|0|0" startTime="13.75" duration="0.6" startRot="-122 0 0" endRot="0 0 0" />
             <part node="0>14|0|3" startTime="13.5" duration="0.25" startRot="0 0 0" endRot="0 0 18" />
             <part node="0>14|0|3" startTime="14.25" duration="0.5" startRot="0 0 18" endRot="0 0 -18" />
             <part node="0>14|0|3" startTime="15.5" duration="0.25" startRot="0 0 -18" endRot="0 0 0" />
@@ -697,7 +696,7 @@
             </unloadParticleSystems>
             <augerParticleSystems>
                 <!--Qui ci puoi mettere particle come il fumo che nella zona delle coclee prima del nastro-->
-                <!--<emitterShape node="0>7|13" particleType="UNLOADING" emitCountScale="10" lifespan="0.2" />-->
+                <emitterShape node="0>7|13" particleType="UNLOADING" emitCountScale="10" lifespan="0.2" />
             </augerParticleSystems>
         </conveyor>
         <wrapper>
@@ -897,8 +896,6 @@
         <skinnedNode index="0>8|6|4|3" moveToZero="false"/>
         <skinnedNode index="0>8|6|4|5" moveToZero="false"/>
         <skinnedNode index="0>8|6|4|7" moveToZero="false"/>
-        <skinnedNode index="0>7|0|5|1" moveToZero="false"/>
-        <skinnedNode index="0>7|0|5|3" moveToZero="false"/>
         <skinnedNode index="0>7|14|9|0|1" moveToZero="false"/>
         <skinnedNode index="0>7|14|9|0|3" moveToZero="false"/>
     </skinnedNodes>
