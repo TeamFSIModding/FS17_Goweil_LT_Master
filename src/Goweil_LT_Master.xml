@@ -704,7 +704,7 @@
         </conveyor>
         <wrapper>
             <mustWrappedBales fillTypes="silage chaff woodChips manure" />
-            <balesFoil fillUnitIndex="5" foilRollMinScale="0.3" leftFoilRollIndex="0>10|0|1" rightFoilRollIndex="0>10|0|2" leftFoilIndex="0>10|0|5" rightFoilIndex="0>10|0|6" foilRollUses="70" fillLitersPerSecond="1">
+            <balesFoil fillUnitIndex="5" foilRollMinScale="0.35" leftFoilRollIndex="0>10|0|1" rightFoilRollIndex="0>10|0|2" leftFoilIndex="0>10|0|5" rightFoilIndex="0>10|0|6" foilRollUses="70" fillLitersPerSecond="1">
                 <foilNode index="0>15|1|0" order="1" />
                 <foilNode index="0>15|1|1" order="2" />
                 <foilNode index="0>15|1|2" order="3" />
@@ -827,7 +827,7 @@
                 <rotatingPart index="0>13|0|9" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
                 <rotatingPart index="0>23" type="LTMaster.baler" rotSpeed="-100" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
             </rotatingParts>
-            <balesNet fillUnitIndex="4" netRollMinScale="0.2" netRollIndex="0>15|10|0|0" netUVIndex="0>15|11|0" netRollUses="55" fillLitersPerSecond="1">
+            <balesNet fillUnitIndex="4" netRollMinScale="0.21" netRollIndex="0>15|10|0|0" netUVIndex="0>15|11|0" netRollUses="55" fillLitersPerSecond="1">
                 <netNode index="0>15|2|4" order="1" />
                 <netNode index="0>15|2|3" order="2" />
                 <netNode index="0>15|2|2" order="3" />

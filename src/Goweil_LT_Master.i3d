@@ -1070,15 +1070,15 @@
       <TransformGroup name="wrapper_Goweil" translation="0 2.40489 4.22714" nodeId="1483">
         <TransformGroup name="wrapper_rotate" translation="-4.56119e-05 0.945209 -0.177557" nodeId="1484">
           <Shape shapeId="316" name="static1" translation="0.00013736 -0.779 9.53408e-07" nodeId="1485" materialIds="41" castsShadows="true" receiveShadows="true"/>
-          <TransformGroup name="RotoloSX" nodeId="1486">
-            <Shape shapeId="317" name="rololo2" translation="-1.042 -1.19198 0.189" nodeId="1487" materialIds="38" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="318" name="taglio_new1" translation="-1.044 -1.113 0.224" nodeId="1488" materialIds="38" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="319" name="wrapp2" translation="-1.041 -1.222 0.198" nodeId="1489" materialIds="38" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="rotoloSX" translation="-1.042 -1.192 0.189" nodeId="2369">
+            <Shape shapeId="317" name="rololo2" nodeId="1487" materialIds="38" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="318" name="taglio_new1" translation="-0.002 0.079 0.035" nodeId="1488" materialIds="38" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="319" name="wrapp2" translation="0.001 -0.03 0.009" nodeId="1489" materialIds="38" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
-          <TransformGroup name="Rotolo2" nodeId="1490">
-            <Shape shapeId="320" name="rololo4" translation="1.04225 -1.192 -0.189" nodeId="1491" materialIds="38" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="321" name="taglio_new" translation="1.047 -1.113 -0.22" nodeId="1492" materialIds="38" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="322" name="wrapp3" translation="1.043 -1.222 -0.2" nodeId="1493" materialIds="38" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="rotoloDX" translation="1.042 -1.192 -0.189" nodeId="2370">
+            <Shape shapeId="320" name="rololo4" nodeId="1491" materialIds="38" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="321" name="taglio_new" translation="0.005 0.079 -0.031" nodeId="1492" materialIds="38" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="322" name="wrapp3" translation="0.001 -0.03 -0.011" nodeId="1493" materialIds="38" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
           <Shape shapeId="323" name="static2" translation="-0.000367884 -0.779273 9.53408e-07" nodeId="1494" materialIds="41" castsShadows="true" receiveShadows="true"/>
           <TransformGroup name="vuoto1" translation="4.56119e-05 -3.35009 -4.04958" nodeId="1495"/>
@@ -2191,7 +2191,7 @@
       </TransformGroup>
       <Camera name="cameraGoweil" translation="2.38 2 2.1" rotation="0 90 0" clipDistance="300" nodeId="2367" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
     </Shape>
-    <Camera name="work" translation="16.7668 9.73235 -7.53271" rotation="167.391 64.1493 -180" nodeId="2362" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
+    <Camera name="work" translation="-1.30526 4.94283 6.0216" rotation="-56.1538 -10.6586 -1.70698e-06" nodeId="2362" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1">
       <Light name="light" rotation="-40 0 -30" visibility="false" nodeId="2363" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistancesParameter="0.4" decayRate="4" range="500"/>
     </Camera>
   </Scene>
