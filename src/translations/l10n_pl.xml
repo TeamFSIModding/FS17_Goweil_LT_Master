@@ -35,8 +35,8 @@ Zakupione przedmioty możesz odebrać w sklepie." />
         <text name="GLTM_CLOSE_HOOD"                        text="Zamknij pokrywę" />
         <text name="GLTM_LOWER_SUPPORTS"                    text="Opuść podporę" />
         <text name="GLTM_RAISE_SUPPORTS"                    text="Podnieś podporę" />
-        <text name="GLTM_LOWER_LADDER"                      text="Opuść podajnik" />
-        <text name="GLTM_RAISE_LADDER"                      text="Podnieś podajnik" />
+        <text name="GLTM_LOWER_LADDER"                      text="Rozłóż drabinkę" />
+        <text name="GLTM_RAISE_LADDER"                      text="Złóż drabinkę" />
         <text name="GLTM_LOWER_BALE_SLIDE"                  text="Opuść rampę dla bel" />
         <text name="GLTM_RAISE_BALE_SLIDE"                  text="Podnieś rampę dla bel" />
         <text name="GLTM_UNLOAD_SIDE"                       text="Wyładuj i oczyść strony" />
