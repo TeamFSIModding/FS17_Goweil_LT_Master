@@ -30,7 +30,7 @@ Zakupione przedmioty możesz odebrać w sklepie." />
         <text name="fillType_silageAdditive"                text="Dodatki do kiszonki" />
         <text name="fillType_balesNet"                      text="Siatka do bel" />
         <text name="fillType_balesFoil"                     text="Folia owijająca" />
-        <text name="GLTM_TEMP_INFO"                         text="Kompletny podręcznik użytkownika dostępny jest w pomocy gry." />
+        <text name="GLTM_TEMP_INFO"                         text="Instrukcja obsługi LT-Master dostępna jest w pomocy gry." />
         <text name="GLTM_OPEN_HOOD"                         text="Otwórz pokrywę" />
         <text name="GLTM_CLOSE_HOOD"                        text="Zamknij pokrywę" />
         <text name="GLTM_LOWER_SUPPORTS"                    text="Opuść podporę" />
@@ -65,7 +65,7 @@ Zakupione przedmioty możesz odebrać w sklepie." />
 		<text name="GLTM_HL_TEXT_01_02"                     text="Pozycja robocza:     Dł. x Szer. x Wys.: 13940 x 5200 x 4010 mm" />
         <text name="GLTM_HL_TEXT_01_03"                     text="Waga własna: 15200 kg " />
         <text name="GLTM_HL_TEXT_01_04"                     text="Zalecana moc: 190 KM " />
-        <text name="GLTM_HL_TITLE_02"                       text="Praca z maszyną" />
+        <text name="GLTM_HL_TITLE_02"                       text="Instrukcja obsługi" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Ustaw traktor z maszyną na płaskim terenie i lekko skręć w lewo, następnie rozłóż maszynę do pozycji roboczej przy pomocy $input_IMPLEMENT_EXTRA2;. " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Podejdź do maszyny, otwórz prawą stronę za pomocą $input_TOGGLE_COVER;, aby dostać się do panelu sterowania; rozłóż podpory za pomocą $input_IMPLEMENT_EXTRA4; i przestaw maszynę w tryb roboczy przy użyciu $input_IMPLEMENT_EXTRA;, na końcu opuść rampę dla bel za pomocą $input_IMPLEMENT_EXTRA2;. " />
         <text name="GLTM_HL_TEXT_02_03"                     text="Wróć do traktora i włącz maszynę za pomocą $input_IMPLEMENT_EXTRA;, w tym momencie za pomocą $input_IMPLEMENT_EXTRA4; możliwe jest włącznie/wyłączenie owijarki, a za pomocą $input_IMPLEMENT_EXTRA3; można zmienić gęstość bel. " />
