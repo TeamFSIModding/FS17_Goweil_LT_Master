@@ -507,12 +507,12 @@ function LTMaster:updateTick(dt)
             VehicleHudUtils.setHudValue(self, self.LTMaster.weightHud, value, 9999);
         end
     end
-    if self.LTMaster.baler.balePressureHud ~= nil then
+    if self.LTMaster.balePressureHud ~= nil then
         local value = 0;
         if self.LTMaster.baler.unloadingState == Baler.UNLOADING_CLOSED then
             value = self:getUnitFillLevel(self.LTMaster.baler.fillUnitIndex);
         end
-        VehicleHudUtils.setHudValue(self, self.LTMaster.baler.balePressureHud, value, self.LTMaster.baler.balePressureHud.maxValueAnim);
+        VehicleHudUtils.setHudValue(self, self.LTMaster.balePressureHud, value, self.LTMaster.balePressureHud.maxValueAnim);
     end
     self.inputAttacherJoints[1].ptoInput.rotSpeed = self.LTMaster.ptoRotSpeed;
     if self.isServer then
