@@ -58,6 +58,7 @@
             <light realLight="0>7|4|1|12|0|3" decoration="0>7|4|1|12|0|1" lightTypes="0 3" />
             <light realLight="0>7|4|0|10|0|1" decoration="0>7|4|0|10|0|0" lightTypes="0 3" />
             <light realLight="0>19|1|0|1" decoration="0>19|1|0|0" lightTypes="1"/>
+			<light 						  decoration="0>14|1|0|1" lightTypes="1"/>
             <!--WorklightBack-->
             <light realLight="0>19|1|1|1" decoration="0>19|1|1|0" lightTypes="2"/>
             <!--WorklightFront-->
@@ -87,6 +88,7 @@
             <light realLight="0>7|4|1|12|0|3" decoration="0>7|4|1|12|0|1" lightTypes="0 3" />
             <light realLight="0>7|4|0|10|0|1" decoration="0>7|4|0|10|0|0" lightTypes="0 3" />
             <light realLight="0>19|1|0|1" decoration="0>19|1|0|0" lightTypes="1"/>
+			<light 						  decoration="0>14|1|0|1" lightTypes="1"/>
             <!--WorklightBack-->
             <light realLight="0>19|1|1|1" decoration="0>19|1|1|0" lightTypes="2"/>
             <!--WorklightFront-->
@@ -125,7 +127,7 @@
         <reverseLight realLight="0>7|4|1|12|3|1" decoration="0>7|4|1|12|3|0" />
     </reverseLights>
     <beaconLights>
-        <beaconLight index="0>20|0|3" speed="0.015" filename="$data/shared/beaconLights/beaconLight03.i3d"/>
+        <beaconLight index="0>20|0|2" speed="0.015" filename="$data/shared/beaconLights/beaconLight03.i3d"/>
         <beaconLight index="0>16" speed="0.015" filename="$data/shared/beaconLights/beaconLight03.i3d"/>
     </beaconLights>
     <inputAttacherJoints>
@@ -225,6 +227,11 @@
             <part node="0>15|5" startTime="0.25" duration="0.25" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>15|5" startTime="0.5" duration="2.7" startRot="0 0 20" endRot="0 0 90" />
             <part node="0>15|2" startTime="2.8" duration="1" startRot="180 0 180" endRot="180 0 112" />
+			<part node="0>14|1" startTime="2.9" duration="0.5" startRot="0 0 0" endRot="0 0 -8" />
+			<part node="0>14|1|0|0" startTime="3.15" duration="0.1" startScale="1 0 0" endScale="1 1 1" />
+			<part node="0>14|1|13|0" startTime="3.5" duration="0.01" startScale="0 0 0" endScale="0.806 0.806 0.806" />
+			<part node="0>14|1|14|0" startTime="3.5" duration="0.01" startScale="0 0 0" endScale="1.038 1.038 1.038" />
+			<part node="0>14|1|15|0" startTime="3.5" duration="0.01" startScale="0 0 0" endScale="1.038 1.038 1.038" />
             <part node="0>14|0|19" direction="-1" startTime="2.5" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|19" direction="-1" startTime="3.5" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
             <part node="0>14|0|19" direction="1" startTime="2.5" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
@@ -275,8 +282,8 @@
         <animation name="unloadBale">
             <part node="0>12" startTime="0" duration="0.75" startRot="0 0 0" endRot="-90 0 0" />
             <part node="0>12|8" startTime="0" duration="0.75" startRot="0 0 0" endRot="25 0 0" />
-            <part node="0>10|1" startTime="0.75" duration="1.2" startTrans="0 -1.25 -0.185" endTrans="0 -1.25 -1.025" />
-            <part node="0>10|1" startTime="4.25" duration="2.25" startTrans="0 -1.25 -1.025" endTrans="0 -1.25 -0.185" />
+            <part node="0>10|1" startTime="0.75" duration="1.2" startTrans="0 -0.969 -0.185" endTrans="0 -0.969 -1.025" />
+            <part node="0>10|1" startTime="4.25" duration="2.25" startTrans="0 -0.969 -1.025" endTrans="0 -0.969 -0.185" />
             <part node="0>10|1|8|0" startTime="0.75" duration="1.2" startRot="0 0 0" endRot="-360 0 0" />
             <part node="0>10|1|8|0" startTime="4.25" duration="2.25" startRot="-360 0 0" endRot="-720 0 0" />
             <part node="0>10|1|7|0" startTime="0.75" duration="1.2" startRot="0 0 0" endRot="-360 0 0" />
@@ -327,7 +334,7 @@
             <part node="0>10|1|9|0" startTime="0" duration="0" endRot="0 0 0" />
             <part node="0>10|1|4" startTime="0" duration="0" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0 0 0 0" />
             <part node="0>10|1|5" startTime="0" duration="0" shaderParameter="offsetUV" shaderStartValues="0 0 0 0" shaderEndValues="0 0 0 0" />
-            <part node="0>10|1" startTime="0" duration="1.5" startTrans="0 -1.25 -0.185" endTrans="0 -1.25 0.3" />
+            <part node="0>10|1" startTime="0" duration="1.5" startTrans="0 -0.969 -0.185" endTrans="0 -0.969 0.3" />
             <part node="0>10|1" startTime="1.4" duration="1" startRot="0 0 0" endRot="70 0 0" />
             <part node="0>10|1|8|0" startTime="0" duration="1.5" startRot="0 0 0" endRot="-360 0 0" />
             <part node="0>10|1|7|0" startTime="0" duration="1.5" startRot="0 0 0" endRot="-360 0 0" />
@@ -344,7 +351,7 @@
         </animation>
         <animation name="resetWrapperAfterBaleDrop">
             <part node="0>10|1" startTime="0" endTime="1" startRot="70 0 0" endRot="0 0 0" />
-            <part node="0>10|1" startTime="2" endTime="3.5" startTrans="0 -1.25 0.3" endTrans="0 -1.25 -0.185" />
+            <part node="0>10|1" startTime="2" endTime="3.5" startTrans="0 -0.969 0.3" endTrans="0 -0.969 -0.185" />
             <part node="0>10|1|8|0" startTime="2" duration="1.5" startRot="-360 0 0" endRot="0 0 0" />
             <part node="0>10|1|7|0" startTime="2" duration="1.5" startRot="-360 0 0" endRot="0 0 0" />
             <part node="0>10|1|9|0" startTime="0" duration="0" endRot="0 0 0" endTrans="0 0 0"/>
@@ -600,7 +607,7 @@
     </speedRotatingParts>
     <fillUnits>
         <fillUnit unit="$l10n_unit_literShort" fillTypes="chaff grass_windrow dryGrass_windrow straw woodChips manure" capacity="24000" fillVolumeIndex="1" />
-        <fillUnit unit="$l10n_unit_literShort" fillTypes="chaff grass_windrow dryGrass_windrow straw woodChips manure" capacity="4000" showOnHud="false" showInShop="false" />
+        <fillUnit unit="$l10n_unit_literShort" fillTypes="chaff grass_windrow dryGrass_windrow straw woodChips manure" capacity="5000" showOnHud="false" showInShop="false" />
         <fillUnit unit="$l10n_unit_literShort" fillTypes="silageAdditive" capacity="200" showInShop="false"/>
         <fillUnit unit="$l10n_unit_pieces" fillTypes="balesNet" capacity="5" showOnHud="false" showInShop="false" />
         <fillUnit unit="$l10n_unit_pieces" fillTypes="balesFoil" capacity="10" showOnHud="false" showInShop="false" />
@@ -794,37 +801,40 @@
             </baleVolumes>
             <uvScrollParts>
                 <!--camera-->
-                <uvScrollPart index="0>12|5" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
-                <uvScrollPart index="0>12|6" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
-                <uvScrollPart index="0>12|7" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
+                <uvScrollPart index="0>12|5" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="30" />
+                <uvScrollPart index="0>12|6" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="30" />
+                <uvScrollPart index="0>12|7" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="30" />
                 <!--camera secondaria-->
-                <uvScrollPart index="0>12|8|4" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
-                <uvScrollPart index="0>12|8|7" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
-                <uvScrollPart index="0>12|8|8" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
-                <uvScrollPart index="0>12|8|9" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
-                <uvScrollPart index="0>12|8|10" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
+                <uvScrollPart index="0>12|8|4" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="30" />
+                <uvScrollPart index="0>12|8|7" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="30" />
+                <uvScrollPart index="0>12|8|8" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="30" />
+                <uvScrollPart index="0>12|8|9" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="30" />
+                <uvScrollPart index="0>12|8|10" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="30" />
                 <!--camera terza-->
-                <uvScrollPart index="0>13|0|0" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
-                <uvScrollPart index="0>13|0|2" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
-                <uvScrollPart index="0>13|0|1" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="1" />
+                <uvScrollPart index="0>13|0|0" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="4" />
+                <uvScrollPart index="0>13|0|2" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="4" />
+                <uvScrollPart index="0>13|0|1" shaderParameterName="offsetUV" scrollSpeed="2" shaderParameterComponent="1" turnOnFadeTime="3" turnOffFadeTime="4" />
             </uvScrollParts>
             <rotatingParts>
                 <!--camera-->
-                <rotatingPart index="0>12|1" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>12|3" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>12|4" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
+                <rotatingPart index="0>12|1" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
+				<rotatingPart index="0>12|2" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
+                <rotatingPart index="0>12|3" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
+                <rotatingPart index="0>12|4" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
+				<rotatingPart index="0>12|8|1" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
+				<rotatingPart index="0>12|8|2" type="LTMaster.baler" rotSpeed="1200" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
                 <!--camera secondaria-->
-                <rotatingPart index="0>12|8|0" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>12|8|3" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>12|8|5" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
+                <rotatingPart index="0>12|8|0" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
+                <rotatingPart index="0>12|8|3" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
+                <rotatingPart index="0>12|8|5" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="30" />
                 <!--camera terza-->
-                <rotatingPart index="0>13|0|3" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>13|0|4" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>13|0|5" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>13|0|6" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>13|0|7" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>13|0|8" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
-                <rotatingPart index="0>13|0|9" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
+                <rotatingPart index="0>13|0|3" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="4" />
+                <rotatingPart index="0>13|0|4" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="4" />
+                <rotatingPart index="0>13|0|5" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="4" />
+                <rotatingPart index="0>13|0|6" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="4" />
+                <rotatingPart index="0>13|0|7" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="4" />
+                <rotatingPart index="0>13|0|8" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="4" />
+                <rotatingPart index="0>13|0|9" type="LTMaster.baler" rotSpeed="600" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="4" />
                 <rotatingPart index="0>23" type="LTMaster.baler" rotSpeed="-100" rotAxis="1" turnOnFadeTime="4" turnOffFadeTime="1" />
             </rotatingParts>
             <balesNet fillUnitIndex="4" netRollMinScale="0.21" netRollIndex="0>15|10|0|0" netUVIndex="0>15|11|0" netRollUses="55" fillLitersPerSecond="1">
@@ -903,6 +913,9 @@
         <skinnedNode index="0>7|14|9|0|3" moveToZero="false"/>
     </skinnedNodes>
     <washable dirtDuration="120" washDuration="5" workMultiplier="5" fieldMultiplier="3" />
+    <ai>
+        <trafficCollisionTrigger index="0>38"/>
+    </ai>	
     <components count="1">
         <component1 centerOfMass="0 1.4 0.3" solverIterationCount="7" />
     </components>
