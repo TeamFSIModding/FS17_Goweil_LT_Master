@@ -30,7 +30,7 @@
         <text name="fillType_silageAdditive"                text="Силосные добавки" />
         <text name="fillType_balesNet"                      text="Упаковочная сетка" />
         <text name="fillType_balesFoil"                     text="Обёрточная фольга" />
-        <text name="GLTM_TEMP_INFO"                         text="Полное руководство пользователя доступно в справке к игре." />
+        <text name="GLTM_TEMP_INFO"                         text="Руководство пользователя к LT-Master доступно в справке к игре." />
         <text name="GLTM_OPEN_HOOD"                         text="Открыть крышку" />
         <text name="GLTM_CLOSE_HOOD"                        text="Закрыть крышку" />
         <text name="GLTM_LOWER_SUPPORTS"                    text="Опустить стояночные опоры" />
@@ -65,7 +65,7 @@
         <text name="GLTM_HL_TEXT_01_02"                     text="Пустой вес: 15200 кг " />
         <text name="GLTM_HL_TEXT_01_03"                     text="Рекомендуемая мощность: 190 л.с. " />
         <text name="GLTM_HL_TEXT_01_04"                     text=" " />
-        <text name="GLTM_HL_TITLE_02"                       text="Операции" />
+        <text name="GLTM_HL_TITLE_02"                       text="Руководство пользователя" />
         <text name="GLTM_HL_TEXT_02_00"                     text="Расположите трактор и машину на ровной местности и поверните немного влево, после чего выдвиньте загрузочный бункер $input_IMPLEMENT_EXTRA2;. " />
         <text name="GLTM_HL_TEXT_02_01"                     text="Опустите машину $input_TOGGLE_COVER;, откройте правую дверь для доступа к панели управления, опустите опоры $input_IMPLEMENT_EXTRA4; и установите машину в рабочее положение $input_IMPLEMENT_EXTRA;; наконец опустите рампу для тюков $input_IMPLEMENT_EXTRA2; " />
         <text name="GLTM_HL_TEXT_02_03"                     text="Теперь вы можете идти в трактор и запустить установку $input_IMPLEMENT_EXTRA;; $input_IMPLEMENT_EXTRA4; включается/отключается функция обёртывания; $input_IMPLEMENT_EXTRA3; можно устанавливать желаемый размер тюка. " />
