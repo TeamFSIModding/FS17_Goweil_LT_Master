@@ -15,7 +15,7 @@
             <neededPower>190</neededPower>
         </specs>
         <image>store.dds</image>
-        <price>253700</price>
+        <price>25370</price>
         <dailyUpkeep>200</dailyUpkeep>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
@@ -188,6 +188,8 @@
             <part node="0>15|12|5|0" direction="1" startTime="10" duration="1" startTrans="-0.1 0 0" endTrans="0 0 0" />
             <part node="0>15|12|6|0" direction="-1" startTime="0" duration="1" startTrans="0 0 0" endTrans="-0.1 0 0" />
             <part node="0>15|12|6|0" direction="-1" startTime="10" duration="1" startTrans="-0.1 0 0" endTrans="0 0 0" />
+
+
             <!--apertura_scivoloUP-->
             <part node="0>7|4|0" startTime="12.5" duration="3" startRot="0 0 0" endRot="0 0 90" />
             <part node="0>7|4|1" startTime="13" duration="3" startRot="0 0 0" endRot="0 0 -90" />
@@ -589,9 +591,9 @@
         <movingPart index="0>15|15|0|0|0" referencePoint="0>15|0|4|2" referenceFrame="0>15|0|4|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
         <movingPart index="0>15|15|0|2|0" referencePoint="0>15|0|5|2" referenceFrame="0>15|0|5|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
         <movingPart index="0>8|6|4|0|0" referencePoint="0>8|3|0|0|2" referenceFrame="0>8|3|0|0|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
-        <movingPart index="0>8|6|4|2|0" referencePoint="0>8|3|3|0|4" referenceFrame="0>8|3|3|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
-        <movingPart index="0>8|6|4|4|0" referencePoint="0>8|3|1|0|4" referenceFrame="0>8|3|1|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
-        <movingPart index="0>8|6|4|6|0" referencePoint="0>8|3|2|0|4" referenceFrame="0>8|3|2|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>8|6|4|2|0" referencePoint="0>8|3|3|0|2" referenceFrame="0>8|3|3|0|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>8|6|4|4|0" referencePoint="0>8|3|1|0|2" referenceFrame="0>8|3|1|0|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
+        <movingPart index="0>8|6|4|6|0" referencePoint="0>8|3|2|0|2" referenceFrame="0>8|3|2|0|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>
         <!--	<movingPart index="0>7|14|9|0|2|0" referencePoint="0>7|1|1|4" referenceFrame="0>7|1|1|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/><movingPart index="0>7|14|9|0|0|0" referencePoint="0>7|1|0|4" referenceFrame="0>7|1|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true"/>	 -->
     </movingParts>
     <support animationName="moveSupport" />
@@ -917,7 +919,7 @@
         <trafficCollisionTrigger index="0>38"/>
     </ai>	
     <components count="1">
-        <component1 centerOfMass="0 1.4 0.3" solverIterationCount="7" />
+        <component1 centerOfMass="0 0.8 0.3" solverIterationCount="7" />
     </components>
     <schemaOverlay file="$dataS2/menu/schemas/implementSchema.png" fileSelected="$dataS2/menu/schemas/implementSchemaSelected.png" fileTurnedOn="$dataS2/menu/schemas/implementSchemaTurnedOn.png" fileSelectedTurnedOn="$dataS2/menu/schemas/implementSchemaSelectedTurnedOn.png" width="0.5" height="0.5" attacherJointPosition="0 0" />
 </vehicle>
