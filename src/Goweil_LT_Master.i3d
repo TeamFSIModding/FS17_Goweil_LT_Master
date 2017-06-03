@@ -380,7 +380,7 @@
           <Shape shapeId="25" name="bullone84" translation="0.956745 1.10669 3.55396" nodeId="927" materialIds="22" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="27" name="staffa" translation="1.09182 1.0617 3.66338" nodeId="928" materialIds="53" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="supporto_stazionamento" translation="0 0.494817 3.663" nodeId="929">
+        <TransformGroup name="supporto_stazionamento" translation="0 0.495 3.663" nodeId="929">
           <Shape shapeId="6" name="supportCol" translation="-1.014 0 0" compoundChild="true" clipDistance="300" nodeId="930" materialIds="29" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           <Shape shapeId="6" name="supportCol" translation="1.014 0 0" compoundChild="true" clipDistance="300" nodeId="931" materialIds="29" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </TransformGroup>
@@ -595,7 +595,7 @@
         </TransformGroup>
       </TransformGroup>
       <TransformGroup name="cazzone" translation="-0.000206033 1.43 -2.821" rotation="-13.802 0 0" nodeId="1119">
-        <TransformGroup name="static" translation="0.000206033 -2.09018 4.93925" nodeId="1120">
+        <TransformGroup name="static" translation="0.000206033 -2.09018 4.93925" scale="0.985332 1 1" nodeId="1120">
           <Shape shapeId="149" name="pannello_copertura" translation="1.20769 2.49963 -5.189" nodeId="1121" materialIds="22" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="150" name="pannello_copertura1" translation="-1.208 2.49963 -5.18854" nodeId="1122" materialIds="22" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="151" name="protezione" translation="0 2.35692 -5.19723" nodeId="1123" materialIds="22" castsShadows="true" receiveShadows="true"/>
@@ -621,7 +621,7 @@
             <Shape shapeId="165" name="pCylinder706" translation="-8.22146e-06 -0.0324359 -0.0326376" nodeId="1141" materialIds="53" castsShadows="true" receiveShadows="true"/>
             <Shape shapeId="166" name="pCylinder705" translation="3.82702e-06 -0.0566964 0.0328619" nodeId="1142" materialIds="53" castsShadows="true" receiveShadows="true"/>
           </Shape>
-          <TransformGroup name="fascia_posteriore" translation="0 2.438 -9.948" nodeId="1143">
+          <TransformGroup name="fascia_posteriore" translation="0 2.438 -9.9455" nodeId="1143">
             <Shape shapeId="167" name="fascia_posteriore_DX1" nodeId="1144" materialIds="50" castsShadows="true" receiveShadows="true"/>
             <Shape shapeId="168" name="fascia_posteriore_DX" nodeId="1145" materialIds="50" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
@@ -890,7 +890,7 @@
         <TransformGroup name="effect_scivolo_up" nodeId="1345"/>
         <Shape shapeId="245" name="fillVolume" translation="0 0.575 -2.766" clipDistance="100" nodeId="1346" materialIds="38" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         <Shape shapeId="246" name="exactFillRootNode" translation="0 1.90382 -2.561" rotation="8.01992 -0 0" scale="1.92525 1.96799 1.11482" kinematic="true" compound="true" collisionMask="1073741824" nodeId="1347" materialIds="38" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-        <Shape shapeId="247" name="tipTrigger" translation="0 0.602044 -3.05812" scale="1.2843 0.372714 2.92028" kinematic="true" compound="true" trigger="true" collisionMask="8388608" nodeId="1348" materialIds="29" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="247" name="tipTrigger" translation="0 0.857156 -3.482" scale="1.2843 0.608023 3.03677" kinematic="true" compound="true" trigger="true" collisionMask="8388608" nodeId="1348" materialIds="29" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         <TransformGroup name="Load_info" translation="0.000206033 0 0" visibility="false" nodeId="1349">
           <Shape shapeId="248" name="load_info1" translation="-1.13929 1.76389 -2.98174" nodeId="1350" materialIds="38" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="248" name="load_info2" translation="1.139 1.76389 -2.98174" nodeId="1351" materialIds="38" castsShadows="true" receiveShadows="true"/>
@@ -2245,7 +2245,7 @@
       <Camera name="Camera_goweil" translation="2.38 2 2.1" rotation="0 90 0" clipDistance="300" nodeId="2401" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
       <Shape shapeId="815" name="trafficCollisionTrigger" translation="0 2.439 -2.50286" scale="1 1 1.02179" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="2402" materialIds="56" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
     </Shape>
-    <Camera name="camera" translation="8.3372 2.18546 6.48471" rotation="4.12529 32.544 -1.66164e-07" nodeId="2403" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+    <Camera name="camera" translation="0.701706 0.737126 -9.23602" rotation="169.916 5.79837 -180" nodeId="2403" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
   </Scene>
 
   <UserAttributes>
