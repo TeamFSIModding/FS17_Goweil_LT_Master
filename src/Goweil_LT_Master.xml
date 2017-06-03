@@ -779,7 +779,7 @@
             <balerDoor file="sounds/balerDoor.wav" pitchOffset="1.00" volume="0.8" volume3D="0.8" indoorVolumeFactor="0.5" innerRadius="10" radius="50" />
             <knottingSound file="sounds/balerKnotting.wav" pitchOffset="0.90" volume="1" volume3D="1" indoorVolumeFactor="0.5" innerRadius="5" radius="25" />
             <outOfNetSound file="$data/sounds/rollBelt150Alarm.wav" pitchOffset="0.50" volume="0.5" volume3D="0.5" indoorVolumeFactor="0.5" innerRadius="15" radius="75" />
-            <baleAnimation node="0>23|0" scaleNode="0>23" baleNode="0>23|0" unloadAnimationName="unloadBale" closeAnimationName="closeDoor" />
+            <baleAnimation node="0>23|0" scaleNode="0>23" baleNode="0>23|0" unloadAnimationName="unloadBale" closeAnimationName="closeDoor" baleDropAnimTime="6.5" />
             <balingAnimation name="baling" />
             <knottingAnimation name="leverKnotting" />
             <knottingScrollParts>
