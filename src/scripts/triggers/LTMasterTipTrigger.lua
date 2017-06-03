@@ -71,6 +71,7 @@ function LTMasterTipTrigger:getNotAllowedText(filler, toolType)
 end
 
 function LTMasterTipTrigger:addFillLevelFromTool(trailer, fillDelta, fillType, toolType)
+    LTMaster.print("%s", toolType);
     if fillDelta > 0 then
         local mainFillDelta = fillDelta;
         --local leftRightFillDelta = fillDelta / 4;

@@ -335,7 +335,7 @@ function LTMaster:updateTickBaler(dt, normalizedDt)
         if self.LTMaster.baler.unloadingState == Baler.UNLOADING_OPENING then
             local isPlaying = self:getIsAnimationPlaying(self.LTMaster.baler.baleUnloadAnimationName);
             local animTime = self:getRealAnimationTime(self.LTMaster.baler.baleUnloadAnimationName);
-            if not isPlaying or animTime >= self.LTMaster.baler.baleDropAnimTime then;
+            if not isPlaying or animTime >= self.LTMaster.baler.baleDropAnimTime then
                 if table.getn(self.LTMaster.baler.bales) > 0 then
                     self:dropBale(1);
                     if self.isServer then
