@@ -912,7 +912,7 @@
         <skinnedNode index="0>7|14|9|0|1" moveToZero="false"/>
         <skinnedNode index="0>7|14|9|0|3" moveToZero="false"/>
     </skinnedNodes>
-    <washable dirtDuration="120" washDuration="5" workMultiplier="5" fieldMultiplier="3" />
+    <washable dirtDuration="180" washDuration="5" workMultiplier="5" fieldMultiplier="3" />
     <ai>
         <trafficCollisionTrigger index="0>38"/>
     </ai>
