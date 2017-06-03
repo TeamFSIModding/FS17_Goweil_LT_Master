@@ -70,8 +70,7 @@ function LTMasterTipTrigger:getNotAllowedText(filler, toolType)
     return text;
 end
 
-function LTMasterTipTrigger:addFillLevelFromTool(trailer, fillDelta, fillType, toolType)
-    LTMaster.print("%s", toolType);
+function LTMasterTipTrigger:addFillLevelFromTool(tool, fillDelta, fillType, toolType)
     if fillDelta > 0 then
         local mainFillDelta = fillDelta;
         --local leftRightFillDelta = fillDelta / 4;
@@ -94,15 +93,9 @@ function LTMasterTipTrigger:addFillLevelFromTool(trailer, fillDelta, fillType, t
         --    self.owner:setUnitFillLevel(self.leftFillUnitIndex, leftFillLevel + leftDelta, fillType);
         --end
         local dropped = mainDelta; -- + rightDelta + leftDelta;
-        if self.owner:getIsTurnedOn() then
-            if dropped <= 0 and trailer:getFillLevel(fillType) <= 0 then
-                trailer:onEndTip();
-            end
-        else
-            if dropped <= 0 then
-                trailer:onEndTip();
-            end
+        if dropped <= 0 then
+            tool:onEndTip();
         end
-        return dropped; -- + 0.01000001;
+        return dropped;
     end
 end

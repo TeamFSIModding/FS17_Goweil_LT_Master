@@ -637,6 +637,7 @@
         </unloadInfos>
     </fillVolumes>
     <fillRootNode index="0>" />
+    <exactFillRootNode index="0>7|9" />
     <fillMassNode updateFillLevelMass="false" />
     <allowFillFromAir value="true" />
     <supportsFillTriggers value="true" />
