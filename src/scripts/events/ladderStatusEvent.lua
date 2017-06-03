@@ -33,10 +33,8 @@ end
 
 function LadderStatusEvent:run(connection)
     if not connection:getIsServer() then
-        LTMaster.print("[SERVER] -> self.vehicle.LTMaster.ladder.status = self.status:%s", self.status);
         LTMaster.updateLadderStatus(self.vehicle, self.status);
     else
-        LTMaster.print("[CLIENT] -> self.vehicle.LTMaster.ladder.status = self.status:%s", self.status);
         LTMaster.eventUpdateLadderStatus(self.vehicle, self.status);
     end
 end

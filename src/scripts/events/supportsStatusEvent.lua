@@ -33,10 +33,8 @@ end
 
 function SupportsStatusEvent:run(connection)
     if not connection:getIsServer() then
-        LTMaster.print("[SERVER] -> self.vehicle.LTMaster.supports.status = self.status:%s", self.status);
         LTMaster.updateSupportsStatus(self.vehicle, self.status);
     else
-        LTMaster.print("[CLIENT] -> self.vehicle.LTMaster.supports.status = self.status:%s", self.status);
         LTMaster.eventUpdateSupportsStatus(self.vehicle, self.status);
     end
 end

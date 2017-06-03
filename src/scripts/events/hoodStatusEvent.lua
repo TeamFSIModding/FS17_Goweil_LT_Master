@@ -36,10 +36,8 @@ end
 
 function HoodStatusEvent:run(connection)
     if not connection:getIsServer() then
-        LTMaster.print("[SERVER] -> self.vehicle.LTMaster.hoods[self.hood:%s].status = self.status:%s", self.hood, self.status);
         LTMaster.updateHoodStatus(self.vehicle, self.vehicle.LTMaster.hoods[self.hood], self.status);
     else
-        LTMaster.print("[CLIENT] -> self.vehicle.LTMaster.hoods[self.hood:%s].status = self.status:%s", self.hood, self.status);
         LTMaster.eventUpdateHoodStatus(self.vehicle, self.hood, self.status);
     end
 end

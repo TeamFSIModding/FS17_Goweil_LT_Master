@@ -77,6 +77,7 @@ function LTMaster:preLoad(savegame)
 end
 
 function LTMaster:load(savegame)
+    self.forceIsActive = true;
     self.applyInitialAnimation = Utils.overwrittenFunction(self.applyInitialAnimation, LTMaster.applyInitialAnimation);
     self.getIsTurnedOnAllowed = Utils.overwrittenFunction(self.getIsTurnedOnAllowed, LTMaster.getIsTurnedOnAllowed);
     self.getTurnedOnNotAllowedWarning = Utils.overwrittenFunction(self.getTurnedOnNotAllowedWarning, LTMaster.getTurnedOnNotAllowedWarning);
@@ -441,6 +442,7 @@ function LTMaster:readUpdateStream(streamId, timestamp, connection)
 end
 
 function LTMaster:update(dt)
+    self.forceIsActive = true;
     LTMaster.updateBaler(self, dt);
     LTMaster.updateWrapper(self, dt);
     LTMaster.updateWrkMove(self, dt);

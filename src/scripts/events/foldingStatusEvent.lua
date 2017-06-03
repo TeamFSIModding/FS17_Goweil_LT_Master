@@ -33,10 +33,8 @@ end
 
 function FoldingStatusEvent:run(connection)
     if not connection:getIsServer() then
-        LTMaster.print("[SERVER] -> self.vehicle.LTMaster.folding.status = self.status:%s", self.status);
         LTMaster.updateFoldingStatus(self.vehicle, self.status);
     else
-        LTMaster.print("[CLIENT] -> self.vehicle.LTMaster.folding.status = self.status:%s", self.status);
         LTMaster.eventUpdateFoldingStatus(self.vehicle, self.status);
     end
 end
