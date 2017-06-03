@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="3">
+    <Textures>
+        <Texture name = "mMask"            defaultColorProfile = "linearRGB"    defaultFilename = "../shared/materialHolders/tireTrackMask_diffuse.png"/>
+    </Textures>
+    <LodLevel startDistance = "0" alphaForceMode = "use" >
+        <CodeInjections>
+            <CodeInjection position="CONFIG_DEFINES">
+<![CDATA[
+    /*
+
+    Should be set by script, per vertex basis.
+
+    In.vs.vertexColor.rgb   - color
+    In.vs.vertexColor.a     - transparency
+    In.vs.normal.a             - normalMap intensity [ 1 - bumpy, 0 - flat ]
+
+    */
+]]>
+            </CodeInjection>
+            <CodeInjection position = "SAMPLERS">
+<![CDATA[
+sampler2D mMask;
+]]>
+            </CodeInjection>
+            <CodeInjection position="VS_OUTPUT">
+<![CDATA[
+float vBumpiness : TEXCOORDn;
+float2 globalMaskTexCoords : TEXCOORDn;
+]]>
+            </CodeInjection>
+            <CodeInjection position="VS_END">
+<![CDATA[
+    Out.vBumpiness = In.normal.a;
+    Out.globalMaskTexCoords = 0.1 * (worldPosition.xz + float2(invViewMatrix[0][3], invViewMatrix[2][3]));
+]]>
+            </CodeInjection>
+            <CodeInjection position = "FS_GLOBALS">
+<![CDATA[
+    float4  gVertexColor;
+    float   gBumpiness;
+    float3  gMask;
+]]>
+            </CodeInjection>
+            <CodeInjection position = "START_FS">
+<![CDATA[
+#if defined( VERTEX_COLOR )
+    globals.gVertexColor  = In.vs.vertexColor.rgba;
+#else
+    globals.gVertexColor = float4(1,1,1,1);
+#endif
+    globals.gBumpiness    = In.vs.vBumpiness;
+    globals.gMask         = tex2D( mMask, In.vs.globalMaskTexCoords ).xyz;
+]]>
+            </CodeInjection>
+            <CodeInjection position = "GET_UNNORMALIZED_TANGENT_SPACE_NORMAL_FS">
+<![CDATA[
+ #if defined( NORMAL_MAP )
+    float3 mDirtNmap    = tex2D( normalMap, In.vs.NORMALMAP_TEXCOORD ).xyz - 0.5;
+    return lerp( float3(0.0, 0.0, 0.5), mDirtNmap, globals.gBumpiness );
+ #endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "POST_ALBEDO_FS">
+<![CDATA[
+#if defined( VERTEX_COLOR )
+    #undef VERTEX_COLOR
+#endif
+#if defined(ALBEDO_MAP)
+    float mTireAlpha     = albedo.r;
+    float mTireTrackMask = albedo.g;
+    float mAO            = albedo.b;
+
+    float mDiffuse       = globals.gMask.r;
+    albedo.rgb           = globals.gVertexColor.rgb * mDiffuse * mAO; //use worlsSpace texture
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="ALPHA_FS">
+<![CDATA[
+#if defined( ALPHA_BLENDED )
+    float mMaskScale   = 1.00;
+    float mMaskAlpha   = 1.00;
+
+    float mTransparency = globals.gVertexColor.a;
+
+    mMaskAlpha      =  mMaskScale * globals.gMask.g * mTireTrackMask ;
+    mMaskAlpha      *= mTireAlpha;
+    mMaskAlpha      =  clamp( mMaskAlpha, 0.0, 1.0 );
+
+    alpha *= mTransparency * mMaskAlpha;
+#endif
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

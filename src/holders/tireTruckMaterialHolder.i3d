@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="tireTrackMaterialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.5"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="shaders/tireTrackShader.xml" relativePath="true"/>
+    <File fileId="4" filename="tireTrackMask_diffuse.dds" relativePath="true"/>
+    <File fileId="1" filename="tireTrack_diffuse_goweil.dds" relativePath="true"/>
+    <File fileId="2" filename="tireTrack_normal_goweil.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="tireTrackSystemMaterial" materialId="7" ambientColor="1 1 1" alphaBlending="true" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Custommap name="mMask" fileId="4"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="tireTruckMaterialHolder.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="tireTrackMaterialHolder" nodeId="10" materialIds="7" receiveShadows="true" buildNavMeshMask="96" decalLayer="3"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="10">
+      <Attribute name="onCreate" type="scriptCallback" value="TireTrackSystem.onCreateTireTrackSystem"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

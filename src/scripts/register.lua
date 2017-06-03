@@ -38,6 +38,7 @@ function register:loadMap(name)
     end
     Utils.loadHelpLine(self.dir .. "helpline/helpLine.xml", g_inGameMenu.helpLineCategories, g_inGameMenu.helpLineCategorySelectorElement, self.dir);
     Utils.loadI3D(self.dir .. "holders/materialHolder.i3d");
+    Utils.loadI3D(self.dir .. "holders/tireTruckMaterialHolder.i3d");
 end
 
 function register:deleteMap()
