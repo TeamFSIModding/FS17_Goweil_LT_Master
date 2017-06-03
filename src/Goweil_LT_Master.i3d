@@ -890,8 +890,8 @@
         <TransformGroup name="effect_scivolo_up" nodeId="1345"/>
         <Shape shapeId="245" name="fillVolume" translation="0 0.575 -2.766" clipDistance="100" nodeId="1346" materialIds="11" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         <TransformGroup name="vuoto" nodeId="2406"/>
-        <Shape shapeId="246" name="tipTrigger" translation="0 0.857156 -4.66609" scale="1.13884 0.46257 1.24277" kinematic="true" compound="true" trigger="true" collisionMask="8388608" nodeId="1348" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
-          <Shape shapeId="247" name="ShovelTarget" translation="-0.447461 1.06667 1.30311" rotation="46.8196 89.2477 46.7497" scale="1.92525 1.96799 1.11482" kinematic="true" compound="true" collisionMask="1073741824" nodeId="1347" materialIds="11" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="246" name="tipTrigger" translation="0.0302633 0.857156 -3.46397" scale="1.13884 0.46257 2.92076" kinematic="true" compound="true" trigger="true" collisionMask="8388608" nodeId="1348" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="247" name="ShovelTarget" translation="0.0295056 -0.431844 0.240454" rotation="46.8196 89.2477 46.7497" scale="0.792286 4.81248 0.881391" kinematic="true" compound="true" collisionMask="1073741824" nodeId="1347" materialIds="11" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </Shape>
         <TransformGroup name="Load_info" translation="0.000206033 0 0" visibility="false" nodeId="1349">
           <Shape shapeId="248" name="load_info1" translation="-1.13929 1.76389 -2.98174" nodeId="1350" materialIds="11" castsShadows="true" receiveShadows="true"/>
@@ -2244,7 +2244,7 @@
         <Shape shapeId="813" name="move1" translation="0 0.005 -0.0321534" clipDistance="300" nodeId="2399" materialIds="54" castsShadows="true" receiveShadows="true"/>
         <Shape shapeId="814" name="move1_target" visibility="false" clipDistance="300" nodeId="2400" materialIds="11" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       </TransformGroup>
-      <Camera name="Camera_goweil" translation="7.04698 6.23059 -5.00735" rotation="-27.7311 74.8739 -1.53368e-07" clipDistance="300" nodeId="2401" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      <Camera name="Camera_goweil" translation="0.166143 2.369 -13.4695" rotation="175.417 -0.0688497 180" clipDistance="300" nodeId="2401" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
       <Shape shapeId="815" name="trafficCollisionTrigger" translation="0 2.439 -2.50286" scale="1 1 1.02179" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="2402" materialIds="22" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
     </Shape>
     <Camera name="camera" translation="-0.0265691 5.25034 -12.4614" rotation="150.894 0.984923 180" nodeId="2403" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
