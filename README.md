@@ -1,8 +1,8 @@
 # Goweil LT Master
 ### **This is the house of *Goweil LT Master for Farming Simulator 17*.**
   
-![Goweil LT Master](https://github.com/TeamFSIModding/FS17_Goweil_LT_Master/blob/master/other/screenshots/goweil_lt_master.png?raw=true)
-  
+![Goweil LT Master](https://raw.githubusercontent.com/TeamFSIModding/FS17_Goweil_LT_Master/master/other/screenshots/goweil_lt_master_s1.jpg?raw=true)
+
 The LT Master is a baler-wrapper combination wich can be process a great kind of material, not only mais chaff or grass; in the perspective of the game FS17, this machine can work on fields or in farm, and can process a wide variety of material greatly faster than a conventional baler and wrapper:
 
  - Chaff and grass can be pressed and wrapped for silage fermentation
@@ -16,4 +16,10 @@ Here in GitHub the history and development of the mod, originally started in lat
 
 **We accept contributions for language translation(even improvements to existing ones) and better 2D images (FS17 stylish only), you can send your pull request and your work will be quoted in the credits.**
 
+Thanks to all the guys who worked for the translation
+
 ---
+
+This mod will be sent for Giants modcontest 2017
+![Goweil LT Master](https://raw.githubusercontent.com/TeamFSIModding/FS17_Goweil_LT_Master/master/other/screenshots/mc2017-header_en.jpg?raw=true)
+https://www.farming-simulator.com/modContest2017.php
