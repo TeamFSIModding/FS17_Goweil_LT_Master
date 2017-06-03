@@ -149,27 +149,27 @@
             <part node="0>5|1|0" startTime="0" duration="2.75" startTrans="0 -0.164 0" endTrans="0 -0.60 0" />
             <part node="0>5|2|0" startTime="0" duration="2.55" startTrans="0 -0.164 0" endTrans="0 -0.60 0" />
             <part node="0>5|3|0" startTime="0" duration="2.5" startTrans="0 -0.164 0" endTrans="0 -0.60 0" />
-            <part node="0>14|0|14" direction="1" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|14" direction="1" startTime="0" duration="0.45" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|14" direction="1" startTime="2.2" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
             <part node="0>14|0|14" direction="-1" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|14" direction="-1" startTime="2" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|14|0" direction="1" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|14" direction="-1" startTime="2" duration="0.45" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|14|0" direction="1" startTime="0" duration="0.45" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|14|0" direction="1" startTime="2.2" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
             <part node="0>14|0|14|0" direction="-1" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|14|0" direction="-1" startTime="2" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|14|0" direction="-1" startTime="2" duration="0.45" startRot="0 0 -20" endRot="0 0 0" />
             <part node="0>14|0|15" direction="1" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|15" direction="1" startTime="2.2" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|15" direction="-1" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|15" direction="1" startTime="2.2" duration="0.35" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|15" direction="-1" startTime="0" duration="0.35" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|15" direction="-1" startTime="2" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
             <part node="0>14|0|15|0" direction="1" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|15|0" direction="1" startTime="2.2" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|15|0" direction="-1" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|15|0" direction="1" startTime="2.2" duration="0.35" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|15|0" direction="-1" startTime="0" duration="0.35" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|15|0" direction="-1" startTime="2" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
             <!--sblocco leve-->
-            <part node="0>14|0|13" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|13|0" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|13" startTime="2.5" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|13|0" startTime="2.5" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|13" startTime="0" duration="0.6" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|13|0" startTime="0" duration="0.6" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|13" startTime="2.5" duration="0.55" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|13|0" startTime="2.5" duration="0.55" startRot="0 0 -20" endRot="0 0 0" />
             <!--<part node="0>4|0" startTime="2.5" duration="0" startRot="90 90 0" endRot="0 0 0" startTrans="0.832 1.177 -1.233" endTrans="1.36 -0.05 -1.06"/><part node="0>4|1" startTime="2.5" duration="0" startRot="90 -90 0" endRot="0 0 0" startTrans="-0.832 1.177 -1.233" endTrans="-1.36 -0.05 -1.06"/>-->
         </animation>
         <animation name="folding">
@@ -192,35 +192,35 @@
             <part node="0>7|4|0" startTime="12.5" duration="3" startRot="0 0 0" endRot="0 0 90" />
             <part node="0>7|4|1" startTime="13" duration="3" startRot="0 0 0" endRot="0 0 -90" />
             <!--  <part node="0>7|0|6" startTime="12.5" duration="3" startTrans="-0.515 2.442 -9.949" endTrans="-0.65 2.442 -9.949" /><part node="0>7|0|7" startTime="12.5" duration="3" startTrans="0.515 2.442 -9.949" endTrans="0.65 2.442 -9.949" /> -->
-            <part node="0>14|0|18" direction="1" startTime="11" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|18" direction="1" startTime="13.7" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|18" direction="-1" startTime="11" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|18" direction="-1" startTime="13.5" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|18|0" direction="1" startTime="11" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|18|0" direction="1" startTime="13.7" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|18|0" direction="-1" startTime="11" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|18|0" direction="-1" startTime="13.5" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|18" direction="1" startTime="11" duration="0.45" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|18" direction="1" startTime="13.7" duration="0.35" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|18" direction="-1" startTime="11" duration="0.35" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|18" direction="-1" startTime="13.5" duration="0.45" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|18|0" direction="1" startTime="11" duration="0.45" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|18|0" direction="1" startTime="13.7" duration="0.35" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|18|0" direction="-1" startTime="11" duration="0.35" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|18|0" direction="-1" startTime="13.5" duration="0.45" startRot="0 0 -20" endRot="0 0 0" />
             <!--sponde_scivolo1-->
             <part node="0>8|1|1|0" startTime="14" duration="3" startRot="0 84 0" endRot="0 0 0" />
             <part node="0>8|1|0|0" startTime="14" duration="3" startRot="0 -84 0" endRot="0 0 0" />
-            <part node="0>14|0|16" direction="1" startTime="12" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|16" direction="1" startTime="14.7" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|16" direction="-1" startTime="12" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|16" direction="-1" startTime="14.5" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|16|0" direction="1" startTime="12" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|16|0" direction="1" startTime="14.7" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|16|0" direction="-1" startTime="12" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|16|0" direction="-1" startTime="14.5" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|16" direction="1" startTime="12" duration="0.55" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|16" direction="1" startTime="14.7" duration="0.4" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|16" direction="-1" startTime="12" duration="0.4" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|16" direction="-1" startTime="14.5" duration="0.55" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|16|0" direction="1" startTime="12" duration="0.55" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|16|0" direction="1" startTime="14.7" duration="0.4" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|16|0" direction="-1" startTime="12" duration="0.4" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|16|0" direction="-1" startTime="14.5" duration="0.55" startRot="0 0 20" endRot="0 0 0" />
             <!--luci-->
             <part node="0>7|4|0|11|0" startTime="10" duration="2" startRot="0 0 0" endRot="0 -80 0" />
             <part node="0>7|4|0|11|0|0" startTime="10" duration="2" startTrans="0 0 0.03" endTrans="0 0 0.065" />
             <part node="0>7|4|1|13|0" startTime="10" duration="2" startRot="0 0 0" endRot="0 -80 0" />
             <part node="0>7|4|1|13|0|0" startTime="10" duration="2" startTrans="0 0 0.03" endTrans="0 0 0.065" />
             <!--sblocco leve-->
-            <part node="0>14|0|13" startTime="10" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|13|0" startTime="10" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|13" startTime="15" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|13|0" startTime="15" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|13" startTime="10" duration="0.6" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|13|0" startTime="10" duration="0.6" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|13" startTime="15" duration="0.45" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|13|0" startTime="15" duration="0.45" startRot="0 0 -20" endRot="0 0 0" />
         </animation>
         <animation name="leftDoor">
             <!--portone sinistro up/down -->
@@ -232,14 +232,14 @@
             <part node="0>14|1|13|0" startTime="3.5" duration="0.01" startScale="0 0 0" endScale="0.806 0.806 0.806" />
             <part node="0>14|1|14|0" startTime="3.5" duration="0.01" startScale="0 0 0" endScale="1.038 1.038 1.038" />
             <part node="0>14|1|15|0" startTime="3.5" duration="0.01" startScale="0 0 0" endScale="1.038 1.038 1.038" />
-            <part node="0>14|0|19" direction="-1" startTime="2.5" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|19" direction="-1" startTime="3.5" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|19" direction="1" startTime="2.5" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|19" direction="1" startTime="3.5" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|19|0" direction="-1" startTime="2.5" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|19|0" direction="-1" startTime="3.5" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|19|0" direction="1" startTime="2.5" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|19|0" direction="1" startTime="3.5" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|19" direction="-1" startTime="2.5" duration="0.35" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|19" direction="-1" startTime="3.5" duration="0.45" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|19" direction="1" startTime="2.5" duration="0.35" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|19" direction="1" startTime="3.5" duration="0.45" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|19|0" direction="-1" startTime="2.5" duration="0.35" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|19|0" direction="-1" startTime="3.5" duration="0.45" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|19|0" direction="1" startTime="2.5" duration="0.35" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|19|0" direction="1" startTime="3.5" duration="0.45" startRot="0 0 20" endRot="0 0 0" />
         </animation>
         <animation name="rightDoor">
             <!--portone destro up/down -->
@@ -264,19 +264,19 @@
             <!--scarico_balla -->
             <part node="0>15|6|0" startTime="0" duration="0.5" startRot="90 0 0" endRot="0 0 0" />
             <part node="0>15|6|1" startTime="1" duration="3" startRot="-56.698 0 0" endRot="54 0 0" />
-            <part node="0>14|0|17" direction="-1" startTime="0.8" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|17" direction="-1" startTime="3.7" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|17" direction="1" startTime="0.8" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|17" direction="1" startTime="3.7" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|17|0" direction="-1" startTime="0.8" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|17|0" direction="-1" startTime="3.7" duration="0.3" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|17|0" direction="1" startTime="0.8" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|17|0" direction="1" startTime="3.7" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|17" direction="-1" startTime="0.8" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|17" direction="-1" startTime="3.7" duration="0.4" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|17" direction="1" startTime="0.8" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|17" direction="1" startTime="3.7" duration="0.4" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|17|0" direction="-1" startTime="0.8" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|17|0" direction="-1" startTime="3.7" duration="0.4" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|17|0" direction="1" startTime="0.8" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|17|0" direction="1" startTime="3.7" duration="0.4" startRot="0 0 20" endRot="0 0 0" />
             <!--sblocco leve-->
-            <part node="0>14|0|13" startTime="1" duration="0.2" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|13|0" startTime="1" duration="0.2" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|13" startTime="3.8" duration="0.2" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|13|0" startTime="3.8" duration="0.2" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|13" startTime="1" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|13|0" startTime="1" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|13" startTime="3.8" duration="0.15" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|13|0" startTime="3.8" duration="0.15" startRot="0 0 -20" endRot="0 0 0" />
         </animation>
         <!-- unload bale -->
         <animation name="unloadBale">
@@ -288,11 +288,11 @@
             <part node="0>10|1|8|0" startTime="4.25" duration="2.25" startRot="-360 0 0" endRot="-720 0 0" />
             <part node="0>10|1|7|0" startTime="0.75" duration="1.2" startRot="0 0 0" endRot="-360 0 0" />
             <part node="0>10|1|7|0" startTime="4.25" duration="2.25" startRot="-360 0 0" endRot="-720 0 0" />
-            <part node="0>14|0|5" startTime="0.75" duration="0.25" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|5" startTime="4" duration="0.3" startRot="0 0 20" endRot="0 0 -20" />
+            <part node="0>14|0|5" startTime="0.75" duration="0.45" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|5" startTime="4" duration="0.35" startRot="0 0 20" endRot="0 0 -20" />
             <part node="0>14|0|5" startTime="6.5" duration="0.25" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|5|0" startTime="0.75" duration="0.25" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|5|0" startTime="4" duration="0.3" startRot="0 0 -20" endRot="0 0 20" />
+            <part node="0>14|0|5|0" startTime="0.75" duration="0.45" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|5|0" startTime="4" duration="0.35" startRot="0 0 -20" endRot="0 0 20" />
             <part node="0>14|0|5|0" startTime="6.5" duration="0.25" startRot="0 0 20" endRot="0 0 0" />
             <part node="0>23" startTime="1.249" duration="0" startRot="0 0 0" endRot="0 0 0" />
             <part node="0>23" startTime="1.25" duration="1" startTrans="0 2.632 1.442" endTrans="0 2.362 1.88" />
@@ -303,18 +303,18 @@
             <part node="0>23" startTime="3.25" duration="1" startRot="50 0 0" endRot="90 0 0" />
             <part node="0>23" startTime="3.75" duration="0.5" startTrans="0 2.04 2.982" endTrans="0 2.079 3.202" />
             <part node="0>23" startTime="4.25" duration="2.25" startTrans="0 2.079 3.202" endTrans="0 2.079 4.049" />
-            <part node="0>14|0|4" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|4" startTime="0" duration="0.35" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|4" startTime="2" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|4|0" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|4|0" startTime="0" duration="0.35" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|4|0" startTime="2" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|9" startTime="0.1" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|9|0" startTime="0.1" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|9" startTime="0.1" duration="0.6" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|9|0" startTime="0.1" duration="0.6" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|10" startTime="0.1" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|10|0" startTime="0.1" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|9" startTime="2.5" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
             <part node="0>14|0|9|0" startTime="2.5" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|10" startTime="2.5" duration="0.5" startRot="0 0 20" endRot="0 0 0" />
-            <part node="0>14|0|10|0" startTime="2.5" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|10" startTime="2.5" duration="0.4" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|10|0" startTime="2.5" duration="0.4" startRot="0 0 -20" endRot="0 0 0" />
         </animation>
         <!-- close door -->
         <animation name="closeDoor">
@@ -323,10 +323,10 @@
             <part node="0>23" startTime="0" duration="0" startTrans="0 2.079 4.049" endTrans="0 2.632 1.442" />
             <part node="0>23" startTime="0" duration="0" startRot="110 0 0" endRot="0 0 0" />
             <part node="0>23" startTime="0" duration="0" startScale="1 1 1" endScale="0 0 0" />
-            <part node="0>14|0|4" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|4" startTime="2" duration="0.15" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|4|0" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|4|0" startTime="2" duration="0.15" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|4" startTime="0" duration="0.35" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|4" startTime="2" duration="0.10" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|4|0" startTime="0" duration="0.35" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|4|0" startTime="2" duration="0.10" startRot="0 0 20" endRot="0 0 0" />
         </animation>
         <!--Wrapper -->
         <animation name="moveBaleToWrapper"></animation>
@@ -344,9 +344,9 @@
             <part node="0>10|1|9|0" startTime="2" duration="0.5" startRot="0 0 20" endRot="0 0 40" startTrans="-0.07 -0.1 0" endTrans="-0.25 -0.55 0" />
             <part node="0>10|1|9|0" startTime="2.5" duration="0.5" startRot="0 0 40" endRot="0 0 80" startTrans="-0.25 -0.55 0" endTrans="-0.2 -1 0" />
             <!--leve-->
-            <part node="0>14|0|5" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|5" startTime="0" duration="0.35" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|5" startTime="2.75" duration="0.25" startRot="0 0 -20" endRot="0 0 0" />
-            <part node="0>14|0|5|0" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
+            <part node="0>14|0|5|0" startTime="0" duration="0.35" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|5|0" startTime="2.75" duration="0.25" startRot="0 0 20" endRot="0 0 0" />
         </animation>
         <animation name="resetWrapperAfterBaleDrop">
@@ -363,9 +363,9 @@
             <part node="0>10|1|2|0" startTime="0" duration="0" endRot="0 0 0" />
             <!--leve-->
             <part node="0>14|0|5" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|5" startTime="2" duration="0.25" startRot="0 0 20" endRot="0 0 0" />
+            <part node="0>14|0|5" startTime="2" duration="0.2" startRot="0 0 20" endRot="0 0 0" />
             <part node="0>14|0|5|0" startTime="0" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
-            <part node="0>14|0|5|0" startTime="2" duration="0.25" startRot="0 0 -20" endRot="0 0 0" />
+            <part node="0>14|0|5|0" startTime="2" duration="0.2" startRot="0 0 -20" endRot="0 0 0" />
         </animation>
         <animation name="wrapBale">
             <part node="0>10|1|1|0" startTime="0.63" endTime="1.26" startRot="0 0 0" endRot="0 -90 0" />
@@ -482,9 +482,9 @@
             <part node="0>10|1|5" startTime="13.3" endTime="14" shaderParameter="offsetUV" shaderStartValues="4.75 0 0 0" shaderEndValues="5 0 0 0" />
             <part node="0>10|1|0|0" startTime="13.3" endTime="14" startRot="-3060 0 0" endRot="-3240 0 0" />
             <part node="0>10|1|0|1" startTime="13.3" endTime="14" startRot="-3060 0 0" endRot="-3240 0 0" />
-            <part node="0>14|0|6" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 -18" />
+            <part node="0>14|0|6" startTime="0" duration="0.4" startRot="0 0 0" endRot="0 0 -18" />
             <part node="0>14|0|6" startTime="15" duration="1" startRot="0 0 -18" endRot="0 0 0" />
-            <part node="0>14|0|6|0" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 18" />
+            <part node="0>14|0|6|0" startTime="0" duration="0.4" startRot="0 0 0" endRot="0 0 18" />
             <part node="0>14|0|6|0" startTime="15" duration="1" startRot="0 0 18" endRot="0 0 0" />
             <part node="0>10|2|0|0" startTime="9.47" duration="0.7" startRot="0 0 0" endRot="-69 0 0" />
             <part node="0>10|2|0|0|0" startTime="9.47" duration="0.7" startRot="0 0 0" endRot="122 0 0" />
@@ -494,18 +494,18 @@
             <part node="0>10|2|1|0|0" startTime="9.45" duration="0.7" startRot="0 0 0" endRot="-122 0 0" />
             <part node="0>10|2|1|0" startTime="13.75" duration="0.6" startRot="69 0 0" endRot="0 0 0" />
             <part node="0>10|2|1|0|0" startTime="13.75" duration="0.6" startRot="-122 0 0" endRot="0 0 0" />
-            <part node="0>14|0|3" startTime="13.5" duration="0.25" startRot="0 0 0" endRot="0 0 18" />
-            <part node="0>14|0|3" startTime="14.25" duration="0.5" startRot="0 0 18" endRot="0 0 -18" />
-            <part node="0>14|0|3" startTime="15.5" duration="0.25" startRot="0 0 -18" endRot="0 0 0" />
-            <part node="0>14|0|3|0" startTime="13.5" duration="0.25" startRot="0 0 0" endRot="0 0 -18" />
-            <part node="0>14|0|3|0" startTime="14.25" duration="0.5" startRot="0 0 -18" endRot="0 0 18" />
-            <part node="0>14|0|3|0" startTime="15.5" duration="0.25" startRot="0 0 18" endRot="0 0 0" />
+            <part node="0>14|0|3" startTime="13.5" duration="0.3" startRot="0 0 0" endRot="0 0 18" />
+            <part node="0>14|0|3" startTime="14.25" duration="0.55" startRot="0 0 18" endRot="0 0 -18" />
+            <part node="0>14|0|3" startTime="15.5" duration="0.3" startRot="0 0 -18" endRot="0 0 0" />
+            <part node="0>14|0|3|0" startTime="13.5" duration="0.3" startRot="0 0 0" endRot="0 0 -18" />
+            <part node="0>14|0|3|0" startTime="14.25" duration="0.55" startRot="0 0 -18" endRot="0 0 18" />
+            <part node="0>14|0|3|0" startTime="15.5" duration="0.3" startRot="0 0 18" endRot="0 0 0" />
         </animation>
         <animation name="balePressure">
             <part node="0>14|0|12|2" startTime="0" endTime="1" startRot="0 0 0" endRot="-200 0 0" />
-            <part node="0>14|0|9" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|9" startTime="0" duration="0.4" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|9|0" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
-            <part node="0>14|0|10" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 -20" />
+            <part node="0>14|0|10" startTime="0" duration="0.4" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|10|0" startTime="0" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
         </animation>
         <animation name="greasePump">
@@ -517,13 +517,13 @@
             <part node="0>14|0|12|0" startTime="1.6" duration="0.4" endRot="0 0 0" />
         </animation>
         <animation name="leverKnotting">
-            <part node="0>14|0|11" startTime="0" duration="2" startRot="0 0 0" endRot="0 0 -18" />
-            <part node="0>14|0|11" startTime="3" duration="1" startRot="0 0 -18" endRot="0 0 0" />
-            <part node="0>14|0|11|0" startTime="0" duration="2" startRot="0 0 0" endRot="0 0 18" />
-            <part node="0>14|0|11|0" startTime="3" duration="1" startRot="0 0 18" endRot="0 0 0" />
-            <part node="0>14|0|11" startTime="4.5" duration="1" startRot="0 0 0" endRot="0 0 18" />
+            <part node="0>14|0|11" startTime="0" duration="2.1" startRot="0 0 0" endRot="0 0 -18" />
+            <part node="0>14|0|11" startTime="3" duration="1.2" startRot="0 0 -18" endRot="0 0 0" />
+            <part node="0>14|0|11|0" startTime="0" duration="2.1" startRot="0 0 0" endRot="0 0 18" />
+            <part node="0>14|0|11|0" startTime="3" duration=".2" startRot="0 0 18" endRot="0 0 0" />
+            <part node="0>14|0|11" startTime="4.5" duration="0.9" startRot="0 0 0" endRot="0 0 18" />
             <part node="0>14|0|11" startTime="6" duration="1" startRot="0 0 18" endRot="0 0 0" />
-            <part node="0>14|0|11|0" startTime="4.5" duration="1" startRot="0 0 0" endRot="0 0 -18" />
+            <part node="0>14|0|11|0" startTime="4.5" duration="0.9" startRot="0 0 0" endRot="0 0 -18" />
             <part node="0>14|0|11|0" startTime="6" duration="1" startRot="0 0 -18" endRot="0 0 0" />
         </animation>
         <animation name="baling"></animation>
