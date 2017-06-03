@@ -30,17 +30,19 @@ function BaleEviscerator:mouseEvent(posX, posY, isDown, isUp, button)
 end
 
 function BaleEviscerator:update(dt)
-    self.baleObject = nil;
-    self.eviHud:setIsVisible(false, true);
-    if g_currentMission.player ~= nil and g_currentMission.controlledVehicle == nil and g_currentMission.player.lastFoundBale ~= nil and g_currentMission.player.currentToolId == 0 then
-        self.baleObject = g_currentMission.player.lastFoundBale;
-        self.eviHud:setIsVisible(true, true);
-    end
-    if self.baleObject ~= nil then
-        g_currentMission:addHelpButtonText(g_i18n:getText("input_EVIBALE"), InputBinding.ACTIVATE_OBJECT, nil, GS_PRIO_VERY_HIGH);
-        if InputBinding.hasEvent(InputBinding.ACTIVATE_OBJECT) then
-            BaleEvisceratorEvent:sendEvent(self.baleObject);
-            self:evisceratesBale(self.baleObject, true);
+    if not g_currentMission.missionDynamicInfo.isMultiplayer then
+        self.baleObject = nil;
+        self.eviHud:setIsVisible(false, true);
+        if g_currentMission.player ~= nil and g_currentMission.controlledVehicle == nil and g_currentMission.player.lastFoundBale ~= nil and g_currentMission.player.currentToolId == 0 then
+            self.baleObject = g_currentMission.player.lastFoundBale;
+            self.eviHud:setIsVisible(true, true);
+        end
+        if self.baleObject ~= nil then
+            g_currentMission:addHelpButtonText(g_i18n:getText("input_EVIBALE"), InputBinding.ACTIVATE_OBJECT, nil, GS_PRIO_VERY_HIGH);
+            if InputBinding.hasEvent(InputBinding.ACTIVATE_OBJECT) then
+                BaleEvisceratorEvent:sendEvent(self.baleObject);
+                self:evisceratesBale(self.baleObject, true);
+            end
         end
     end
 end
