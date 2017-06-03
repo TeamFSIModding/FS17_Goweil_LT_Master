@@ -201,8 +201,8 @@
             <part node="0>14|0|18|0" direction="-1" startTime="11" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|18|0" direction="-1" startTime="13.5" duration="0.5" startRot="0 0 -20" endRot="0 0 0" />
             <!--sponde_scivolo1-->
-            <part node="0>8|1|1|0" startTime="12" duration="3" startRot="0 84 0" endRot="0 0 0" />
-            <part node="0>8|1|0|0" startTime="12" duration="3" startRot="0 -84 0" endRot="0 0 0" />
+            <part node="0>8|1|1|0" startTime="14" duration="3" startRot="0 84 0" endRot="0 0 0" />
+            <part node="0>8|1|0|0" startTime="14" duration="3" startRot="0 -84 0" endRot="0 0 0" />
             <part node="0>14|0|16" direction="1" startTime="12" duration="0.5" startRot="0 0 0" endRot="0 0 20" />
             <part node="0>14|0|16" direction="1" startTime="14.7" duration="0.3" startRot="0 0 20" endRot="0 0 0" />
             <part node="0>14|0|16" direction="-1" startTime="12" duration="0.3" startRot="0 0 0" endRot="0 0 -20" />
