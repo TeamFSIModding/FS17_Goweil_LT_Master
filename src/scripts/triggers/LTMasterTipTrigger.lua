@@ -73,29 +73,13 @@ end
 function LTMasterTipTrigger:addFillLevelFromTool(tool, fillDelta, fillType, toolType)
     if fillDelta > 0 then
         local mainFillDelta = fillDelta;
-        --local leftRightFillDelta = fillDelta / 4;
         local mainCapacity = self.owner:getUnitCapacity(self.fillUnitIndex);
         local mainFillLevel = self.owner:getUnitFillLevel(self.fillUnitIndex);
         local mainDelta = math.min(mainFillDelta, mainCapacity - mainFillLevel);
         if mainDelta > 0 then
             self.owner:setUnitFillLevel(self.fillUnitIndex, mainFillLevel + mainDelta, fillType, false, self.owner.fillVolumeLoadInfos[self.loadInfoIndex]);
         end
-        --local rightCapacity = self.owner:getUnitCapacity(self.rightFillUnitIndex);
-        --local rightFillLevel = self.owner:getUnitFillLevel(self.rightFillUnitIndex);
-        --local rightDelta = math.min(leftRightFillDelta, rightCapacity - rightFillLevel);
-        --if rightDelta > 0 then
-        --    self.owner:setUnitFillLevel(self.rightFillUnitIndex, rightFillLevel + rightDelta, fillType);
-        --end
-        --local leftCapacity = self.owner:getUnitCapacity(self.leftFillUnitIndex);
-        --local leftFillLevel = self.owner:getUnitFillLevel(self.leftFillUnitIndex);
-        --local leftDelta = math.min(leftRightFillDelta, leftCapacity - leftFillLevel);
-        --if leftDelta > 0 then
-        --    self.owner:setUnitFillLevel(self.leftFillUnitIndex, leftFillLevel + leftDelta, fillType);
-        --end
-        local dropped = mainDelta; -- + rightDelta + leftDelta;
-        if dropped <= 0 then
-            tool:onEndTip();
-        end
+        local dropped = mainDelta;
         return dropped;
     end
 end

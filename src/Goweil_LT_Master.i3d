@@ -2244,7 +2244,7 @@
         <Shape shapeId="813" name="move1" translation="0 0.005 -0.0321534" clipDistance="300" nodeId="2399" materialIds="54" castsShadows="true" receiveShadows="true"/>
         <Shape shapeId="814" name="move1_target" visibility="false" clipDistance="300" nodeId="2400" materialIds="11" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       </TransformGroup>
-      <Camera name="Camera_goweil" translation="0.166143 2.369 -13.4695" rotation="175.417 -0.0688497 180" clipDistance="300" nodeId="2401" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      <Camera name="Camera_goweil" translation="0.95532 4.6132 -14.2931" rotation="164.874 13.453 180" clipDistance="300" nodeId="2401" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
       <Shape shapeId="815" name="trafficCollisionTrigger" translation="0 2.439 -2.50286" scale="1 1 1.02179" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="2402" materialIds="22" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
     </Shape>
     <Camera name="camera" translation="-0.0265691 5.25034 -12.4614" rotation="150.894 0.984923 180" nodeId="2403" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
