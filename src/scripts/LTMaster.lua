@@ -5,7 +5,7 @@
 --
 --18/04/2017
 LTMaster = {};
-LTMaster.debug = true;
+LTMaster.debug = false;
 
 LTMaster.g_i18n = {};
 LTMaster.g_i18n["shop_messagePurchaseReady"] = g_i18n:getText("shop_messagePurchaseReady");
