@@ -61,8 +61,8 @@
         <text name="GLTM_HL_TEXT_01_04" text=" " />
         <text name="GLTM_HL_TITLE_02" text="Benutzung" />
         <text name="GLTM_HL_TEXT_02_00" text="Traktor und Presse auf ebenen Terrain abstellen und leicht schräg nach Links stellen, dann Maschine in Arbeitsposition bringen mit $input_IMPLEMENT_EXTRA2; " />
-        <text name="GLTM_HL_TEXT_02_01" text="Zur Maschine gehen, und rechte Klappe mit $input_TOGGLE_COVER öffnen; um an die Steuerung zu gelangen, Stütze mit $input_IMPLEMENT_EXTRA4 senken; und Maschine in Arbeitsstellugn bringen mit $input_IMPLEMENT_EXTRA; zum Schluss Ballenrutsche mit $input_IMPLEMENT_EXTRA2 senken; " />
-        <text name="GLTM_HL_TEXT_02_03" text="Nun kannst du in den Traktor wechseln und die Maschine mit $input_IMPLEMENT_EXTRA einschalten; , mit $input_IMPLEMENT_EXTRA4; kannst du den Wickelvorgang ein und ausschalten und mit $input_IMPLEMENT_EXTRA3; ist es möglich die Ballendichte einzustellen. " />
+        <text name="GLTM_HL_TEXT_02_01" text="Zur Maschine gehen, und rechte Klappe mit $input_TOGGLE_COVER; öffnen; um an die Steuerung zu gelangen, Stütze mit $input_IMPLEMENT_EXTRA4; senken; und Maschine in Arbeitsstellugn bringen mit $input_IMPLEMENT_EXTRA; zum Schluss Ballenrutsche mit $input_IMPLEMENT_EXTRA2; senken; " />
+        <text name="GLTM_HL_TEXT_02_03" text="Nun kannst du in den Traktor wechseln und die Maschine mit $input_IMPLEMENT_EXTRA; einschalten; , mit $input_IMPLEMENT_EXTRA4; kannst du den Wickelvorgang ein und ausschalten und mit $input_IMPLEMENT_EXTRA3; ist es möglich die Ballendichte einzustellen. " />
         <text name="GLTM_HL_TEXT_02_04" text="Icons von links auf das HUD: " />
         <text name="GLTM_HL_TEXT_02_05" text="  1) Wickler ein/aus  -  2) Netzstatus  -  3) Folienstatus  -  4) Ballenkammerfüllstand" />
         <text name="GLTM_HL_TITLE_03" text="Netz, Wickelfolie, Siliermittel" />
