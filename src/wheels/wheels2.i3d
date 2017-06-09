@@ -17,7 +17,7 @@
 
 
   <Materials>
-    <Material name="Pneumatico" materialId="8" ambientColor="1 1 1" cosPower="1" specularColor="1 1 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+    <Material name="Pneumatico" materialId="10" ambientColor="1 1 1" cosPower="1" specularColor="1 1 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
       <Texture fileId="1"/>
       <Normalmap fileId="2" bumpDepth="0"/>
       <Glossmap fileId="3"/>
@@ -41,7 +41,7 @@
       <CustomParameter name="RDT" value="1 1 14 14"/>
       <CustomParameter name="RDTColor" value="0.2 0.14 0.08 0"/>
     </Material>
-    <Material name="Mozzo" materialId="10" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1" customShaderId="4">
+    <Material name="Mozzo" materialId="8" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="6"/>
       <Glossmap fileId="3"/>
@@ -61,17 +61,17 @@
 
   <Scene>
     <TransformGroup name="Ruota_telleborg_500_SX1" clipDistance="1000" nodeId="20">
-      <Shape shapeId="1" name="pneumatico" clipDistance="1000" nodeId="21" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="1" name="pneumatico" clipDistance="1000" nodeId="21" materialIds="10" castsShadows="true" receiveShadows="true"/>
       <Shape shapeId="2" name="cerchio" clipDistance="800" nodeId="22" materialIds="9" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="3" name="mozzo_B" clipDistance="150" nodeId="23" materialIds="10" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="4" name="mozzo_G" clipDistance="150" nodeId="24" materialIds="10" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="mozzo_B" clipDistance="150" nodeId="23" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="4" name="mozzo_G" clipDistance="150" nodeId="24" materialIds="8" castsShadows="true" receiveShadows="true"/>
       <Shape shapeId="1" name="pneumatico" visibility="false" clipDistance="1000" nodeId="25" materialIds="7" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
     <TransformGroup name="Ruota_telleborg_500_DX1" clipDistance="1000" nodeId="26">
-      <Shape shapeId="5" name="pneumatico" clipDistance="1000" nodeId="27" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="pneumatico" clipDistance="1000" nodeId="27" materialIds="10" castsShadows="true" receiveShadows="true"/>
       <Shape shapeId="6" name="cerchio" clipDistance="800" nodeId="28" materialIds="9" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="7" name="mozzo_B" clipDistance="150" nodeId="29" materialIds="10" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="8" name="mozzo_G" clipDistance="150" nodeId="30" materialIds="10" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="7" name="mozzo_B" clipDistance="150" nodeId="29" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="8" name="mozzo_G" clipDistance="150" nodeId="30" materialIds="8" castsShadows="true" receiveShadows="true"/>
       <Shape shapeId="5" name="pneumatico" visibility="false" clipDistance="1000" nodeId="31" materialIds="7" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
   </Scene>
