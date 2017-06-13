@@ -43,7 +43,7 @@
         <text name="GLTM_TURNON_CONVEYOR"                   text="Включить конвейерную ленту" />
         <text name="GLTM_TURNOFF_CONVEYOR"                  text="Выключить конвейерную ленту" />
         <text name="GLTM_CHANGE_BALE_VOLUME"                text="Изменить плотность тюка - с %s до %s" />
-        <text name="GLTM_TURNON_VEHICLE"                    text="Запустить автомобиль для работы" />
+        <text name="GLTM_TURNON_VEHICLE"                    text="Для работы необходимо запустить трактор " />
         <text name="GLTM_TURNON_NOT_ALLOWED_UNFOLD"         text="Сначала установите механизм в рабочее положение!" />
         <text name="GLTM_TURNON_NOT_ALLOWED_BALESLIDE"      text="Сначала установите/опустите обмоточный столик!" />
         <text name="GLTM_WRAPPER_SET_ON"                    text="Включить обмотчик" />
