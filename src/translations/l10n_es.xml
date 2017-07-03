@@ -77,7 +77,7 @@ Puede recoger su vehículo en la tienda." />
         <text name="GLTM_HL_TEXT_03_02"                     text="Los palets de consumibles pueden ser usados uno por uno y rellenar la máquina con $input_ACTIVATE_OBJECT; " />
         <text name="GLTM_HL_TITLE_04"                       text="Otras funciones" />
         <text name="GLTM_HL_TEXT_04_00"                     text="Este mod añade dos cosas útiles: " />
-        <text name="GLTM_HL_TEXT_04_01"                     text="Yendo a pie, podrá ver la información de cualquier bala al acercarse y con $input_ACTIVATE_OBJECT; podrá desembalar la bala y repartir el material sobre el terreno." />
+        <text name="GLTM_HL_TEXT_04_01"                     text="Yendo a pie, podrá ver la información de cualquier bala al acercarse y con $input_TOGGLE_COVER; podrá desembalar la bala y repartir el material sobre el terreno." />
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
         <text name="GLTM_HL_TEXT_04_03"                     text="Equipamiento opcional el cual puede ser comprado independientemente:" />
         <text name="GLTM_HL_TEXT_04_04"                     text="1) Cinta transportadora de flujo variable " />

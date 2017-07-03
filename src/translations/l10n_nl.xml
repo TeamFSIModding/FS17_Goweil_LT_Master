@@ -76,7 +76,7 @@ U kunt uw gehuurd voertuig ophalen uit de winkel." />
         <text name="GLTM_HL_TEXT_03_02"                     text="Pallet Van verbruiksartikelen kunnen één voor één worden gebruikt om de machine te vullen $input_ACTIVATE_OBJECT; " />
         <text name="GLTM_HL_TITLE_04"                       text="overige functies" />
         <text name="GLTM_HL_TEXT_04_00"                     text="Deze mod voegt twee nuttige dingen toe: " />
-        <text name="GLTM_HL_TEXT_04_01"                     text="Te voet zie je informatie over balen rond en met $input_ACTIVATE_OBJECT; kunt je de baal uitpakken en het materiaal naar de grond verplaatsen." />
+        <text name="GLTM_HL_TEXT_04_01"                     text="Te voet zie je informatie over balen rond en met $input_TOGGLE_COVER; kunt je de baal uitpakken en het materiaal naar de grond verplaatsen." />
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
         <text name="GLTM_HL_TEXT_04_03"                     text="Optionele apparatuur die afzonderlijk kan worden gekocht:" />
         <text name="GLTM_HL_TEXT_04_04"                     text="1) Variabele stroom transportband " />

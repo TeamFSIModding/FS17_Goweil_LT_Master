@@ -38,8 +38,8 @@ function BaleEviscerator:update(dt)
             self.eviHud:setIsVisible(true, true);
         end
         if self.baleObject ~= nil then
-            g_currentMission:addHelpButtonText(g_i18n:getText("input_EVIBALE"), InputBinding.ACTIVATE_OBJECT, nil, GS_PRIO_VERY_HIGH);
-            if InputBinding.hasEvent(InputBinding.ACTIVATE_OBJECT) then
+            g_currentMission:addHelpButtonText(g_i18n:getText("input_EVIBALE"), InputBinding.TOGGLE_COVER, nil, GS_PRIO_VERY_HIGH);
+            if InputBinding.hasEvent(InputBinding.TOGGLE_COVER) then
                 BaleEvisceratorEvent:sendEvent(self.baleObject);
                 self:evisceratesBale(self.baleObject, true);
             end

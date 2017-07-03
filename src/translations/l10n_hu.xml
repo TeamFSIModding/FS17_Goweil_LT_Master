@@ -77,7 +77,7 @@ A megvásárolt gépedet a gépjárműboltnál találod." />
         <text name="GLTM_HL_TEXT_03_02"                     text="A raklapokról az újratöltést csak egyesével végezheted el a  $input_ACTIVATE_OBJECT; gomb lenyomásával." />
         <text name="GLTM_HL_TITLE_04"                       text="Egyéb funkciók" />
         <text name="GLTM_HL_TEXT_04_00"                     text="Ez a mod kétféle hasznos információt ad: " />
-        <text name="GLTM_HL_TEXT_04_01"                     text="Gyalogosan a körülötted lévő bálákat a $input_ACTIVATE_OBJECT; gombbal ki tudod bontani és a tartalmát a földre üríteni." />
+        <text name="GLTM_HL_TEXT_04_01"                     text="Gyalogosan a körülötted lévő bálákat a $input_TOGGLE_COVER; gombbal ki tudod bontani és a tartalmát a földre üríteni." />
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
         <text name="GLTM_HL_TEXT_04_03"                     text="Opcionális felszerelést külön is megveheted:" />
         <text name="GLTM_HL_TEXT_04_04"                     text="1) Változtatható sebességű futószalag " />

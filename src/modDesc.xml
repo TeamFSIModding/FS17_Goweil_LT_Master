@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="37">
     <author>Team FSI Modding</author>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>
         <de>Goweil LT Master</de>
         <en>Goweil LT Master</en>
@@ -24,6 +24,14 @@ Ballennetze und Wickelfolie sind im Laden erhältlich. Auch kann ein Palettentan
 Preis: 253700 €
 Unterhalt: 200 € / Tag
 Empfohlene Leistung: 190 PS / 140 kW
+
+Changelog 1.1.0 :
+- fix DE language error in game
+- fix bale override, now Goweil have own bales
+- fix input binding for open bales from activate object to toggle cover
+- fix issue in wheel configuration
+- minor issues in 3d
+
 ]]>
         </de>
         <en>
@@ -37,6 +45,14 @@ Bale net and wrap foil pallet available in the store, also pallet tank with sila
 Price: 253700 €
 Maintenance: 200 € / day
 Suggested power: 190 hp / 140 kW
+
+Changelog 1.1.0 :
+- fix DE language error in game
+- fix bale override, now Goweil have own bales
+- fix input binding for open bales from activate object to toggle cover
+- fix issue in wheel configuration
+- minor issues in 3d
+
 ]]>
         </en>
         <fr>
@@ -50,6 +66,14 @@ Le panier de balles et les feuilles de papier d'emballage disponibles dans le ma
 Prix: 253700 €
 Entretien: 200 € / day
 Puissance recommandé: 190 ch / 140 kW
+
+Changelog 1.1.0 :
+- fix DE language error in game
+- fix bale override, now Goweil have own bales
+- fix input binding for open bales from activate object to toggle cover
+- fix issue in wheel configuration
+- minor issues in 3d
+
 ]]>
         </fr>
         <it>
@@ -63,6 +87,14 @@ La rete per le balle ed il film estensibile per il wrapper deve essere acquistat
 Prezzo: 253700 €
 Manutenzione: 200 € / giorno
 Potenza consigliata: 190 cv / 140 kW
+
+Changelog 1.1.0 :
+- fix DE language error in game
+- fix bale override, now Goweil have own bales
+- fix input binding for open bales from activate object to toggle cover
+- fix issue in wheel configuration
+- minor issues in 3d
+
 ]]>
         </it>
         <nl>
@@ -76,6 +108,14 @@ Netten voor balen en wikkelfolie op pallet zijn verkrijgbaar in de winkel, ook t
 Prijs: 253700 €
 Onderhoud: 200 € / day
 Aanbevolen vermogen: 190 hp / 140 kW
+
+Changelog 1.1.0 :
+- fix DE language error in game
+- fix bale override, now Goweil have own bales
+- fix input binding for open bales from activate object to toggle cover
+- fix issue in wheel configuration
+- minor issues in 3d
+
 ]]>
         </nl>
         <pl>
@@ -87,6 +127,14 @@ Siatka do bel i folia do owijania znajdują się w sklepie, kupić można równi
 Cena: 253700 €
 Utrzymanie: 200 € / day
 Zalecana moc: 190 KM / 140 kW
+
+Changelog 1.1.0 :
+- fix DE language error in game
+- fix bale override, now Goweil have own bales
+- fix input binding for open bales from activate object to toggle cover
+- fix issue in wheel configuration
+- minor issues in 3d
+
 ]]>
         </pl>
         <es>
@@ -100,6 +148,14 @@ Los palets de red y el papel de encintado están disponibles en la tienda, tambi
 Precio: 253700 €
 Mantenimiento: 200 € / día
 Potencia Sugerida: 195 CV / 140 kW
+
+Changelog 1.1.0 :
+- fix DE language error in game
+- fix bale override, now Goweil have own bales
+- fix input binding for open bales from activate object to toggle cover
+- fix issue in wheel configuration
+- minor issues in 3d
+
 ]]>
         </es>
         <ru>
@@ -112,6 +168,14 @@ Potencia Sugerida: 195 CV / 140 kW
 Цена: 253700 €
 Обслуживание: 200 € / день
 Рекомендуемая мощность: 190 л.с. / 140 kW
+
+Changelog 1.1.0 :
+- fix DE language error in game
+- fix bale override, now Goweil have own bales
+- fix input binding for open bales from activate object to toggle cover
+- fix issue in wheel configuration
+- minor issues in 3d
+
 ]]>
         </ru>
     </description>

@@ -791,7 +791,7 @@
                 <rotatingPart index="0>15|10|0" type="LTMaster.baler" rotSpeed="250" rotAxis="1" turnOnFadeTime="2" turnOffFadeTime="0.5" />
             </knottingRotatingParts>
             <baleTypes>
-                <baleType width="1.12" diameter="1.3" />
+                <baleType width="1.13" diameter="1.3" />
             </baleTypes>
             <baleVolumes defaultVolumeIndex="3">
                 <volume liters="3000" />

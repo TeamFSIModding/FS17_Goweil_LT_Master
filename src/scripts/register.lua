@@ -18,14 +18,14 @@ FillUtil.registerFillType("silageAdditive", g_i18n:getText("fillType_silageAddit
 FillUtil.registerFillType("balesNet", g_i18n:getText("fillType_balesNet"), FillUtil.FILLTYPE_CATEGORY_PIECE, 75, false, g_currentModDirectory .. "hud/fillTypes/hud_fill_balesNet.png", g_currentModDirectory .. "hud/fillTypes/hud_fill_balesNet_sml.png", 1500 * 0.000001, math.rad(0));
 FillUtil.registerFillType("balesFoil", g_i18n:getText("fillType_balesFoil"), FillUtil.FILLTYPE_CATEGORY_PIECE, 50, false, g_currentModDirectory .. "hud/fillTypes/hud_fill_balesFoil.png", g_currentModDirectory .. "hud/fillTypes/hud_fill_balesFoil_sml.png", 1800 * 0.000001, math.rad(0));
 
-BaleUtil.registerBaleType(register.dir .. "bales/roundbaleGrass_w112_d130.i3d", "grass_windrow", 1.12, nil, nil, 1.3, true);
-BaleUtil.registerBaleType(register.dir .. "bales/roundbaleGrassSilage_w112_d130.i3d", "silage", 1.12, nil, nil, 1.3, true);
-BaleUtil.registerBaleType(register.dir .. "bales/roundbaleHay_w112_d130.i3d", "dryGrass_windrow", 1.12, nil, nil, 1.3, true);
-BaleUtil.registerBaleType(register.dir .. "bales/roundbaleStraw_w112_d130.i3d", "straw", 1.12, nil, nil, 1.3, true);
-BaleUtil.registerBaleType(register.dir .. "bales/roundbaleChaff_w112_d130.i3d", "chaff", 1.12, nil, nil, 1.3, true);
-BaleUtil.registerBaleType(register.dir .. "bales/roundbaleChaffSilage_w112_d130.i3d", "silage", 1.13, nil, nil, 1.3, true);
-BaleUtil.registerBaleType(register.dir .. "bales/roundbaleWoodChips_w112_d130.i3d", "woodChips", 1.12, nil, nil, 1.3, true);
-BaleUtil.registerBaleType(register.dir .. "bales/roundbaleManure_w112_d130.i3d", "manure", 1.12, nil, nil, 1.3, true);
+BaleUtil.registerBaleType(register.dir .. "bales/roundbaleGrass_w112_d130.i3d", "grass_windrow", 1.13, nil, nil, 1.3, true);
+BaleUtil.registerBaleType(register.dir .. "bales/roundbaleGrassSilage_w112_d130.i3d", "silage", 1.13, nil, nil, 1.3, true);
+BaleUtil.registerBaleType(register.dir .. "bales/roundbaleHay_w112_d130.i3d", "dryGrass_windrow", 1.13, nil, nil, 1.3, true);
+BaleUtil.registerBaleType(register.dir .. "bales/roundbaleStraw_w112_d130.i3d", "straw", 1.13, nil, nil, 1.3, true);
+BaleUtil.registerBaleType(register.dir .. "bales/roundbaleChaff_w112_d130.i3d", "chaff", 1.13, nil, nil, 1.3, true);
+BaleUtil.registerBaleType(register.dir .. "bales/roundbaleChaffSilage_w112_d130.i3d", "silage", 1.14, nil, nil, 1.3, true);
+BaleUtil.registerBaleType(register.dir .. "bales/roundbaleWoodChips_w112_d130.i3d", "woodChips", 1.13, nil, nil, 1.3, true);
+BaleUtil.registerBaleType(register.dir .. "bales/roundbaleManure_w112_d130.i3d", "manure", 1.13, nil, nil, 1.3, true);
 
 function register:loadMap(name)
     for k, v in pairs(g_i18n.texts) do

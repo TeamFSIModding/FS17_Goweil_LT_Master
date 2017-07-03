@@ -71,7 +71,7 @@
         <text name="GLTM_HL_TEXT_03_02" text="Paletten mit Nachfüllprodukten können nach und nach mit $input_ACTIVATE_OBJECT; nachgefüllt werden " />
         <text name="GLTM_HL_TITLE_04" text="Andere Funktion" />
         <text name="GLTM_HL_TEXT_04_00" text="Dieser Mod fügt zwei nützliche Dinge hinzu: " />
-        <text name="GLTM_HL_TEXT_04_01" text="Zu Fuß kannst du Informationen über jeden Ballen um dich herum sehen, und mit $input_ACTIVATE_OBJECT; kannst du den Ballen abwickeln und das Gut mit der Schaufel etc aufsammeln." />
+        <text name="GLTM_HL_TEXT_04_01" text="Zu Fuß kannst du Informationen über jeden Ballen um dich herum sehen, und mit $input_TOGGLE_COVER; kannst du den Ballen abwickeln und das Gut mit der Schaufel etc aufsammeln." />
         <text name="GLTM_HL_TEXT_04_02" text=" " />
         <text name="GLTM_HL_TEXT_04_03" text="Optionales Equipment was zusätzlich erworben werden kann:" />
         <text name="GLTM_HL_TEXT_04_04" text="1) Variables Zufördererband " />

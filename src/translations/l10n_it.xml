@@ -77,7 +77,7 @@ Puoi ritirare il tuo acquisto nel negozio." />
         <text name="GLTM_HL_TEXT_03_02"                     text=" " />
         <text name="GLTM_HL_TITLE_04"                       text="Altre funzioni" />
         <text name="GLTM_HL_TEXT_04_00"                     text="La mod aggiunge un&apos;utilità: " />
-        <text name="GLTM_HL_TEXT_04_01"                     text="A piedi è possibile vedere le informazioni su contenuto e valori di ogni balla e con il $input_ACTIVATE_OBJECT; è possibile aprire la balla riversando il contenuto a terra." />
+        <text name="GLTM_HL_TEXT_04_01"                     text="A piedi è possibile vedere le informazioni su contenuto e valori di ogni balla e con il $input_TOGGLE_COVER; è possibile aprire la balla riversando il contenuto a terra." />
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
         <text name="GLTM_HL_TEXT_04_03"                     text="Optional configurabili:" />
         <text name="GLTM_HL_TEXT_04_04"                     text="1) Portata nastro alimentazione " />

@@ -77,7 +77,7 @@ Vous pouvez récupérer votre achat dans le magasin." />
         <text name="GLTM_HL_TEXT_03_02"                     text="La palette de consommables peut être utilisée une à une pour recharger la machine avec $input_ACTIVATE_OBJECT; " />
         <text name="GLTM_HL_TITLE_04"                       text="Autre fonction" />
         <text name="GLTM_HL_TEXT_04_00"                     text="Ce mod ajoute deux choses utiles:" />
-        <text name="GLTM_HL_TEXT_04_01"                     text="A pied, vous pouvez voir des informations sur les balles autour et avec $input_ACTIVATE_OBJECT;, vous pouvez déballer le ballot et déposer le matériau sur le sol." />
+        <text name="GLTM_HL_TEXT_04_01"                     text="A pied, vous pouvez voir des informations sur les balles autour et avec $input_TOGGLE_COVER;, vous pouvez déballer le ballot et déposer le matériau sur le sol." />
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
         <text name="GLTM_HL_TEXT_04_03"                     text="Équipement en option qui peut être acheté séparément:" />
         <text name="GLTM_HL_TEXT_04_04"                     text="1) Flux de convoyeur variable " />

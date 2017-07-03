@@ -77,7 +77,7 @@ Zakupione przedmioty możesz odebrać w sklepie." />
         <text name="GLTM_HL_TEXT_03_02"                     text="Palety z materiałami eksploatacyjnymi mogą być użyte kolejno w celu uzupełnienia maszyny przy użyciu $input_ACTIVATE_OBJECT; " />
         <text name="GLTM_HL_TITLE_04"                       text="Inne funkcje" />
         <text name="GLTM_HL_TEXT_04_00"                     text="Ten mod umożliwia dwie użyteczne rzeczy: " />
-        <text name="GLTM_HL_TEXT_04_01"                     text="Będąc pieszo można sprawdzić informacje o belach w pobliżu, a przy użyciu $input_ACTIVATE_OBJECT; można otworzyć belę i rozsypać jej zawartość na ziemi." />
+        <text name="GLTM_HL_TEXT_04_01"                     text="Będąc pieszo można sprawdzić informacje o belach w pobliżu, a przy użyciu $input_TOGGLE_COVER; można otworzyć belę i rozsypać jej zawartość na ziemi." />
         <text name="GLTM_HL_TEXT_04_02"                     text=" " />
         <text name="GLTM_HL_TEXT_04_03"                     text="Opcjonalny osprzęt do kupienia oddzielnie:" />
         <text name="GLTM_HL_TEXT_04_04"                     text="1) Podajnik o zmiennej wydajności " />
