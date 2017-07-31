@@ -56,23 +56,23 @@ Changelog 1.1.0 :
 ]]>
         </en>
         <fr>
-            <![CDATA[Goweil LT Master combiné presse-enrubanneuse à balles rondes
-Le calfeutrage, l'herbe, le foin, la paille, les copeaux de bois et le fumier peuvent être complètement pressés dans des ballots et emballés, pour un emplacement de stockage pratique et un meilleur rendement.
+            <![CDATA[Goweil LT Master combiné presse-enrubanneuse à balles rondes.
+Les menues pailles, l'herbe, le foin, la paille, les copeaux de bois et le fumier peuvent être complètement pressés dans des ballots et emballés, pour un emplacement de stockage pratique et un meilleur rendement.
 Tous les types de balles peuvent être vendus au déclencheur de vente par défaut.
-Ce mod ajoute une fonction globale pour ouvrir les balles et faire basculer les matériaux.
+Ce mod ajoute une fonction globale pour ouvrir les balles et déposer les matériaux au sol.
 
-Le panier de balles et les feuilles de papier d'emballage disponibles dans le magasin, également un bac à palettes avec additif d'ensilage peuvent être achetés pour une meilleure qualité d'ensilage.
+Les palettes de filets et les rouleaux d'emballage sont disponibles au magasin, également des palettes avec additif d'ensilage peuvent être achetés pour une meilleure qualité d'ensilage.
 
 Prix: 253700 €
 Entretien: 200 € / day
 Puissance recommandé: 190 ch / 140 kW
 
 Changelog 1.1.0 :
-- fix DE language error in game
-- fix bale override, now Goweil have own bales
-- fix input binding for open bales from activate object to toggle cover
-- fix issue in wheel configuration
-- minor issues in 3d
+- corrigé erreur de langue DE en jeux
+- corrigé outrepasser balle, maintenant Goweil à ses propres balles
+- corrigé liaison d'entrée d'activer l'objet 'ouvrir balles' pour basculer le capot
+- corrigé problème dans la configuration de roue
+- problème mineur en 3d
 
 ]]>
         </fr>
@@ -230,7 +230,7 @@ Changelog 1.1.0 :
         <en>fcelsa</en>
         <it>fcelsa</it>
         <de>mieperDE</de>
-        <fr>fcelsa</fr>
+        <fr>fcelsa, Anonymous</fr>
         <nl>FarmingVidsHD, JoshvZeyl</nl>
         <pl>Dzi4d3k, KITT3000</pl>
         <es>Vanquish081, Prom</es>
