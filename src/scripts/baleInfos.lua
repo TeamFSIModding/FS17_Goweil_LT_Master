@@ -48,9 +48,11 @@ function BaleInfos:update(dt)
 end
 
 function BaleInfos:draw()
-    if self.textBaleInfos ~= nil and g_currentMission.player.lastFoundBale ~= nil and g_currentMission.player.lastFoundBale.nodeId ~= 0 and g_currentMission.player.currentToolId == 0 then
-        local x, y, z = getWorldTranslation(g_currentMission.player.lastFoundBale.nodeId);
-        BaleInfos.renderTxtBale(x, y, z, self.textBaleInfos, getCorrectTextSize(self.fontSize), 0);
+    if g_seasons == nil then
+        if self.textBaleInfos ~= nil and g_currentMission.player.lastFoundBale ~= nil and g_currentMission.player.lastFoundBale.nodeId ~= 0 and g_currentMission.player.currentToolId == 0 then
+            local x, y, z = getWorldTranslation(g_currentMission.player.lastFoundBale.nodeId);
+            BaleInfos.renderTxtBale(x, y, z, self.textBaleInfos, getCorrectTextSize(self.fontSize), 0);
+        end
     end
 end
 

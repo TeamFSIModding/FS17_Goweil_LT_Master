@@ -210,6 +210,16 @@ function LTMaster:loadWrapper(savegame)
     end
     self.LTMaster.wrapper.balesFoil.fillLitersPerSecond = Utils.getNoNil(getXMLFloat(self.xmlFile, "vehicle.LTMaster.wrapper.balesFoil#fillLitersPerSecond"), 1);
     self.LTMaster.wrapper.wrappedBales = 0;
+    
+    -- Seasons support
+    if g_seasons ~= nil then
+        if savegame ~= nil and not savegame.resetVehicles then
+            local baleFillTypeSourceName = getXMLString(savegame.xmlFile, savegame.key .. "#baleFillTypeSource");
+            if baleFillTypeSourceName ~= nil then
+                self.baleFillTypeSource = FillUtil.getFillTypesByNames(baleFillTypeSourceName)[1];
+            end
+        end
+    end
 end
 
 function LTMaster:postLoadWrapper(savegame)
@@ -245,6 +255,12 @@ function LTMaster:getSaveAttributesAndNodesWrapper(nodeIdent)
             local fillLevel = bale:getFillLevel();
             local baleValueScale = bale.baleValueScale;
             attributes = attributes .. ' baleFileName="' .. Utils.encodeToHTML(Utils.convertToNetworkFilename(bale.i3dFilename)) .. '" fillLevel="' .. fillLevel .. '" wrapperTime="' .. tostring(self.LTMaster.wrapper.currentWrapper.currentTime) .. '" baleValueScale="' .. baleValueScale .. '"';
+        end
+    end
+    -- Seasons support
+    if g_seasons ~= nil then
+        if attributes ~= nil and self.baleFillTypeSource ~= nil then
+            attributes = attributes .. ' baleFillTypeSource="' .. Utils.getNoNil(FillUtil.fillTypeIntToName[self.baleFillTypeSource], "grass_windrow") .. '"';
         end
     end
     return attributes;
@@ -680,6 +696,21 @@ function LTMaster:doStateChange(id, nearestBaleServerId)
             g_server:broadcastEvent(BaleWrapperStateEvent:new(self, BaleWrapper.CHANGE_WRAPPER_START_DROP_BALE), true, nil, self);
         end
     end
+    -- Seasons support
+    if g_seasons ~= nil then
+        if self.isServer then
+            if id == BaleWrapper.CHANGE_WRAPPER_BALE_DROPPED and self.lastDroppedBale ~= nil then
+                local bale = self.lastDroppedBale;
+                if bale:getFillType() == FillUtil.FILLTYPE_SILAGE and bale.wrappingState >= 1 then
+                    --initiate fermenting process
+                    bale:setFillType(Utils.getNoNil(self.baleFillTypeSource, FillUtil.FILLTYPE_GRASS_WINDROW));
+                    bale.fermentingProcess = 0;
+                    ssLTMasterBaleFermentEvent:sendEvent(bale);
+                end
+                self.baleFillTypeSource = nil;
+            end
+        end
+    end
 end
 
 function LTMaster:setIsUnloadingBale(isUnloadingBale, noEventSend)
@@ -729,6 +760,10 @@ function LTMaster:getWrapperBaleType(bale)
 end
 
 function LTMaster:pickupWrapperBale(bale, baleType)
+    -- Seasons support
+    if g_seasons ~= nil then
+        self.baleFillTypeSource = bale:getFillType();
+    end
     if baleType ~= nil and bale.i3dFilename ~= baleType.wrapperBaleFilename and bale.supportsWrapping then
         local x, y, z = getWorldTranslation(bale.nodeId);
         local rx, ry, rz = getWorldRotation(bale.nodeId);
