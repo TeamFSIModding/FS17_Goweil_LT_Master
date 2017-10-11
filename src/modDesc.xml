@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="37">
     <author>Team FSI Modding</author>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <title>
         <de>Goweil LT Master</de>
         <en>Goweil LT Master</en>
@@ -25,13 +25,10 @@ Preis: 253700 €
 Unterhalt: 200 € / Tag
 Empfohlene Leistung: 190 PS / 140 kW
 
-Changelog 1.1.0 :
-- fix DE language error in game
-- fix bale override, now Goweil have own bales
-- fix input binding for open bales from activate object to toggle cover
-- fix issue in wheel configuration
-- minor issues in 3d
-
+Changelog 1.2.0 :
+- Added compatibility with Seasons
+- Several small improvements
+- Several small fixes
 ]]>
         </de>
         <en>
@@ -46,13 +43,10 @@ Price: 253700 €
 Maintenance: 200 € / day
 Suggested power: 190 hp / 140 kW
 
-Changelog 1.1.0 :
-- fix DE language error in game
-- fix bale override, now Goweil have own bales
-- fix input binding for open bales from activate object to toggle cover
-- fix issue in wheel configuration
-- minor issues in 3d
-
+Changelog 1.2.0 :
+- Added compatibility with Seasons
+- Several small improvements
+- Several small fixes
 ]]>
         </en>
         <fr>
@@ -67,13 +61,10 @@ Prix: 253700 €
 Entretien: 200 € / day
 Puissance recommandé: 190 ch / 140 kW
 
-Changelog 1.1.0 :
-- corrigé erreur de langue DE en jeux
-- corrigé outrepasser balle, maintenant Goweil à ses propres balles
-- corrigé liaison d'entrée d'activer l'objet 'ouvrir balles' pour basculer le capot
-- corrigé problème dans la configuration de roue
-- problème mineur en 3d
-
+Changelog 1.2.0 :
+- Added compatibility with Seasons
+- Several small improvements
+- Several small fixes
 ]]>
         </fr>
         <it>
@@ -88,13 +79,10 @@ Prezzo: 253700 €
 Manutenzione: 200 € / giorno
 Potenza consigliata: 190 cv / 140 kW
 
-Changelog 1.1.0 :
-- fix DE language error in game
-- fix bale override, now Goweil have own bales
-- fix input binding for open bales from activate object to toggle cover
-- fix issue in wheel configuration
-- minor issues in 3d
-
+Changelog 1.2.0 :
+- Added compatibility with Seasons
+- Several small improvements
+- Several small fixes
 ]]>
         </it>
         <nl>
@@ -109,13 +97,10 @@ Prijs: 253700 €
 Onderhoud: 200 € / day
 Aanbevolen vermogen: 190 hp / 140 kW
 
-Changelog 1.1.0 :
-- fix DE language error in game
-- fix bale override, now Goweil have own bales
-- fix input binding for open bales from activate object to toggle cover
-- fix issue in wheel configuration
-- minor issues in 3d
-
+Changelog 1.2.0 :
+- Added compatibility with Seasons
+- Several small improvements
+- Several small fixes
 ]]>
         </nl>
         <pl>
@@ -128,13 +113,10 @@ Cena: 253700 €
 Utrzymanie: 200 € / day
 Zalecana moc: 190 KM / 140 kW
 
-Changelog 1.1.0 :
-- fix DE language error in game
-- fix bale override, now Goweil have own bales
-- fix input binding for open bales from activate object to toggle cover
-- fix issue in wheel configuration
-- minor issues in 3d
-
+Changelog 1.2.0 :
+- Added compatibility with Seasons
+- Several small improvements
+- Several small fixes
 ]]>
         </pl>
         <es>
@@ -149,13 +131,10 @@ Precio: 253700 €
 Mantenimiento: 200 € / día
 Potencia Sugerida: 195 CV / 140 kW
 
-Changelog 1.1.0 :
-- fix DE language error in game
-- fix bale override, now Goweil have own bales
-- fix input binding for open bales from activate object to toggle cover
-- fix issue in wheel configuration
-- minor issues in 3d
-
+Changelog 1.2.0 :
+- Added compatibility with Seasons
+- Several small improvements
+- Several small fixes
 ]]>
         </es>
         <ru>
@@ -169,13 +148,10 @@ Changelog 1.1.0 :
 Обслуживание: 200 € / день
 Рекомендуемая мощность: 190 л.с. / 140 kW
 
-Changelog 1.1.0 :
-- fix DE language error in game
-- fix bale override, now Goweil have own bales
-- fix input binding for open bales from activate object to toggle cover
-- fix issue in wheel configuration
-- minor issues in 3d
-
+Changelog 1.2.0 :
+- Added compatibility with Seasons
+- Several small improvements
+- Several small fixes
 ]]>
         </ru>
     </description>
