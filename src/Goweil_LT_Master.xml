@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<vehicle type="goweil">
+<vehicle type="ltmaster">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
         <name>
-            <it>Goweil LT Master</it>
             <en>Goweil LT Master</en>
-            <de>Goweil LT Master</de>
-            <fr>Goweil LT Master</fr>
         </name>
         <functions>
             <function>$l10n_function_ltmasterbalerwrapper</function>
@@ -24,7 +21,7 @@
     </storeData>
     <typeDesc>$l10n_typeDesc_ltmaster</typeDesc>
     <filename>Goweil_LT_Master.i3d</filename>
-    <size width="5.5" length="8" />
+    <size width="6" length="8" />
     <powerConsumer ptoRpm="540" neededPtoPower="150" />
     <toolCameras count="1">
         <toolCamera1 index="0>37" rotatable="true" useWorldXZRotation="false" useMirror="false" isInside="false" allowHeadTracking="true" />
@@ -32,26 +29,23 @@
     <wheelConfigurations>
         <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
             <wheels>
-                <wheel repr="0>0" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="basic" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="basic" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="basic" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="basic" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <!--<wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25" /> -->
+                <wheel repr="0>0" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="basic" isLeft="false" initialCompression="10" suspTravel="0.1" spring="30" damper="10" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="basic" isLeft="true" initialCompression="10" suspTravel="0.1" spring="30" damper="10" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="basic" isLeft="false" initialCompression="10" suspTravel="0.1" spring="30" damper="10" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="basic" isLeft="true" initialCompression="10" suspTravel="0.1" spring="30" damper="10" hasTireTracks="true" hasParticles="true" />
             </wheels>
         </wheelConfiguration>
         <wheelConfiguration name="$l10n_configuration_valueWheelPremium" price="1800" icon="$dataS2/menu/hud/configurations/config_rimColor.png">
             <wheels>
-                <wheel repr="0>0" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="premium" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="premium" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="premium" isLeft="false" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="premium" isLeft="true" initialCompression="50" suspTravel="0.1" spring="30" damper="40" hasTireTracks="true" hasParticles="true" />
-                <!-- <wheel repr="0>7|2|5" radius="0.128" restLoad="0.9" initialCompression="20" suspTravel="0.05" spring="100" damper="50" steeringAxleScale="-3" mass="0.25" /> -->
+                <wheel repr="0>0" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="premium" isLeft="false" initialCompression="10" suspTravel="0.1" spring="30" damper="10" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>1" restLoad="1.4" forcePointRatio="0.2" filename="wheels/wheel.xml" configIndex="premium" isLeft="true" initialCompression="10" suspTravel="0.1" spring="30" damper="10" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>2" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="premium" isLeft="false" initialCompression="10" suspTravel="0.1" spring="30" damper="10" hasTireTracks="true" hasParticles="true" />
+                <wheel repr="0>3" restLoad="1.4" forcePointRatio="0.3" filename="wheels/wheel.xml" configIndex="premium" isLeft="true" initialCompression="10" suspTravel="0.1" spring="30" damper="10" hasTireTracks="true" hasParticles="true" />
             </wheels>
         </wheelConfiguration>
     </wheelConfigurations>
-    <steeringAxleAngleScale startSpeed="5" endSpeed="70" />
-    <brakeForce>1.2</brakeForce>
-    <maximalAirConsumptionPerFullStop value="0.3" />
+    <brakeForce>1</brakeForce>
+    <maximalAirConsumptionPerFullStop value="0.6" />
     <lights>
         <low>
             <light realLight="0>7|4|1|12|0|2" decoration="0>7|4|1|12|0|0" lightTypes="0 3" />
@@ -59,29 +53,17 @@
             <light realLight="0>7|4|0|10|0|1" decoration="0>7|4|0|10|0|0" lightTypes="0 3" />
             <light realLight="0>19|1|0|1" decoration="0>19|1|0|0" lightTypes="1" />
             <light decoration="0>14|1|0|1" lightTypes="1" />
-            <!--WorklightBack-->
             <light realLight="0>19|1|1|1" decoration="0>19|1|1|0" lightTypes="2" />
-            <!--WorklightFront-->
             <light realLight="0>7|4|0|11|0|0|0|3|0|1" decoration="0>7|4|0|11|0|0|0|3|0|0" lightTypes="1" />
-            <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|0|11|0|0|0|3|1|1" decoration="0>7|4|0|11|0|0|0|3|1|0" lightTypes="2" />
-            <!--WorklightFront - RETRO-->
             <light realLight="0>7|4|1|13|0|0|0|3|0|1" decoration="0>7|4|1|13|0|0|0|3|0|0" lightTypes="1" />
-            <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|1|13|0|0|0|3|1|1" decoration="0>7|4|1|13|0|0|0|3|1|0" lightTypes="2" />
-            <!--WorklightFront - coclea-->
             <light realLight="0>7|15|0|0|3|0|1" decoration="0>7|15|0|0|3|0|0" lightTypes="1" />
-            <!--WorklightBack - coclea-->
             <light realLight="0>7|15|0|0|3|1|1" decoration="0>7|15|0|0|3|1|0" lightTypes="2" />
-            <!--WorklightFront - RETRO-->
             <light realLight="0>15|4|6|3|0|1" decoration="0>15|4|6|3|0|0" lightTypes="1" />
-            <!--WorklightFront - neon-->
             <light realLight="0>15|4|6|3|0|1" decoration="0>15|4|6|3|0|0" lightTypes="2" />
-            <!--WorklightFront - neon-->
             <light realLight="0>15|5|6|3|0|1" decoration="0>15|5|6|3|0|0" lightTypes="1" />
-            <!--WorklightFront - neon-->
             <light realLight="0>15|5|6|3|0|1" decoration="0>15|5|6|3|0|0" lightTypes="2" />
-            <!--WorklightFront - neon-->
         </low>
         <high>
             <light realLight="0>7|4|1|12|0|2" decoration="0>7|4|1|12|0|0" lightTypes="0 3" />
@@ -89,29 +71,17 @@
             <light realLight="0>7|4|0|10|0|1" decoration="0>7|4|0|10|0|0" lightTypes="0 3" />
             <light realLight="0>19|1|0|1" decoration="0>19|1|0|0" lightTypes="1" />
             <light decoration="0>14|1|0|1" lightTypes="1" />
-            <!--WorklightBack-->
             <light realLight="0>19|1|1|1" decoration="0>19|1|1|0" lightTypes="2" />
-            <!--WorklightFront-->
             <light realLight="0>7|4|0|11|0|0|0|3|0|1" decoration="0>7|4|0|11|0|0|0|3|0|0" lightTypes="1" />
-            <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|0|11|0|0|0|3|1|1" decoration="0>7|4|0|11|0|0|0|3|1|0" lightTypes="2" />
-            <!--WorklightFront - coclea-->
             <light realLight="0>7|15|0|0|3|0|1" decoration="0>7|15|0|0|3|0|0" lightTypes="1" />
-            <!--WorklightBack - coclea-->
             <light realLight="0>7|15|0|0|3|1|1" decoration="0>7|15|0|0|3|1|0" lightTypes="2" />
-            <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|1|13|0|0|0|3|0|1" decoration="0>7|4|1|13|0|0|0|3|0|0" lightTypes="1" />
-            <!--WorklightBack - RETRO-->
             <light realLight="0>7|4|1|13|0|0|0|3|1|1" decoration="0>7|4|1|13|0|0|0|3|1|0" lightTypes="2" />
-            <!--WorklightFront - RETRO-->
             <light realLight="0>15|4|6|3|0|1" decoration="0>15|4|6|3|0|0" lightTypes="1" />
-            <!--WorklightFront - neon-->
             <light realLight="0>15|4|6|3|0|1" decoration="0>15|4|6|3|0|0" lightTypes="2" />
-            <!--WorklightFront - neon-->
             <light realLight="0>15|5|6|3|0|1" decoration="0>15|5|6|3|0|0" lightTypes="1" />
-            <!--WorklightFront - neon-->
             <light realLight="0>15|5|6|3|0|1" decoration="0>15|5|6|3|0|0" lightTypes="2" />
-            <!--WorklightFront - neon-->
         </high>
     </lights>
     <brakeLights>
@@ -139,7 +109,6 @@
         <foldingPart animationName="folding" />
     </foldingParts>
     <animations>
-        <!--move support down/up -->
         <animation name="moveSupport">
             <part node="0>4|0" startTime="0" duration="0" startRot="90 90 0" endRot="0 0 0" startTrans="0.832 1.177 -1.233" endTrans="1.36 0.01 -1.05" />
             <part node="0>4|1" startTime="0" duration="0" startRot="90 -90 0" endRot="0 0 0" startTrans="-0.832 1.177 -1.233" endTrans="-1.36 0.01 -1.05" />
@@ -171,7 +140,6 @@
             <part node="0>14|0|13|0" startTime="0" duration="0.6" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|13" startTime="2.5" duration="0.55" startRot="0 0 20" endRot="0 0 0" />
             <part node="0>14|0|13|0" startTime="2.5" duration="0.55" startRot="0 0 -20" endRot="0 0 0" />
-            <!--<part node="0>4|0" startTime="2.5" duration="0" startRot="90 90 0" endRot="0 0 0" startTrans="0.832 1.177 -1.233" endTrans="1.36 -0.05 -1.06" /><part node="0>4|1" startTime="2.5" duration="0" startRot="90 -90 0" endRot="0 0 0" startTrans="-0.832 1.177 -1.233" endTrans="-1.36 -0.05 -1.06" />-->
         </animation>
         <animation name="folding">
             <!--timone -->
@@ -192,7 +160,6 @@
             <!--apertura_scivoloUP-->
             <part node="0>7|4|0" startTime="12.5" duration="3" startRot="0 0 0" endRot="0 0 90" />
             <part node="0>7|4|1" startTime="13" duration="3" startRot="0 0 0" endRot="0 0 -90" />
-            <!--  <part node="0>7|0|6" startTime="12.5" duration="3" startTrans="-0.515 2.442 -9.949" endTrans="-0.65 2.442 -9.949" /><part node="0>7|0|7" startTime="12.5" duration="3" startTrans="0.515 2.442 -9.949" endTrans="0.65 2.442 -9.949" /> -->
             <part node="0>14|0|18" direction="1" startTime="11" duration="0.45" startRot="0 0 0" endRot="0 0 -20" />
             <part node="0>14|0|18" direction="1" startTime="13.7" duration="0.35" startRot="0 0 -20" endRot="0 0 0" />
             <part node="0>14|0|18" direction="-1" startTime="11" duration="0.35" startRot="0 0 0" endRot="0 0 20" />
@@ -593,11 +560,9 @@
         <movingPart index="0>8|6|4|2|0" referencePoint="0>8|3|3|0|2" referenceFrame="0>8|3|3|0|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true" />
         <movingPart index="0>8|6|4|4|0" referencePoint="0>8|3|1|0|2" referenceFrame="0>8|3|1|0|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true" />
         <movingPart index="0>8|6|4|6|0" referencePoint="0>8|3|2|0|2" referenceFrame="0>8|3|2|0|2" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true" />
-        <!--	<movingPart index="0>7|14|9|0|2|0" referencePoint="0>7|1|1|4" referenceFrame="0>7|1|1|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true" /><movingPart index="0>7|14|9|0|0|0" referencePoint="0>7|1|0|4" referenceFrame="0>7|1|0|4" moveToReferenceFrame="true" doDirectionAlignment="true" isActiveDirty="true" />	 -->
     </movingParts>
     <support animationName="moveSupport" />
     <movingTools>
-        <!-- <movingTool index="0>7" wheelIndices="5" /> -->
         <!--timone -->
         <movingTool index="0>20" playSound="true">
             <inputAttacherJoint value="true" />
@@ -612,14 +577,10 @@
         <fillUnit unit="$l10n_unit_literShort" fillTypes="silageAdditive" capacity="200" showInShop="false" />
         <fillUnit unit="$l10n_unit_pieces" fillTypes="balesNet" capacity="5" showOnHud="false" showInShop="false" />
         <fillUnit unit="$l10n_unit_pieces" fillTypes="balesFoil" capacity="10" showOnHud="false" showInShop="false" />
-        <!--<fillUnit unit="$l10n_unit_literShort" fillTypes="chaff grass_windrow dryGrass_windrow straw woodChips manure" capacity="0" fillVolumeIndex="2" /><fillUnit unit="$l10n_unit_literShort" fillTypes="chaff grass_windrow dryGrass_windrow straw woodChips manure" capacity="0" fillVolumeIndex="3" />-->
     </fillUnits>
     <fillVolumes>
         <volumes>
-            <volume index="0>7|8" fillUnitIndex="1" maxSubDivEdgeLength="0.5" maxAllowedHeapAngle="80" scrollSpeedDischarge="0 0 -0.05">
-                <!--<deformNode index="0>7|17|0" /><deformNode index="0>7|17|1" />-->
-            </volume>
-            <!--<volume index="0>7|4|0|12" fillUnitIndex="2" /><volume index="0>7|4|1|14" fillUnitIndex="3" />-->
+            <volume index="0>7|8" fillUnitIndex="1" maxSubDivEdgeLength="0.5" maxAllowedHeapAngle="80" scrollSpeedDischarge="0 0 -0.05" />
         </volumes>
         <loadInfos>
             <loadInfo fillVolumeIndex="1">

@@ -207,7 +207,7 @@ Changelog 1.1.0 :
         <specialization name="ltmaster" className="LTMaster" filename="scripts/LTMaster.lua" />
     </specializations>
     <vehicleTypes>
-        <type name="goweil" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+        <type name="ltmaster" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
             <specialization name="attacherJoints" />
             <specialization name="lights" />
             <specialization name="speedRotatingParts" />
