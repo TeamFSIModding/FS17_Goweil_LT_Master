@@ -30,7 +30,7 @@ function BaleEviscerator:mouseEvent(posX, posY, isDown, isUp, button)
 end
 
 function BaleEviscerator:update(dt)
-    if not g_currentMission.missionDynamicInfo.isMultiplayer and g_seasons == nil then
+    if not g_currentMission.missionDynamicInfo.isMultiplayer then
         self.baleObject = nil;
         self.eviHud:setIsVisible(false, true);
         if g_currentMission.player ~= nil and g_currentMission.controlledVehicle == nil and g_currentMission.player.lastFoundBale ~= nil and g_currentMission.player.currentToolId == 0 then
