@@ -1,4 +1,5 @@
 # Goweil LT Master
+[![Build Status](https://travis-ci.org/TeamFSIModding/FS17_Goweil_LT_Master.svg?branch=master)](https://travis-ci.org/TeamFSIModding/FS17_Goweil_LT_Master)  
 ### **This is the house of *Goweil LT Master for Farming Simulator 17*.**
   
 ![Goweil LT Master](https://raw.githubusercontent.com/TeamFSIModding/FS17_Goweil_LT_Master/master/other/screenshots/goweil_lt_master_s1.jpg?raw=true)
