@@ -1,0 +1,26 @@
+language: python
+sudo: false
+
+env:
+  - LUA="luajit=2.1"
+
+before_install:
+  - pip install hererocks
+  - hererocks lua_install -r^ --$LUA
+  - export PATH=$PATH:$PWD/lua_install/bin # Add directory with all installed binaries to PATH
+
+install:
+  - luarocks install luacheck
+  - luarocks install busted
+
+script:
+  - luacheck -g -u -r -a -s --ignore 6 --no-self --no-max-line-length --no-max-code-line-length src
+
+branches:
+  except:
+    - gh-pages
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
